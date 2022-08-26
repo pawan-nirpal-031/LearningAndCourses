@@ -15,22 +15,26 @@ typedef long double ld;
 #define Status(b) (cout<<(b?"YES\n":"NO\n"));
 
 
-void naive(int n){
-    vector<ll>fib(n+1,0); 
-    fib[0] = fib[1] = 1; 
-    for(int i = 2;i<=n;i++) fib[i] = fib[i-1]+fib[i-2]; 
-    vector<ll>smod(n+1,0); 
-    smod[0] = 1; 
-    for(int i =1;i<=n;i++){
-        smod[i] = (smod[i-1]+fib[i])%10;
-    }
-    for(int i =0;i<=n;i++) cout<<smod[i]<<' ';
+void opt(ull n){
+    int sum[] = {
+
+      1, 2, 4, 7, 2, 0, 3, 4, 8, 3, 
+      2, 6, 9, 6, 6, 3, 0, 4, 5, 0, 
+      6, 7, 4, 2, 7, 0, 8, 9, 8, 8, 
+      7, 6, 4, 1, 6, 8, 5, 4, 0, 5, 
+      6, 2, 9, 2, 2, 5, 8, 4, 3, 8, 
+      2, 1, 4, 6, 1, 8, 0, 9, 0, 0
+
+    };
+
+    
+    cout<<sum[(n+60-1)%60];
 }
 
 int main(){
   FastIO;
-  int n;
-  cin>>n; 
-  naive(n);
+  ull n;
+  cin>>n;  
+  opt(n);
   return 0;
 } 

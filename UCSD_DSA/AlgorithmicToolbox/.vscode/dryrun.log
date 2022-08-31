@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/pnirpal/Workspace/Learning/Courses/UCSD_DSA/AlgorithmicToolbox'
+g++ fibonacci_sum_
+make: Leaving directory '/home/pnirpal/Workspace/Learning/Courses/UCSD_DSA/AlgorithmicToolbox'
+ 

@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/pnirpal/Workspace/Learning/Courses/UCSD_DSA/GraphAlgorithms/week3_paths_in_graphs1/2_bipartite'
+make: Leaving directory '/home/pnirpal/Workspace/Learning/Courses/UCSD_DSA/GraphAlgorithms/week3_paths_in_graphs1/2_bipartite'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

@@ -16,8 +16,9 @@ typedef long double ld;
 
 
 
+
 int main(){
-  FastIO;
+  FastIO; 
   
   return 0;
 } 

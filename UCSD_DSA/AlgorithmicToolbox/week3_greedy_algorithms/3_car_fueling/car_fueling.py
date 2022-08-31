@@ -1,11 +1,6 @@
-from sys import stdin
-
-
-def min_refills(distance, tank, stops):
-    # write your code here
-    return -1
-
-
-if __name__ == '__main__':
-    d, m, _, *stops = map(int, stdin.read().split())
-    print(min_refills(d, m, stops))
+a = 0 
+for b in range(0,10,2):
+    print(a)
+    a+= b + 1  
+    
+# print(a)

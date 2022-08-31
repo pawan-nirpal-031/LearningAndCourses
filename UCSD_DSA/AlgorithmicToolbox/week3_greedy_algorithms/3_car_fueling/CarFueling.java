@@ -1,21 +1,25 @@
 import java.util.*;
 import java.io.*;
 
-public class CarFueling {
-    static int computeMinRefills(int dist, int tank, int[] stops) {
-        return -1;
+interface area{
+    void cal(int dim);
+
+}
+
+class square implements area{
+    int r; 
+    @Override 
+    public void cal(int dim){
+        r = dim*dim;
     }
+}
 
+public class CarFueling {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int dist = scanner.nextInt();
-        int tank = scanner.nextInt();
-        int n = scanner.nextInt();
-        int stops[] = new int[n];
-        for (int i = 0; i < n; i++) {
-            stops[i] = scanner.nextInt();
-        }
+       square s = new square(); 
+       s.r = 0; 
+       s.cal(5);
+       System.out.println(s.r);
 
-        System.out.println(computeMinRefills(dist, tank, stops));
     }
 }

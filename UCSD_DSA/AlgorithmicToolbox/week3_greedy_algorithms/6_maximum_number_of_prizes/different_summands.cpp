@@ -21,6 +21,8 @@ int get_largest_smaller_or_equal(ll n){
   return h;
 }
 
+
+
 void optimal_summands(ll n){
   int k = get_largest_smaller_or_equal(n);
   if(n<getcom(k)) k--; 

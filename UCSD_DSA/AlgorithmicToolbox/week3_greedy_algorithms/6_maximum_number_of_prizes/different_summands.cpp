@@ -1,20 +1,36 @@
 #include <iostream>
 #include <vector>
+typedef long long int ll;
+using namespace std;
 
-using std::vector;
+ll getcom(ll m){
+  return ((m*(m+1))>>1);
+}
 
-vector<int> optimal_summands(int n) {
-  vector<int> summands;
-  //write your code here
-  return summands;
+int get_largest_smaller_or_equal(ll n){
+  int l = 0; 
+  int h = 100000; 
+  while(l+1<h){
+    int m = ((l+h)>>1);
+    ll sum_m = getcom(m);
+    if(sum_m==n) return m;
+    else if(n<sum_m) h = m;
+    else l = m;
+  }
+  if(n<=getcom(l)) return l;
+  return h;
+}
+
+void optimal_summands(ll n){
+  int k = get_largest_smaller_or_equal(n);
+  if(n<getcom(k)) k--; 
+  cout<<k<<'\n';
+  for(int i = 1;i<=k-1;i++) cout<<i<<' '; 
+  cout<<k+n-getcom(k);
 }
 
 int main() {
-  int n;
-  std::cin >> n;
-  vector<int> summands = optimal_summands(n);
-  std::cout << summands.size() << '\n';
-  for (size_t i = 0; i < summands.size(); ++i) {
-    std::cout << summands[i] << ' ';
-  }
+  int n; 
+  cin>>n;
+  optimal_summands(n);
 }

@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Oct 29 08:20:16 2022
+# Make data base, printed on Tue Nov  1 10:05:15 2022
 
 # Variables
 
@@ -49,7 +49,7 @@ PATH = /home/pnirpal/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-42bd35f4-1494-4290-b00d-eb870a2d1e9d.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-2e297d88-95e5-4f3b-a7d1-9a951c06c4ee.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -61,7 +61,7 @@ PWD = /home/pnirpal/Workspace/Learning/Courses/UCSD_DSA/AlgorithmicToolbox
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/13_interop
+WSL_INTEROP = /run/WSL/12_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -147,9 +147,9 @@ MOTD_SHOWN = update-motd
 
 # Directories
 
-# . (device 2064, inode 202384): 12 files, no impossibilities.
+# . (device 2064, inode 202384): 13 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -212,12 +212,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 272 B / avg = 16 B
-# current buf: size = 8162 B / used = 272 B / count = 17 / avg = 16 B
+# strcache buffers: 1 (0) / strings = 18 / storage = 284 B / avg = 15 B
+# current buf: size = 8162 B / used = 284 B / count = 18 / avg = 15 B
 
-# strcache performance: lookups = 24 / hit rate = 29%
+# strcache performance: lookups = 25 / hit rate = 28%
 # hash-table stats:
-# Load=17/8192=0%, Rehash=0, Collisions=1/24=4%
-# Finished Make data base on Sat Oct 29 08:20:16 2022
+# Load=18/8192=0%, Rehash=0, Collisions=1/25=4%
+# Finished Make data base on Tue Nov  1 10:05:15 2022
 
  

@@ -15,10 +15,69 @@ typedef long double ld;
 #define Status(b) (cout<<(b?"YES\n":"NO\n"));
 
 
+void WriteTests(){
+  ofstream fout("test1.txt"); 
+  int buff,pkts; 
+  buff = 5+rand()%3; 
+  pkts = 6+rand()%3; 
+  fout<<buff<<' '<<pkts<<'\n';
+  int prev = 0;
+  for(int i =0;i<pkts;i++){
+    if(i==0){
+      fout<<prev<<" "<<rand()%4<<'\n';
+    }else{
+      int curr = prev + rand()%4; 
+      fout<<curr<<" "<<rand()%4<<'\n';
+      prev = curr;
+    }
+  }
+  fout.close(); 
+}
+
+struct packet{
+  int arrival,burst;
+  packet(int at,int bt){
+    arrival = at; 
+    burst = bt;
+  }
+  packet(){
+    arrival = burst = -1;
+  }
+};
+
+
 void solve(){
-    int buffer,packets; 
-    cin>>buffer>>packets;
-    
+  int buffer,packets; 
+  cin>>buffer>>packets;
+  int time = 0;  
+  packet stream[packets];
+  for(int i =0;i<packets;i++){
+    int at,bt; 
+    cin>>at>>bt; 
+    stream[i].arrival = at; 
+    stream[i].burst = bt;
+  }
+  queue<packet>processing; 
+  int strm = 0; 
+  while(strm<packets){
+    packet &nxt = stream[strm];
+    if(nxt.arrival<=time and processing.size()>=buffer){
+      cout<<-1<<'\n';
+      strm++; 
+      continue;
+    }
+    assert(processing.size()<buffer);
+    processing.push(nxt); 
+    packet &head = processing.front(); 
+    if(head.arrival>time) time = head.arrival; 
+    cout<<time<<'\n';
+    time+=head.burst;
+    processing.pop();
+    for(int curr = strm;curr<packets;curr++){
+      if(stream[curr].arrival<=time and processing.size()<buffer) processing.push(stream[curr]); 
+      else break;
+    }
+  }
 }
 
 int main(){

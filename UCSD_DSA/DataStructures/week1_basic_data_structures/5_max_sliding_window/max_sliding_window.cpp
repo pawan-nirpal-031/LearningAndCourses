@@ -1,36 +1,62 @@
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
+using namespace std;
+typedef unsigned long long int ull;
+typedef long long int ll;
+typedef long double ld;
+#define Mod 1000000007
+#define Infinity (ll)1e18
+#define Append(a) push_back(a)
+#define Pair(a,b) make_pair(a,b)
+#define Clear(a) for(ll &x : a){x=0;}
+#define Point(x) std::fixed<<setprecision(15)<<x
+#define SetBits(x) __builtin_popcount(x);
+#define DebugCase(i,x) cout<<"Case #"<<i<<": "<<x<<'\n'
+#define FastIO ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define Status(b) (cout<<(b?"YES\n":"NO\n"));
 
-using std::cin;
-using std::cout;
-using std::vector;
-using std::max;
 
-void max_sliding_window_naive(vector<int> const & A, int w) {
-    for (size_t i = 0; i < A.size() - w + 1; ++i) {
-        int window_max = A.at(i);
-        for (size_t j = i + 1; j < i + w; ++j)
-            window_max = max(window_max, A.at(j));
-
-        cout << window_max << " ";
+void Solve(){
+    int n; 
+    cin>>n;
+    int a[n];
+    for(int &x : a) cin>>x;
+    int win; 
+    cin>>win;
+    deque<int>process; 
+    for(int i =0;i<win;i++){
+        if(process.empty()){
+            process.push_front(a[i]);
+            continue;
+        }
+        while(process.size() and process.back()<a[i]) process.pop_back(); 
+        process.push_back(a[i]);
     }
-
-    return;
+    for(int i = win;i<n;i++){
+        cout<<process.front()<<' ';
+        if(process.empty()){    
+            process.push_front(a[i]);
+            continue;
+        }
+        if(process.front()==a[i-win]) process.pop_front(); 
+        while(process.size() and process.back()<a[i]) process.pop_back(); 
+        process.push_back(a[i]);
+    } 
+    cout<<process.front();
+    process.clear();
 }
 
+/*
 
-int main() {
-    int n = 0;
-    cin >> n;
+8
+2 7 3 1 5 2 6 2
+4
 
-    vector<int> A(n);
-    for (size_t i = 0; i < n; ++i)
-        cin >> A.at(i);
+7 7 5 6 6 
+*/
 
-    int w = 0;
-    cin >> w;
+int main(){
+  FastIO; 
+  Solve();
+  return 0;
+} 
 
-    max_sliding_window_naive(A, w);
-
-    return 0;
-}

@@ -1,66 +1,59 @@
-#include <cstdio>
-#include <cstdlib>
-#include <vector>
-#include <algorithm>
-#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+typedef unsigned long long int ull;
+typedef long long int ll;
+typedef long double ld;
+#define Mod 1000000007
+#define Infinity (ll)1e18
+#define Append(a) push_back(a)
+#define Pair(a,b) make_pair(a,b)
+#define Clear(a) for(ll &x : a){x=0;}
+#define Point(x) std::fixed<<setprecision(15)<<x
+#define SetBits(x) __builtin_popcount(x);
+#define DebugCase(i,x) cout<<"Case #"<<i<<": "<<x<<'\n'
+#define FastIO ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define Status(b) (cout<<(b?"YES\n":"NO\n"));
 
-using std::cin;
-using std::cout;
-using std::endl;
-using std::max;
-using std::vector;
-
-struct DisjointSetsElement {
-	int size, parent, rank;
-	
-	DisjointSetsElement(int size = 0, int parent = -1, int rank = 0):
-	    size(size), parent(parent), rank(rank) {}
-};
-
-struct DisjointSets {
-	int size;
-	int max_table_size;
-	vector <DisjointSetsElement> sets;
-
-	DisjointSets(int size): size(size), max_table_size(0), sets(size) {
-		for (int i = 0; i < size; i++)
-			sets[i].parent = i;
-	}
-
-	int getParent(int table) {
-		// find parent and compress path
-	}
-
-	void merge(int destination, int source) {
-		int realDestination = getParent(destination);
-		int realSource = getParent(source);
-		if (realDestination != realSource) {
-			// merge two components
-			// use union by rank heuristic
-                        // update max_table_size
-		}		
-	}
-};
-
-int main() {
-	int n, m;
-	cin >> n >> m;
-
-	DisjointSets tables(n);
-	for (auto &table : tables.sets) {
-		cin >> table.size;
-		tables.max_table_size = max(tables.max_table_size, table.size);
-	}
-
-	for (int i = 0; i < m; i++) {
-		int destination, source;
-		cin >> destination >> source;
-                --destination;
-                --source;
-		
-		tables.merge(destination, source);
-	        cout << tables.max_table_size << endl;
-	}
-
-	return 0;
+int FindRoot(int parent[],int u){
+  return parent[u] = (parent[u]==u?u:FindRoot(parent,parent[u]));
 }
+
+void Merge(int parent[],int src,int dest){
+  parent[src]  = dest;
+}
+
+int main(){
+  FastIO; 
+  int tables, quries; 
+  cin>>tables>>quries; 
+  int parent[tables]; 
+  int rowCount[tables];
+  int maxRowCount = -1;
+  for(int i =0;i<tables;i++){
+    int rows; 
+    cin>>rows; 
+    parent[i] = i;
+    rowCount[i] = rows;
+    maxRowCount = max(maxRowCount,rows);
+  } 
+  /*
+    The key insight in keeping a maxRowCount variable and not maxRowCount for each tree is 
+    that maxRowCount will always be non-decreasing hence we don't need to iterate over all tree roots to find which is the maximum.  
+  */
+  for(int q = 0;q<quries;q++){
+    int dest,src; 
+    cin>>dest>>src; 
+    dest--,src--;
+    int root1 = FindRoot(parent,src);
+    int root2 = FindRoot(parent,dest);  
+    if(root1!=root2){ 
+      src = root1; 
+      dest = root2;
+      Merge(parent,src,dest); 
+      rowCount[dest]+=rowCount[src]; 
+      maxRowCount = max(maxRowCount,rowCount[dest]);
+    }
+    cout<<maxRowCount<<'\n';
+  }
+  return 0;
+} 

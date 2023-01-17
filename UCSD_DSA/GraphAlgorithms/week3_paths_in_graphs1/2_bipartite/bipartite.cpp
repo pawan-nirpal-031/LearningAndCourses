@@ -41,23 +41,11 @@ int bipartite(vector<int> g[],int n,int m) {
 
 int main() {
   int n,m; 
- // cin>>n>>m;  
-  n = 7; 
-  m = 6; 
+  cin>>n>>m;  
   vector<int> g[n+1];  
-  vector<pair<int,int>>inp = {
-    {1, 2 },
-    {1 ,3 },
-   { 4 ,5 },
-   { 4, 6},
-    {5, 7 },
-   { 6, 7 }
-  }; 
   for(int i =0;i<m;i++){
     int x,y; 
-   // cin>>x>>y; 
-    x = inp[i].first; 
-    y = inp[i].second;
+    cin>>x>>y; 
     g[x].push_back(y); 
     g[y].push_back(x);
   }

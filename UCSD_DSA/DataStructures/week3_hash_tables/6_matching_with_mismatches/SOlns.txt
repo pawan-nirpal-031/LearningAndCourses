@@ -1,0 +1,39 @@
+It looks like your function is trying to use binary search to find the number of mismatches between a substring of the text and a substring of the pattern, using rolling hash to check for equality. However, there are a few issues with the implementation:
+
+The function does not handle the case where the hash values match correctly.
+The function is not checking for the mismatches in the left and right side of the middle character, instead it is adding the mismatches to the final result.
+The function is also not returning the number of mismatches that are in the middle.
+The function is not checking for the case where the number of mismatches is more than k.
+You should consider modifying the function to handle these cases and properly check for the number of mismatches.
+
+
+
+int hasUtmostKMisMatches(string &text,string &pattrn,int i,int left,int right,vector<ll>&hashTextArray,vector<ll>&hashPattrnArray, int k){ 
+    if(left>right) return 0; 
+    int tstlen = right-left+1; 
+    ll y = power(x,tstlen);
+    ll textSubstrHash = (Prime +  hashTextArray[i+tstlen] - (y * hashTextArray[i]%Prime))%Prime; 
+    ll pattrnSubstrHash = (Prime + hashPattrnArray[left+tstlen] - (y * hashPattrnArray[left])%Prime)%Prime; 
+    if(textSubstrHash==pattrnSubstrHash) return 0;
+
+    int mid = left + (tstlen-1)/2; 
+    int mismatches = (text[i+mid]!=pattrn[mid]); 
+    int leftMismatches = hasUtmostKMisMatches(text,pattrn,i,left,mid-1,hashTextArray,hashPattrnArray, k-mismatches); 
+    int rightMismatches = hasUtmostKMisMatches(text,pattrn,i,mid+1,right,hashTextArray,hashPattrnArray, k-mismatches); 
+    mismatches += leftMismatches + rightMismatches;
+    if (mismatches > k) {
+       return k+1;
+    }
+    return mismatches;
+}
+
+Here is how the modification works:
+
+The function now handles the case where the hash values match correctly by returning 0 in that case.
+The function now checks for the mismatches in the left and right side of the middle character and adds them to the final result.
+The function now checks for the case where the number of mismatches is more than k and return k+1.
+The function now passes the remaining number of mismatches k-mismatches to the next recursive calls to ensure that the number of mismatches does not exceed k.
+The function now checks for the case where the left > right, in this case it returns 0 which is the base case.
+
+
+

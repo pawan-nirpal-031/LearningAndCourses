@@ -57,26 +57,10 @@ void solve(){
     stream[i].arrival = at; 
     stream[i].burst = bt;
   }
-  queue<packet>processing; 
-  int strm = 0; 
+  deque<packet>processing;
+  int strm = 0;
   while(strm<packets){
-    packet &nxt = stream[strm];
-    if(nxt.arrival<=time and processing.size()>=buffer){
-      cout<<-1<<'\n';
-      strm++; 
-      continue;
-    }
-    assert(processing.size()<buffer);
-    processing.push(nxt); 
-    packet &head = processing.front(); 
-    if(head.arrival>time) time = head.arrival; 
-    cout<<time<<'\n';
-    time+=head.burst;
-    processing.pop();
-    for(int curr = strm;curr<packets;curr++){
-      if(stream[curr].arrival<=time and processing.size()<buffer) processing.push(stream[curr]); 
-      else break;
-    }
+    
   }
 }
 

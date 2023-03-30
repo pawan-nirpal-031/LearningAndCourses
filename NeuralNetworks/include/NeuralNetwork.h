@@ -18,6 +18,12 @@ public:
     NeuralNetwork(vector<int> &Topology);
     void setCurrentInput(vector<double> &Input);
     void printToConsole();
+    void feedForwad();
+    Matrix getNeuronMatrix(int Indx);
+    Matrix getActivatedNeuronMatrix(int Indx);
+    Matrix getDerivedNeuronMatrix(int Indx);
+    Matrix getWeightMatrix(int Indx);
+    void setNeuronValue(int layerIndx,int neuronIndx,double Val);
 };
 
 #endif

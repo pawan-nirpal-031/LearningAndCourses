@@ -24,6 +24,14 @@ double Layer::getNeuronActivatedValue(int Indx){
     return neuronsList[Indx]->getActivatedValue();
 }
 
+vector<Neuron*>& Layer::getNeuronList(){
+    return this->neuronsList;
+}
+
+void Layer::setNeuronList(vector<Neuron*> &inputList){
+    this->neuronsList = inputList;
+}
+
 double Layer::getNeuronDerivedValue(int Indx){
     assert(Indx<size and "Invalid access into layer list");
     assert(neuronsList[Indx]!=nullptr and "No Neuron found at given index");

@@ -20,6 +20,8 @@ public:
     Matrix matrixifyValues();
     Matrix matrixifyActivatedValues();
     Matrix matrixifyDerivedValues();
+    vector<Neuron*>& getNeuronList();
+    void setNeuronList(vector<Neuron*> &inputList);
 };
 
 #endif

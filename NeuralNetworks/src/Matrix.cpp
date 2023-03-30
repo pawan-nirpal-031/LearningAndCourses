@@ -32,7 +32,7 @@ void Matrix::setValue(int row,int col,double Value){
     Values[row][col] = Value;
 }
 
-double Matrix::getValue(int row,int col){
+double Matrix::getValue(int row,int col) const {
     assert(row<this->rows and col<this->cols and "accessing invalid entry in matrix");
     return Values[row][col];
 }

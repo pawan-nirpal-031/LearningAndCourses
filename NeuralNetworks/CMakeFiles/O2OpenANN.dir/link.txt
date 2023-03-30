@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++14 -O2 -g  -rdynamic CMakeFiles/O2OpenANN.dir/src/main.cpp.o CMakeFiles/O2OpenANN.dir/src/Neuron.cpp.o CMakeFiles/O2OpenANN.dir/src/Layer.cpp.o CMakeFiles/O2OpenANN.dir/src/Matrix.cpp.o CMakeFiles/O2OpenANN.dir/src/NeuralNetwork.cpp.o  -o O2OpenANN 

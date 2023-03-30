@@ -74,12 +74,12 @@ clean: CMakeFiles/OpenANN.dir/clean
 CMakeFiles/OpenANN.dir/all:
 	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/depend
 	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/CMakeFiles --progress-num=1,2,3 "Built target OpenANN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target OpenANN"
 .PHONY : CMakeFiles/OpenANN.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OpenANN.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpenANN.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/CMakeFiles 0
 .PHONY : CMakeFiles/OpenANN.dir/rule

@@ -83,19 +83,64 @@ CMakeFiles/OpenANN.dir/src/Neuron.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenANN.dir/src/Neuron.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/src/Neuron.cpp -o CMakeFiles/OpenANN.dir/src/Neuron.cpp.s
 
+CMakeFiles/OpenANN.dir/src/Layer.cpp.o: CMakeFiles/OpenANN.dir/flags.make
+CMakeFiles/OpenANN.dir/src/Layer.cpp.o: src/Layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OpenANN.dir/src/Layer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenANN.dir/src/Layer.cpp.o -c /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/src/Layer.cpp
+
+CMakeFiles/OpenANN.dir/src/Layer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenANN.dir/src/Layer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/src/Layer.cpp > CMakeFiles/OpenANN.dir/src/Layer.cpp.i
+
+CMakeFiles/OpenANN.dir/src/Layer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenANN.dir/src/Layer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/src/Layer.cpp -o CMakeFiles/OpenANN.dir/src/Layer.cpp.s
+
+CMakeFiles/OpenANN.dir/src/Matrix.cpp.o: CMakeFiles/OpenANN.dir/flags.make
+CMakeFiles/OpenANN.dir/src/Matrix.cpp.o: src/Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OpenANN.dir/src/Matrix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenANN.dir/src/Matrix.cpp.o -c /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/src/Matrix.cpp
+
+CMakeFiles/OpenANN.dir/src/Matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenANN.dir/src/Matrix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/src/Matrix.cpp > CMakeFiles/OpenANN.dir/src/Matrix.cpp.i
+
+CMakeFiles/OpenANN.dir/src/Matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenANN.dir/src/Matrix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/src/Matrix.cpp -o CMakeFiles/OpenANN.dir/src/Matrix.cpp.s
+
+CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.o: CMakeFiles/OpenANN.dir/flags.make
+CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.o: src/NeuralNetwork.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.o -c /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/src/NeuralNetwork.cpp
+
+CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/src/NeuralNetwork.cpp > CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.i
+
+CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/src/NeuralNetwork.cpp -o CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.s
+
 # Object files for target OpenANN
 OpenANN_OBJECTS = \
 "CMakeFiles/OpenANN.dir/src/main.cpp.o" \
-"CMakeFiles/OpenANN.dir/src/Neuron.cpp.o"
+"CMakeFiles/OpenANN.dir/src/Neuron.cpp.o" \
+"CMakeFiles/OpenANN.dir/src/Layer.cpp.o" \
+"CMakeFiles/OpenANN.dir/src/Matrix.cpp.o" \
+"CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.o"
 
 # External object files for target OpenANN
 OpenANN_EXTERNAL_OBJECTS =
 
 OpenANN: CMakeFiles/OpenANN.dir/src/main.cpp.o
 OpenANN: CMakeFiles/OpenANN.dir/src/Neuron.cpp.o
+OpenANN: CMakeFiles/OpenANN.dir/src/Layer.cpp.o
+OpenANN: CMakeFiles/OpenANN.dir/src/Matrix.cpp.o
+OpenANN: CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.o
 OpenANN: CMakeFiles/OpenANN.dir/build.make
 OpenANN: CMakeFiles/OpenANN.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OpenANN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable OpenANN"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenANN.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

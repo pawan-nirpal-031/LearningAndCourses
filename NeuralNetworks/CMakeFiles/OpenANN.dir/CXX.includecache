@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/Layer.h
+Neuron.h
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/Neuron.h
+Matrix.h
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/Matrix.h
+
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/Matrix.h
+vector
+-
+
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/NeuralNetwork.h
+Matrix.h
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/Matrix.h
+Layer.h
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/Layer.h
+
 /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/Neuron.h
 iostream
 -
@@ -19,4 +35,8 @@ iostream
 -
 ../include/Neuron.h
 /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/Neuron.h
+../include/Matrix.h
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/Matrix.h
+../include/NeuralNetwork.h
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/NeuralNetwork.h
 

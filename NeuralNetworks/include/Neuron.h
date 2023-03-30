@@ -21,10 +21,11 @@ public:
     void activate();
     // The derivative is f'(x) = f(x)*(1-f(x)), where f(x) is Activatedvalue and x is Value
     void derive();
-    inline double getValue(){ return this->Value;}
-    inline double getActivatedValue(){ return this->ActivatedValue;}
-    inline double getDerivedValue(){ return this->DerivedValue;}
-    inline void printAllValues(){
+    double getValue(){ return this->Value;}
+    void setValue(double Value);
+    double getActivatedValue(){ return this->ActivatedValue;}
+    double getDerivedValue(){ return this->DerivedValue;}
+    void printAllValues(){
          cout<<"Value : "<<this->getValue()<<" Activated value : "<<this->getActivatedValue()<<" Derived value : "<<this->getDerivedValue()<<endl;
     }
 };

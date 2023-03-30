@@ -8,4 +8,7 @@ add_executable(
     OpenANN
     src/main.cpp
     src/Neuron.cpp
+    src/Layer.cpp
+    src/Matrix.cpp
+    src/NeuralNetwork.cpp
 )

@@ -123,6 +123,87 @@ OpenANN/fast:
 	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/build
 .PHONY : OpenANN/fast
 
+src/Layer.o: src/Layer.cpp.o
+
+.PHONY : src/Layer.o
+
+# target to build an object file
+src/Layer.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/Layer.cpp.o
+.PHONY : src/Layer.cpp.o
+
+src/Layer.i: src/Layer.cpp.i
+
+.PHONY : src/Layer.i
+
+# target to preprocess a source file
+src/Layer.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/Layer.cpp.i
+.PHONY : src/Layer.cpp.i
+
+src/Layer.s: src/Layer.cpp.s
+
+.PHONY : src/Layer.s
+
+# target to generate assembly for a file
+src/Layer.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/Layer.cpp.s
+.PHONY : src/Layer.cpp.s
+
+src/Matrix.o: src/Matrix.cpp.o
+
+.PHONY : src/Matrix.o
+
+# target to build an object file
+src/Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/Matrix.cpp.o
+.PHONY : src/Matrix.cpp.o
+
+src/Matrix.i: src/Matrix.cpp.i
+
+.PHONY : src/Matrix.i
+
+# target to preprocess a source file
+src/Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/Matrix.cpp.i
+.PHONY : src/Matrix.cpp.i
+
+src/Matrix.s: src/Matrix.cpp.s
+
+.PHONY : src/Matrix.s
+
+# target to generate assembly for a file
+src/Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/Matrix.cpp.s
+.PHONY : src/Matrix.cpp.s
+
+src/NeuralNetwork.o: src/NeuralNetwork.cpp.o
+
+.PHONY : src/NeuralNetwork.o
+
+# target to build an object file
+src/NeuralNetwork.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.o
+.PHONY : src/NeuralNetwork.cpp.o
+
+src/NeuralNetwork.i: src/NeuralNetwork.cpp.i
+
+.PHONY : src/NeuralNetwork.i
+
+# target to preprocess a source file
+src/NeuralNetwork.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.i
+.PHONY : src/NeuralNetwork.cpp.i
+
+src/NeuralNetwork.s: src/NeuralNetwork.cpp.s
+
+.PHONY : src/NeuralNetwork.s
+
+# target to generate assembly for a file
+src/NeuralNetwork.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.s
+.PHONY : src/NeuralNetwork.cpp.s
+
 src/Neuron.o: src/Neuron.cpp.o
 
 .PHONY : src/Neuron.o
@@ -186,6 +267,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... OpenANN"
+	@echo "... src/Layer.o"
+	@echo "... src/Layer.i"
+	@echo "... src/Layer.s"
+	@echo "... src/Matrix.o"
+	@echo "... src/Matrix.i"
+	@echo "... src/Matrix.s"
+	@echo "... src/NeuralNetwork.o"
+	@echo "... src/NeuralNetwork.i"
+	@echo "... src/NeuralNetwork.s"
 	@echo "... src/Neuron.o"
 	@echo "... src/Neuron.i"
 	@echo "... src/Neuron.s"

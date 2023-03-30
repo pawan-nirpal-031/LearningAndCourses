@@ -3,7 +3,7 @@
 #include "../include/Neuron.h"
 #include "../include/Matrix.h"
 #include "../include/NeuralNetwork.h"
-#define PerfMode 0
+#define PerfMode 1
 using namespace std; 
 using namespace chrono;
 

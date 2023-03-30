@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++14 -O3 -g  -rdynamic CMakeFiles/O3OpenANN.dir/src/main.cpp.o CMakeFiles/O3OpenANN.dir/src/Neuron.cpp.o CMakeFiles/O3OpenANN.dir/src/Layer.cpp.o CMakeFiles/O3OpenANN.dir/src/Matrix.cpp.o CMakeFiles/O3OpenANN.dir/src/NeuralNetwork.cpp.o  -o O3OpenANN 

@@ -76,6 +76,10 @@ assert.h
 assert.h
 -
 
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/src/Neuron.cpp
+../include/Neuron.h
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/Neuron.h
+
 /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/src/main.cpp
 chrono
 -

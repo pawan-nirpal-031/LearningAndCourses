@@ -12,10 +12,10 @@ public:
     Matrix(int rows,int cols,bool isRandom);
     Matrix* transpose(); 
     void setValue(int row,int col,double Value);
-    double getValue(int row,int col);
+    double getValue(int row,int col) const;
     double generateRandomNumber();
-    int getNumRows(){ return rows;}
-    int getNumCols(){ return cols;}
+    int getNumRows() const { return rows;}
+    int getNumCols() const { return cols;}
     void printToConsole();
 };
 

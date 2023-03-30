@@ -1,0 +1,3 @@
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/CMakeFiles/rebuild_cache.dir
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/CMakeFiles/edit_cache.dir
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/CMakeFiles/OpenANN.dir

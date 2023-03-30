@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/Neuron.h
+iostream
+-
+vector
+-
+math.h
+-
+
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/src/main.cpp
+iostream
+-
+../include/Neuron.h
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/Neuron.h
+

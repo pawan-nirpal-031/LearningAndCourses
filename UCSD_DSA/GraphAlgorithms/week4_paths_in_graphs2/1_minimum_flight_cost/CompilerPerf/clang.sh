@@ -1,0 +1,1 @@
+clang++ -O3 dijkstra.cpp -o clang-o3

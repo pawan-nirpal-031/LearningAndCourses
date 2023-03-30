@@ -19,10 +19,9 @@ ll ComputeMaximumCost(int i,int wt,vector<pair<ll,ll>>&data,vector<vector<ll>>&c
     if(i==-1 or wt==0) return 0; 
     if(cache[i][wt]>-1) return cache[i][wt]; 
     if(data[i].second<=wt){
-        return cache[i][wt] = max(
-            ComputeMaximumCost(i-1,wt,data,cache),
-            data[i].first+ComputeMaximumCost(i-1,wt-data[i].second,data,cache)
-        );
+        ll notTake = ComputeMaximumCost(i-1,wt,data,cache);
+        ll Take = data[i].first+ComputeMaximumCost(i-1,wt-data[i].second,data,cache);
+        return cache[i][wt] = max(Take,notTake);
     }
     return cache[i][wt] = ComputeMaximumCost(i-1,wt,data,cache);
 }
@@ -34,12 +33,5 @@ int main(int argc, char **argv){
     vector<pair<ll,ll>>data(n,{0,0});
     for(int i =0;i<n;i++) fin>>data[i].first>>data[i].second;
     vector<vector<ll>>cache(n+1,vector<ll>(bag_weight+1,-1));   
-    // for(int i =1;i<=n;i++){
-    //     for(int j =1;j<=bag_weight;j++){
-    //         if(data[i].second<=j){
-    //             cache[i][j] = max(cache[i-1][j],data[i].first+cache[i-1][j-data[i].second]);
-    //         }else cache[i][j] = cache[i-1][j];
-    //     }
-    // }
     cout<<ComputeMaximumCost(n-1,bag_weight,data,cache);
 }

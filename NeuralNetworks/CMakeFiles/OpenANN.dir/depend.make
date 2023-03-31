@@ -13,8 +13,7 @@ CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.o: include/Layer.h
 CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.o: include/Matrix.h
 CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.o: include/NeuralNetwork.h
 CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.o: include/Neuron.h
-CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.o: infrastructure/utils/MatrixMultiplication.h
-CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.o: infrastructure/utils/MatrixToVector.h
+CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.o: infrastructure/utils/MatrixArithmatic.h
 CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.o: src/NeuralNetwork.cpp
 
 CMakeFiles/OpenANN.dir/src/Neuron.cpp.o: include/Neuron.h

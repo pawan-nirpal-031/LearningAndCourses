@@ -21,7 +21,8 @@ int main(int Argc,char **Argv){
     nn.setCurrentTarget(input); 
     nn.feedForwad();
     nn.setErrors();
-    nn.printErrors();
+    nn.printToConsole();
+    nn.backpropagation();
     #if PerfMode
         auto stop = high_resolution_clock::now();
         double time_taken =duration_cast<nanoseconds>(stop - start).count();

@@ -21,7 +21,7 @@ Matrix::Matrix(int rows,int cols,bool isRand){
 void Matrix::printToConsole(){
     for(int i =0;i<rows;i++){
         for(int j =0;j<cols;j++){
-            cout<<Values[i][j]<<" ";
+            cout<<Values[i][j]<<"       ";
         }
         cout<<endl;
     }

@@ -18,11 +18,10 @@ int main(int Argc,char **Argv){
     NeuralNetwork nn(topology);
     nn.setCurrentInput(input);
     nn.feedForwad();
-    nn.printToConsole();
     #if PerfMode
         auto stop = high_resolution_clock::now();
         double time_taken =duration_cast<nanoseconds>(stop - start).count();
-        cout << "Time taken by program is : " <<fixed<< time_taken << setprecision(9)<<" nanoseconds";
+        cout<<fixed<< time_taken << setprecision(9)<<" ";
     #endif
     return 0;
 }

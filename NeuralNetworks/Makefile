@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named OpenANN
+# Target rules for targets named OpenANN_Aocc
 
 # Build rule for target.
-OpenANN: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 OpenANN
-.PHONY : OpenANN
+OpenANN_Aocc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenANN_Aocc
+.PHONY : OpenANN_Aocc
 
 # fast build rule for target.
-OpenANN/fast:
-	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/build
-.PHONY : OpenANN/fast
+OpenANN_Aocc/fast:
+	$(MAKE) -f CMakeFiles/OpenANN_Aocc.dir/build.make CMakeFiles/OpenANN_Aocc.dir/build
+.PHONY : OpenANN_Aocc/fast
 
 src/Layer.o: src/Layer.cpp.o
 
@@ -129,7 +129,7 @@ src/Layer.o: src/Layer.cpp.o
 
 # target to build an object file
 src/Layer.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/Layer.cpp.o
+	$(MAKE) -f CMakeFiles/OpenANN_Aocc.dir/build.make CMakeFiles/OpenANN_Aocc.dir/src/Layer.cpp.o
 .PHONY : src/Layer.cpp.o
 
 src/Layer.i: src/Layer.cpp.i
@@ -138,7 +138,7 @@ src/Layer.i: src/Layer.cpp.i
 
 # target to preprocess a source file
 src/Layer.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/Layer.cpp.i
+	$(MAKE) -f CMakeFiles/OpenANN_Aocc.dir/build.make CMakeFiles/OpenANN_Aocc.dir/src/Layer.cpp.i
 .PHONY : src/Layer.cpp.i
 
 src/Layer.s: src/Layer.cpp.s
@@ -147,7 +147,7 @@ src/Layer.s: src/Layer.cpp.s
 
 # target to generate assembly for a file
 src/Layer.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/Layer.cpp.s
+	$(MAKE) -f CMakeFiles/OpenANN_Aocc.dir/build.make CMakeFiles/OpenANN_Aocc.dir/src/Layer.cpp.s
 .PHONY : src/Layer.cpp.s
 
 src/Matrix.o: src/Matrix.cpp.o
@@ -156,7 +156,7 @@ src/Matrix.o: src/Matrix.cpp.o
 
 # target to build an object file
 src/Matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/Matrix.cpp.o
+	$(MAKE) -f CMakeFiles/OpenANN_Aocc.dir/build.make CMakeFiles/OpenANN_Aocc.dir/src/Matrix.cpp.o
 .PHONY : src/Matrix.cpp.o
 
 src/Matrix.i: src/Matrix.cpp.i
@@ -165,7 +165,7 @@ src/Matrix.i: src/Matrix.cpp.i
 
 # target to preprocess a source file
 src/Matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/Matrix.cpp.i
+	$(MAKE) -f CMakeFiles/OpenANN_Aocc.dir/build.make CMakeFiles/OpenANN_Aocc.dir/src/Matrix.cpp.i
 .PHONY : src/Matrix.cpp.i
 
 src/Matrix.s: src/Matrix.cpp.s
@@ -174,7 +174,7 @@ src/Matrix.s: src/Matrix.cpp.s
 
 # target to generate assembly for a file
 src/Matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/Matrix.cpp.s
+	$(MAKE) -f CMakeFiles/OpenANN_Aocc.dir/build.make CMakeFiles/OpenANN_Aocc.dir/src/Matrix.cpp.s
 .PHONY : src/Matrix.cpp.s
 
 src/NeuralNetwork.o: src/NeuralNetwork.cpp.o
@@ -183,7 +183,7 @@ src/NeuralNetwork.o: src/NeuralNetwork.cpp.o
 
 # target to build an object file
 src/NeuralNetwork.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.o
+	$(MAKE) -f CMakeFiles/OpenANN_Aocc.dir/build.make CMakeFiles/OpenANN_Aocc.dir/src/NeuralNetwork.cpp.o
 .PHONY : src/NeuralNetwork.cpp.o
 
 src/NeuralNetwork.i: src/NeuralNetwork.cpp.i
@@ -192,7 +192,7 @@ src/NeuralNetwork.i: src/NeuralNetwork.cpp.i
 
 # target to preprocess a source file
 src/NeuralNetwork.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.i
+	$(MAKE) -f CMakeFiles/OpenANN_Aocc.dir/build.make CMakeFiles/OpenANN_Aocc.dir/src/NeuralNetwork.cpp.i
 .PHONY : src/NeuralNetwork.cpp.i
 
 src/NeuralNetwork.s: src/NeuralNetwork.cpp.s
@@ -201,7 +201,7 @@ src/NeuralNetwork.s: src/NeuralNetwork.cpp.s
 
 # target to generate assembly for a file
 src/NeuralNetwork.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/NeuralNetwork.cpp.s
+	$(MAKE) -f CMakeFiles/OpenANN_Aocc.dir/build.make CMakeFiles/OpenANN_Aocc.dir/src/NeuralNetwork.cpp.s
 .PHONY : src/NeuralNetwork.cpp.s
 
 src/Neuron.o: src/Neuron.cpp.o
@@ -210,7 +210,7 @@ src/Neuron.o: src/Neuron.cpp.o
 
 # target to build an object file
 src/Neuron.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/Neuron.cpp.o
+	$(MAKE) -f CMakeFiles/OpenANN_Aocc.dir/build.make CMakeFiles/OpenANN_Aocc.dir/src/Neuron.cpp.o
 .PHONY : src/Neuron.cpp.o
 
 src/Neuron.i: src/Neuron.cpp.i
@@ -219,7 +219,7 @@ src/Neuron.i: src/Neuron.cpp.i
 
 # target to preprocess a source file
 src/Neuron.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/Neuron.cpp.i
+	$(MAKE) -f CMakeFiles/OpenANN_Aocc.dir/build.make CMakeFiles/OpenANN_Aocc.dir/src/Neuron.cpp.i
 .PHONY : src/Neuron.cpp.i
 
 src/Neuron.s: src/Neuron.cpp.s
@@ -228,7 +228,7 @@ src/Neuron.s: src/Neuron.cpp.s
 
 # target to generate assembly for a file
 src/Neuron.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/Neuron.cpp.s
+	$(MAKE) -f CMakeFiles/OpenANN_Aocc.dir/build.make CMakeFiles/OpenANN_Aocc.dir/src/Neuron.cpp.s
 .PHONY : src/Neuron.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -237,7 +237,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/OpenANN_Aocc.dir/build.make CMakeFiles/OpenANN_Aocc.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -246,7 +246,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/OpenANN_Aocc.dir/build.make CMakeFiles/OpenANN_Aocc.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -255,7 +255,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenANN.dir/build.make CMakeFiles/OpenANN.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/OpenANN_Aocc.dir/build.make CMakeFiles/OpenANN_Aocc.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -266,7 +266,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... OpenANN"
+	@echo "... OpenANN_Aocc"
 	@echo "... src/Layer.o"
 	@echo "... src/Layer.i"
 	@echo "... src/Layer.s"

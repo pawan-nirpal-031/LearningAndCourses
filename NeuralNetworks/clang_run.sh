@@ -1,3 +1,3 @@
-cmake -DCMAKE_C_COMPILER=clang . 
+cmake -DCMAKE_CXX_COMPILER=clang++ . 
 make
-./OpenANN
+./OpenANN_Clang

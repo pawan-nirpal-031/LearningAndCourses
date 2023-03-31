@@ -3,7 +3,7 @@
 #include "../include/Neuron.h"
 #include "../include/Matrix.h"
 #include "../include/NeuralNetwork.h"
-#define PerfMode 1
+#define PerfMode 0
 using namespace std; 
 using namespace chrono;
 
@@ -14,10 +14,14 @@ int main(int Argc,char **Argv){
     #endif
     
     vector<double>input = {1,0,1};
-    vector<int>topology = {3,2,1};
+    vector<int>topology = {3,2,3};
     NeuralNetwork nn(topology);
     nn.setCurrentInput(input);
+    // such a nn that tries to learn its input is called autoencoder nn
+    nn.setCurrentTarget(input); 
     nn.feedForwad();
+    nn.setErrors();
+    nn.printErrors();
     #if PerfMode
         auto stop = high_resolution_clock::now();
         double time_taken =duration_cast<nanoseconds>(stop - start).count();

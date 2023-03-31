@@ -21,11 +21,13 @@ private:
     // Error for each neuron in the output layer
     vector<double>  Errors;
     vector<double>  HistoricalErrors;
+    vector<Matrix*> Gradients;
 public: 
     NeuralNetwork(vector<int> &Topology);
     void setCurrentInput(vector<double> &Input);
     void printToConsole();
     void feedForwad();
+    void backpropagation();
     Matrix getNeuronMatrix(int Indx);
     Matrix getActivatedNeuronMatrix(int Indx);
     Matrix getDerivedNeuronMatrix(int Indx);
@@ -34,7 +36,7 @@ public:
     double getTotalError(){ return this->Error;}
     vector<double> &getErrorVector(){ return this->Errors;}
     void setErrors();
-    double CostFunction(double CurrValue,double Target);
+    double costFunction(double CurrValue,double Target);
     void setCurrentTarget(vector<double>&target);
     void printErrors();
 };

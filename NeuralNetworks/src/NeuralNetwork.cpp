@@ -1,6 +1,5 @@
 #include "../include/NeuralNetwork.h"
-#include "../infrastructure/utils/MatrixToVector.h"
-#include "../infrastructure/utils/MatrixMultiplication.h"
+#include "../infrastructure/utils/MatrixArithmatic.h"
 #include <assert.h>
 using namespace std;
 
@@ -29,25 +28,20 @@ void NeuralNetwork::setCurrentInput(vector<double> &Input){
 
 void NeuralNetwork::printToConsole(){
     for(int i =0;i<TopologySize;i++){
-        cout<<"Layer "<<i<<endl;
+        cout<<"\n\nLayer "<<i<<endl;
+        Matrix m = ((i==0)?Layers[0]->matrixifyValues():Layers[i]->matrixifyActivatedValues());
+        m.printToConsole();
         cout<<"===================\n";
         if(i<Layers.size()-1){
             cout<<"Weight matrix at : "<<i<<endl;
             WeightMatrices[i]->printToConsole();
         }
         cout<<"===================\n";
-        if(i==0){
-            Matrix m = this->Layers[0]->matrixifyValues();
-            m.printToConsole();
-            continue;
-        }
-        Matrix m = this->Layers[i]->matrixifyActivatedValues();
-        m.printToConsole();
     }
 }
 
 // Will grow more sophisticated as we go
-double NeuralNetwork::CostFunction(double CurrVal,double Target){ 
+double NeuralNetwork::costFunction(double CurrVal,double Target){ 
     return CurrVal-Target;
 }
 
@@ -109,8 +103,38 @@ void NeuralNetwork::setErrors(){
     vector<Neuron*> &outputNeurons = Layers[outputLayerIndx]->getNeuronList();
     for(int i =0;i<Target.size();i++){
         assert(outputNeurons[i]!=nullptr and "Empty neuron in output layer");
-        Errors[i] = CostFunction(outputNeurons[i]->getActivatedValue(),Target[i]);
+        Errors[i] = costFunction(outputNeurons[i]->getActivatedValue(),Target[i]);
         Error+=Errors[i];
     }
     HistoricalErrors.push_back(Error);
+}
+
+void NeuralNetwork::backpropagation(){
+    vector<Matrix*> updatedWeights;
+    int outputLayerIndx = Layers.size()-1;
+    Matrix derivedValuesHiddToOutput = Layers[outputLayerIndx]->matrixifyDerivedValues();
+    Matrix *gradientHiddToOutput = new Matrix(1,Layers[outputLayerIndx]->getNumberOfNeurons(),0);
+    // Gradient computation for last layer
+    for(int i =0;i<Errors.size();i++){
+        double derivedValCurrNeuron = derivedValuesHiddToOutput.getValue(0,i);
+        double gradient = derivedValCurrNeuron*Errors[i];
+        gradientHiddToOutput->setValue(0,i,gradient);
+    } 
+    int lastHiddnLayerIndx = outputLayerIndx -1;
+    Layer *lastHiddenLayer = Layers[lastHiddnLayerIndx];
+    Matrix lastHiddenLayerActivated = Layers[lastHiddnLayerIndx]->matrixifyActivatedValues();
+    Matrix *DeltaWeights = utils::multiply(*gradientHiddToOutput->transpose(),lastHiddenLayerActivated)->transpose();
+    Matrix *updatedWeightsHiddnToOutput = utils::subtract(*WeightMatrices[lastHiddnLayerIndx],*DeltaWeights);
+    updatedWeights.push_back(updatedWeightsHiddnToOutput);
+    cout<<"\n\norignal weights matrix : \n";
+    WeightMatrices[lastHiddnLayerIndx]->printToConsole();
+    cout<<"\n\nupdated weights matrix : \n";
+    updatedWeightsHiddnToOutput->printToConsole();
+    // moving back from last hidden layer to previous ones
+    for(int i = lastHiddnLayerIndx;i>0;i--){
+        Layer *CurrLayer = Layers[i];
+        auto DerivedValsMatrix = CurrLayer->matrixifyDerivedValues();
+        
+
+    }
 }

@@ -14,6 +14,13 @@ private:
     // Number of layers 
     int             TopologySize;
     vector<double>  Input;
+    // Objective ground truth values, has similar number of Values to output layer
+    vector<double>  Target;
+    // Total error for the network, sum of all errors out output layer
+    double          Error;
+    // Error for each neuron in the output layer
+    vector<double>  Errors;
+    vector<double>  HistoricalErrors;
 public: 
     NeuralNetwork(vector<int> &Topology);
     void setCurrentInput(vector<double> &Input);
@@ -24,6 +31,12 @@ public:
     Matrix getDerivedNeuronMatrix(int Indx);
     Matrix getWeightMatrix(int Indx);
     void setNeuronValue(int layerIndx,int neuronIndx,double Val);
+    double getTotalError(){ return this->Error;}
+    vector<double> &getErrorVector(){ return this->Errors;}
+    void setErrors();
+    double CostFunction(double CurrValue,double Target);
+    void setCurrentTarget(vector<double>&target);
+    void printErrors();
 };
 
 #endif

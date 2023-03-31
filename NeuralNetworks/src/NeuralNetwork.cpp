@@ -6,6 +6,7 @@ using namespace std;
 
 NeuralNetwork::NeuralNetwork(vector<int> &Topology){
     this->Topology = Topology;
+    Error = 0.0;
     TopologySize = Topology.size();
     for(int i =0;i<TopologySize;i++){
         Layer *L = new Layer(Topology[i]);
@@ -15,6 +16,7 @@ NeuralNetwork::NeuralNetwork(vector<int> &Topology){
         Matrix *m = new Matrix(Topology[i],Topology[i+1],1);
         WeightMatrices.push_back(m);
     }
+    Errors.resize(Topology.back());
 }
 
 void NeuralNetwork::setCurrentInput(vector<double> &Input){
@@ -44,6 +46,11 @@ void NeuralNetwork::printToConsole(){
     }
 }
 
+// Will grow more sophisticated as we go
+double NeuralNetwork::CostFunction(double CurrVal,double Target){ 
+    return CurrVal-Target;
+}
+
 Matrix NeuralNetwork::getNeuronMatrix(int Indx){
     Matrix nMat = Layers[Indx]->matrixifyValues();
     return nMat;
@@ -70,6 +77,16 @@ void NeuralNetwork::setNeuronValue(int layerIndx,int neuronIndx,double Value){
     Layers[layerIndx]->setNeuronValue(neuronIndx,Value);
 }
 
+void NeuralNetwork::setCurrentTarget(vector<double> &Target){
+    this->Target = Target;
+}
+
+void NeuralNetwork::printErrors(){
+    for(int i =0;i<Errors.size();i++){
+        cout<<i<<" error : "<<Errors[i]<<endl;
+    }
+}
+
 void NeuralNetwork::feedForwad(){
     int topologySize = Layers.size()-1;
     for(int i =0;i<topologySize;i++){
@@ -82,4 +99,18 @@ void NeuralNetwork::feedForwad(){
             setNeuronValue(i+1,cIndx,c->getValue(0,cIndx));
         }
     }
+}
+
+void NeuralNetwork::setErrors(){
+    assert(Target.size()>0 and "No target for this network assign or set a target.");
+    assert(Target.size()==Layers[Layers.size()-1]->getNumberOfNeurons() and "Target size not the same as output layer");
+    Error = 0.0;
+    int outputLayerIndx = Layers.size()-1;
+    vector<Neuron*> &outputNeurons = Layers[outputLayerIndx]->getNeuronList();
+    for(int i =0;i<Target.size();i++){
+        assert(outputNeurons[i]!=nullptr and "Empty neuron in output layer");
+        Errors[i] = CostFunction(outputNeurons[i]->getActivatedValue(),Target[i]);
+        Error+=Errors[i];
+    }
+    HistoricalErrors.push_back(Error);
 }

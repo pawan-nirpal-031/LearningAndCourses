@@ -39,6 +39,7 @@ public:
     double costFunction(double CurrValue,double Target);
     void setCurrentTarget(vector<double>&target);
     void printErrors();
+    void printTargetToConsole() const;
 };
 
 #endif

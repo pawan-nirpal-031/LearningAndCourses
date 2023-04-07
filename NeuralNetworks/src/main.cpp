@@ -19,12 +19,14 @@ int main(int Argc,char **Argv){
     nn.setCurrentInput(input);
     nn.setCurrentTarget(input); 
     // Training process 
-    for(int i =0;i<200000;i++){
-        cout<<"Epoch : "<<i<<" ";
+    for(int i =0;i<10000;i++){
+        cout<<"Epoch : "<<i<<"\n";
         nn.feedForwad();
         nn.setErrors();
         cout<<"Total error : "<<nn.getTotalError()<<"\n";
         nn.backpropagation();
+        cout<<"Output : "<<"\n";
+        nn.printTargetToConsole();
     }
     #if PerfMode
         auto stop = high_resolution_clock::now();

@@ -81,6 +81,14 @@ void NeuralNetwork::printErrors(){
     }
 }
 
+void NeuralNetwork::printTargetToConsole() const{
+    int OutputLayerIndx = Layers.size()-1; 
+    for(auto NeuActVal : Layers[OutputLayerIndx]->getNeuronList()){
+        cout<<NeuActVal->getActivatedValue()<<"\t";
+    }
+    cout<<"\n\n";
+}
+
 void NeuralNetwork::feedForwad(){
     int topologySize = Layers.size()-1;
     for(int i =0;i<topologySize;i++){

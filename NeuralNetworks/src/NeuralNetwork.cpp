@@ -43,7 +43,8 @@ void NeuralNetwork::printToConsole(){
 
 // Will grow more sophisticated as we go
 double NeuralNetwork::costFunction(double CurrVal,double Target){ 
-    return CurrVal-Target;
+    double term = (CurrVal - Target);
+    return term;
 }
 
 Matrix *NeuralNetwork::getNeuronMatrix(int Indx){
@@ -112,8 +113,9 @@ void NeuralNetwork::setErrors(){
     for(int i =0;i<Target.size();i++){
         assert(outputNeurons[i]!=nullptr and "Empty neuron in output layer");
         Errors[i] = costFunction(outputNeurons[i]->getActivatedValue(),Target[i]);
-        Error+=Errors[i];
+        Error+=(Errors[i]*Errors[i]);
     }
+    Error = 0.5*Error;
     HistoricalErrors.push_back(Error);
 }
 

@@ -1,0 +1,4000 @@
+Epoch : 0
+Total Error : 0.504779
+Output : 0.325019	0.382282	0.361392	
+
+Epoch : 1
+Total Error : 0.446936
+Output : 0.371373	0.371946	0.399702	
+
+Epoch : 2
+Total Error : 0.393185
+Output : 0.416551	0.36139	0.438435	
+
+Epoch : 3
+Total Error : 0.344536
+Output : 0.459088	0.349341	0.476123	
+
+Epoch : 4
+Total Error : 0.301446
+Output : 0.497924	0.334899	0.511477	
+
+Epoch : 5
+Total Error : 0.263824
+Output : 0.532556	0.317664	0.543674	
+
+Epoch : 6
+Total Error : 0.231253
+Output : 0.562962	0.297745	0.572388	
+
+Epoch : 7
+Total Error : 0.203217
+Output : 0.589436	0.275687	0.597672	
+
+Epoch : 8
+Total Error : 0.179223
+Output : 0.612422	0.25234	0.619797	
+
+Epoch : 9
+Total Error : 0.158831
+Output : 0.632399	0.228693	0.639125	
+
+Epoch : 10
+Total Error : 0.141623
+Output : 0.649823	0.205698	0.656037	
+
+Epoch : 11
+Total Error : 0.127188
+Output : 0.665094	0.184116	0.670887	
+
+Epoch : 12
+Total Error : 0.115116
+Output : 0.678556	0.164445	0.68399	
+
+Epoch : 13
+Total Error : 0.105013
+Output : 0.690496	0.14691	0.695614	
+
+Epoch : 14
+Total Error : 0.0965263
+Output : 0.701151	0.131522	0.705987	
+
+Epoch : 15
+Total Error : 0.0893501
+Output : 0.710717	0.118149	0.715296	
+
+Epoch : 16
+Total Error : 0.0832328
+Output : 0.719355	0.106586	0.723697	
+
+Epoch : 17
+Total Error : 0.0779716
+Output : 0.727195	0.0966045	0.731321	
+
+Epoch : 18
+Total Error : 0.0734059
+Output : 0.734348	0.0879789	0.738274	
+
+Epoch : 19
+Total Error : 0.0694093
+Output : 0.740904	0.0805052	0.744644	
+
+Epoch : 20
+Total Error : 0.0658821
+Output : 0.746939	0.0740055	0.750506	
+
+Epoch : 21
+Total Error : 0.0627458
+Output : 0.752515	0.0683278	0.755922	
+
+Epoch : 22
+Total Error : 0.0599377
+Output : 0.757687	0.0633447	0.760945	
+
+Epoch : 23
+Total Error : 0.0574078
+Output : 0.7625	0.0589502	0.765619	
+
+Epoch : 24
+Total Error : 0.0551156
+Output : 0.766993	0.055056	0.769983	
+
+Epoch : 25
+Total Error : 0.0530281
+Output : 0.7712	0.0515889	0.774068	
+
+Epoch : 26
+Total Error : 0.0511181
+Output : 0.775149	0.048488	0.777903	
+
+Epoch : 27
+Total Error : 0.0493631
+Output : 0.778865	0.0457027	0.781513	
+
+Epoch : 28
+Total Error : 0.0477442
+Output : 0.78237	0.0431904	0.784919	
+
+Epoch : 29
+Total Error : 0.0462457
+Output : 0.785683	0.0409155	0.788138	
+
+Epoch : 30
+Total Error : 0.044854
+Output : 0.788821	0.038848	0.791189	
+
+Epoch : 31
+Total Error : 0.0435577
+Output : 0.791799	0.0369624	0.794084	
+
+Epoch : 32
+Total Error : 0.0423468
+Output : 0.79463	0.0352369	0.796837	
+
+Epoch : 33
+Total Error : 0.0412129
+Output : 0.797326	0.0336532	0.799459	
+
+Epoch : 34
+Total Error : 0.0401486
+Output : 0.799897	0.0321953	0.801961	
+
+Epoch : 35
+Total Error : 0.0391474
+Output : 0.802353	0.0308495	0.804351	
+
+Epoch : 36
+Total Error : 0.0382035
+Output : 0.804702	0.029604	0.806637	
+
+Epoch : 37
+Total Error : 0.0373121
+Output : 0.806951	0.0284483	0.808827	
+
+Epoch : 38
+Total Error : 0.0364686
+Output : 0.809108	0.0273736	0.810928	
+
+Epoch : 39
+Total Error : 0.0356692
+Output : 0.811179	0.026372	0.812946	
+
+Epoch : 40
+Total Error : 0.0349103
+Output : 0.813169	0.0254366	0.814885	
+
+Epoch : 41
+Total Error : 0.0341888
+Output : 0.815083	0.0245612	0.816751	
+
+Epoch : 42
+Total Error : 0.0335018
+Output : 0.816927	0.0237405	0.818549	
+
+Epoch : 43
+Total Error : 0.0328469
+Output : 0.818704	0.0229697	0.820283	
+
+Epoch : 44
+Total Error : 0.0322218
+Output : 0.820419	0.0222445	0.821956	
+
+Epoch : 45
+Total Error : 0.0316244
+Output : 0.822076	0.0215612	0.823572	
+
+Epoch : 46
+Total Error : 0.0310527
+Output : 0.823676	0.0209162	0.825135	
+
+Epoch : 47
+Total Error : 0.0305052
+Output : 0.825224	0.0203067	0.826647	
+
+Epoch : 48
+Total Error : 0.0299802
+Output : 0.826723	0.0197298	0.82811	
+
+Epoch : 49
+Total Error : 0.0294763
+Output : 0.828175	0.0191831	0.829528	
+
+Epoch : 50
+Total Error : 0.0289922
+Output : 0.829582	0.0186644	0.830904	
+
+Epoch : 51
+Total Error : 0.0285267
+Output : 0.830947	0.0181715	0.832238	
+
+Epoch : 52
+Total Error : 0.0280787
+Output : 0.832272	0.0177027	0.833533	
+
+Epoch : 53
+Total Error : 0.0276473
+Output : 0.833558	0.0172563	0.834791	
+
+Epoch : 54
+Total Error : 0.0272314
+Output : 0.834809	0.0168308	0.836014	
+
+Epoch : 55
+Total Error : 0.0268302
+Output : 0.836025	0.0164248	0.837204	
+
+Epoch : 56
+Total Error : 0.0264429
+Output : 0.837207	0.016037	0.838361	
+
+Epoch : 57
+Total Error : 0.0260687
+Output : 0.838359	0.0156662	0.839488	
+
+Epoch : 58
+Total Error : 0.025707
+Output : 0.83948	0.0153115	0.840586	
+
+Epoch : 59
+Total Error : 0.0253571
+Output : 0.840572	0.0149717	0.841656	
+
+Epoch : 60
+Total Error : 0.0250185
+Output : 0.841637	0.014646	0.842699	
+
+Epoch : 61
+Total Error : 0.0246905
+Output : 0.842676	0.0143335	0.843716	
+
+Epoch : 62
+Total Error : 0.0243727
+Output : 0.843689	0.0140335	0.844709	
+
+Epoch : 63
+Total Error : 0.0240645
+Output : 0.844678	0.0137453	0.845678	
+
+Epoch : 64
+Total Error : 0.0237656
+Output : 0.845644	0.0134682	0.846625	
+
+Epoch : 65
+Total Error : 0.0234754
+Output : 0.846587	0.0132015	0.84755	
+
+Epoch : 66
+Total Error : 0.0231936
+Output : 0.847509	0.0129448	0.848454	
+
+Epoch : 67
+Total Error : 0.0229199
+Output : 0.84841	0.0126975	0.849338	
+
+Epoch : 68
+Total Error : 0.0226537
+Output : 0.849292	0.012459	0.850203	
+
+Epoch : 69
+Total Error : 0.0223949
+Output : 0.850154	0.012229	0.851049	
+
+Epoch : 70
+Total Error : 0.0221431
+Output : 0.850998	0.012007	0.851877	
+
+Epoch : 71
+Total Error : 0.0218981
+Output : 0.851824	0.0117926	0.852688	
+
+Epoch : 72
+Total Error : 0.0216594
+Output : 0.852633	0.0115854	0.853482	
+
+Epoch : 73
+Total Error : 0.021427
+Output : 0.853425	0.0113851	0.85426	
+
+Epoch : 74
+Total Error : 0.0212005
+Output : 0.854201	0.0111913	0.855023	
+
+Epoch : 75
+Total Error : 0.0209796
+Output : 0.854962	0.0110037	0.85577	
+
+Epoch : 76
+Total Error : 0.0207643
+Output : 0.855709	0.0108221	0.856503	
+
+Epoch : 77
+Total Error : 0.0205542
+Output : 0.85644	0.0106462	0.857222	
+
+Epoch : 78
+Total Error : 0.0203491
+Output : 0.857158	0.0104757	0.857927	
+
+Epoch : 79
+Total Error : 0.0201489
+Output : 0.857862	0.0103103	0.858619	
+
+Epoch : 80
+Total Error : 0.0199535
+Output : 0.858553	0.01015	0.859299	
+
+Epoch : 81
+Total Error : 0.0197625
+Output : 0.859232	0.0099943	0.859966	
+
+Epoch : 82
+Total Error : 0.0195759
+Output : 0.859898	0.00984317	0.860621	
+
+Epoch : 83
+Total Error : 0.0193935
+Output : 0.860553	0.00969638	0.861265	
+
+Epoch : 84
+Total Error : 0.0192151
+Output : 0.861196	0.00955375	0.861897	
+
+Epoch : 85
+Total Error : 0.0190407
+Output : 0.861827	0.00941511	0.862519	
+
+Epoch : 86
+Total Error : 0.0188701
+Output : 0.862448	0.00928029	0.86313	
+
+Epoch : 87
+Total Error : 0.0187031
+Output : 0.863059	0.00914914	0.86373	
+
+Epoch : 88
+Total Error : 0.0185396
+Output : 0.863659	0.00902153	0.864321	
+
+Epoch : 89
+Total Error : 0.0183795
+Output : 0.864249	0.0088973	0.864902	
+
+Epoch : 90
+Total Error : 0.0182228
+Output : 0.86483	0.00877633	0.865473	
+
+Epoch : 91
+Total Error : 0.0180692
+Output : 0.865401	0.00865849	0.866035	
+
+Epoch : 92
+Total Error : 0.0179188
+Output : 0.865963	0.00854367	0.866589	
+
+Epoch : 93
+Total Error : 0.0177713
+Output : 0.866516	0.00843175	0.867134	
+
+Epoch : 94
+Total Error : 0.0176267
+Output : 0.86706	0.00832263	0.86767	
+
+Epoch : 95
+Total Error : 0.017485
+Output : 0.867596	0.00821621	0.868198	
+
+Epoch : 96
+Total Error : 0.017346
+Output : 0.868124	0.00811238	0.868718	
+
+Epoch : 97
+Total Error : 0.0172096
+Output : 0.868644	0.00801106	0.86923	
+
+Epoch : 98
+Total Error : 0.0170758
+Output : 0.869156	0.00791215	0.869735	
+
+Epoch : 99
+Total Error : 0.0169445
+Output : 0.869661	0.00781558	0.870232	
+
+Epoch : 100
+Total Error : 0.0168157
+Output : 0.870158	0.00772127	0.870722	
+
+Epoch : 101
+Total Error : 0.0166891
+Output : 0.870648	0.00762913	0.871205	
+
+Epoch : 102
+Total Error : 0.0165649
+Output : 0.871131	0.00753909	0.871681	
+
+Epoch : 103
+Total Error : 0.0164429
+Output : 0.871607	0.00745109	0.872151	
+
+Epoch : 104
+Total Error : 0.016323
+Output : 0.872077	0.00736505	0.872613	
+
+Epoch : 105
+Total Error : 0.0162052
+Output : 0.87254	0.00728092	0.87307	
+
+Epoch : 106
+Total Error : 0.0160895
+Output : 0.872996	0.00719863	0.87352	
+
+Epoch : 107
+Total Error : 0.0159757
+Output : 0.873446	0.00711812	0.873964	
+
+Epoch : 108
+Total Error : 0.0158639
+Output : 0.873891	0.00703933	0.874402	
+
+Epoch : 109
+Total Error : 0.015754
+Output : 0.874329	0.00696222	0.874835	
+
+Epoch : 110
+Total Error : 0.0156459
+Output : 0.874762	0.00688672	0.875262	
+
+Epoch : 111
+Total Error : 0.0155396
+Output : 0.875188	0.0068128	0.875683	
+
+Epoch : 112
+Total Error : 0.015435
+Output : 0.87561	0.0067404	0.876098	
+
+Epoch : 113
+Total Error : 0.0153321
+Output : 0.876026	0.00666948	0.876509	
+
+Epoch : 114
+Total Error : 0.0152309
+Output : 0.876436	0.00659999	0.876914	
+
+Epoch : 115
+Total Error : 0.0151312
+Output : 0.876842	0.00653189	0.877314	
+
+Epoch : 116
+Total Error : 0.0150332
+Output : 0.877242	0.00646513	0.877709	
+
+Epoch : 117
+Total Error : 0.0149366
+Output : 0.877637	0.00639969	0.8781	
+
+Epoch : 118
+Total Error : 0.0148416
+Output : 0.878028	0.00633553	0.878485	
+
+Epoch : 119
+Total Error : 0.014748
+Output : 0.878414	0.00627259	0.878866	
+
+Epoch : 120
+Total Error : 0.0146559
+Output : 0.878795	0.00621086	0.879242	
+
+Epoch : 121
+Total Error : 0.0145651
+Output : 0.879171	0.0061503	0.879614	
+
+Epoch : 122
+Total Error : 0.0144757
+Output : 0.879543	0.00609088	0.879982	
+
+Epoch : 123
+Total Error : 0.0143876
+Output : 0.879911	0.00603256	0.880345	
+
+Epoch : 124
+Total Error : 0.0143008
+Output : 0.880274	0.00597531	0.880704	
+
+Epoch : 125
+Total Error : 0.0142152
+Output : 0.880634	0.00591911	0.881059	
+
+Epoch : 126
+Total Error : 0.0141309
+Output : 0.880989	0.00586393	0.88141	
+
+Epoch : 127
+Total Error : 0.0140478
+Output : 0.88134	0.00580973	0.881756	
+
+Epoch : 128
+Total Error : 0.0139659
+Output : 0.881687	0.00575651	0.882099	
+
+Epoch : 129
+Total Error : 0.0138851
+Output : 0.88203	0.00570422	0.882438	
+
+Epoch : 130
+Total Error : 0.0138055
+Output : 0.882369	0.00565284	0.882774	
+
+Epoch : 131
+Total Error : 0.0137269
+Output : 0.882705	0.00560236	0.883106	
+
+Epoch : 132
+Total Error : 0.0136494
+Output : 0.883037	0.00555275	0.883434	
+
+Epoch : 133
+Total Error : 0.013573
+Output : 0.883365	0.00550398	0.883758	
+
+Epoch : 134
+Total Error : 0.0134977
+Output : 0.88369	0.00545604	0.884079	
+
+Epoch : 135
+Total Error : 0.0134233
+Output : 0.884012	0.00540891	0.884397	
+
+Epoch : 136
+Total Error : 0.0133499
+Output : 0.88433	0.00536256	0.884711	
+
+Epoch : 137
+Total Error : 0.0132775
+Output : 0.884644	0.00531698	0.885023	
+
+Epoch : 138
+Total Error : 0.0132061
+Output : 0.884956	0.00527214	0.88533	
+
+Epoch : 139
+Total Error : 0.0131355
+Output : 0.885264	0.00522803	0.885635	
+
+Epoch : 140
+Total Error : 0.0130659
+Output : 0.885569	0.00518464	0.885937	
+
+Epoch : 141
+Total Error : 0.0129972
+Output : 0.885871	0.00514194	0.886235	
+
+Epoch : 142
+Total Error : 0.0129293
+Output : 0.886169	0.00509992	0.886531	
+
+Epoch : 143
+Total Error : 0.0128623
+Output : 0.886465	0.00505857	0.886823	
+
+Epoch : 144
+Total Error : 0.0127962
+Output : 0.886758	0.00501786	0.887113	
+
+Epoch : 145
+Total Error : 0.0127308
+Output : 0.887048	0.00497778	0.8874	
+
+Epoch : 146
+Total Error : 0.0126663
+Output : 0.887335	0.00493832	0.887684	
+
+Epoch : 147
+Total Error : 0.0126026
+Output : 0.88762	0.00489947	0.887965	
+
+Epoch : 148
+Total Error : 0.0125396
+Output : 0.887901	0.00486121	0.888244	
+
+Epoch : 149
+Total Error : 0.0124774
+Output : 0.88818	0.00482353	0.88852	
+
+Epoch : 150
+Total Error : 0.0124159
+Output : 0.888456	0.00478641	0.888793	
+
+Epoch : 151
+Total Error : 0.0123552
+Output : 0.88873	0.00474984	0.889064	
+
+Epoch : 152
+Total Error : 0.0122952
+Output : 0.889001	0.00471381	0.889332	
+
+Epoch : 153
+Total Error : 0.0122359
+Output : 0.889269	0.00467831	0.889598	
+
+Epoch : 154
+Total Error : 0.0121773
+Output : 0.889535	0.00464333	0.889861	
+
+Epoch : 155
+Total Error : 0.0121194
+Output : 0.889799	0.00460886	0.890122	
+
+Epoch : 156
+Total Error : 0.0120621
+Output : 0.89006	0.00457488	0.89038	
+
+Epoch : 157
+Total Error : 0.0120055
+Output : 0.890318	0.00454138	0.890636	
+
+Epoch : 158
+Total Error : 0.0119496
+Output : 0.890575	0.00450836	0.89089	
+
+Epoch : 159
+Total Error : 0.0118942
+Output : 0.890829	0.00447581	0.891142	
+
+Epoch : 160
+Total Error : 0.0118395
+Output : 0.891081	0.0044437	0.891391	
+
+Epoch : 161
+Total Error : 0.0117854
+Output : 0.89133	0.00441205	0.891638	
+
+Epoch : 162
+Total Error : 0.0117319
+Output : 0.891578	0.00438083	0.891883	
+
+Epoch : 163
+Total Error : 0.011679
+Output : 0.891823	0.00435004	0.892126	
+
+Epoch : 164
+Total Error : 0.0116267
+Output : 0.892066	0.00431967	0.892367	
+
+Epoch : 165
+Total Error : 0.0115749
+Output : 0.892307	0.00428971	0.892605	
+
+Epoch : 166
+Total Error : 0.0115237
+Output : 0.892546	0.00426015	0.892842	
+
+Epoch : 167
+Total Error : 0.0114731
+Output : 0.892783	0.00423099	0.893076	
+
+Epoch : 168
+Total Error : 0.011423
+Output : 0.893018	0.00420221	0.893309	
+
+Epoch : 169
+Total Error : 0.0113734
+Output : 0.89325	0.00417382	0.89354	
+
+Epoch : 170
+Total Error : 0.0113243
+Output : 0.893481	0.00414579	0.893768	
+
+Epoch : 171
+Total Error : 0.0112758
+Output : 0.89371	0.00411813	0.893995	
+
+Epoch : 172
+Total Error : 0.0112277
+Output : 0.893937	0.00409083	0.89422	
+
+Epoch : 173
+Total Error : 0.0111802
+Output : 0.894163	0.00406388	0.894443	
+
+Epoch : 174
+Total Error : 0.0111331
+Output : 0.894386	0.00403727	0.894665	
+
+Epoch : 175
+Total Error : 0.0110865
+Output : 0.894608	0.004011	0.894884	
+
+Epoch : 176
+Total Error : 0.0110404
+Output : 0.894827	0.00398507	0.895102	
+
+Epoch : 177
+Total Error : 0.0109948
+Output : 0.895045	0.00395945	0.895318	
+
+Epoch : 178
+Total Error : 0.0109496
+Output : 0.895262	0.00393416	0.895532	
+
+Epoch : 179
+Total Error : 0.0109049
+Output : 0.895476	0.00390918	0.895745	
+
+Epoch : 180
+Total Error : 0.0108606
+Output : 0.895689	0.00388451	0.895956	
+
+Epoch : 181
+Total Error : 0.0108167
+Output : 0.8959	0.00386014	0.896165	
+
+Epoch : 182
+Total Error : 0.0107733
+Output : 0.89611	0.00383607	0.896373	
+
+Epoch : 183
+Total Error : 0.0107303
+Output : 0.896318	0.00381229	0.896579	
+
+Epoch : 184
+Total Error : 0.0106877
+Output : 0.896524	0.0037888	0.896783	
+
+Epoch : 185
+Total Error : 0.0106455
+Output : 0.896729	0.00376558	0.896986	
+
+Epoch : 186
+Total Error : 0.0106038
+Output : 0.896932	0.00374264	0.897187	
+
+Epoch : 187
+Total Error : 0.0105624
+Output : 0.897133	0.00371998	0.897387	
+
+Epoch : 188
+Total Error : 0.0105214
+Output : 0.897333	0.00369758	0.897586	
+
+Epoch : 189
+Total Error : 0.0104808
+Output : 0.897532	0.00367544	0.897782	
+
+Epoch : 190
+Total Error : 0.0104406
+Output : 0.897729	0.00365356	0.897978	
+
+Epoch : 191
+Total Error : 0.0104008
+Output : 0.897925	0.00363194	0.898172	
+
+Epoch : 192
+Total Error : 0.0103613
+Output : 0.898119	0.00361056	0.898364	
+
+Epoch : 193
+Total Error : 0.0103222
+Output : 0.898312	0.00358942	0.898555	
+
+Epoch : 194
+Total Error : 0.0102835
+Output : 0.898503	0.00356853	0.898745	
+
+Epoch : 195
+Total Error : 0.0102451
+Output : 0.898693	0.00354787	0.898934	
+
+Epoch : 196
+Total Error : 0.010207
+Output : 0.898882	0.00352745	0.899121	
+
+Epoch : 197
+Total Error : 0.0101693
+Output : 0.899069	0.00350725	0.899306	
+
+Epoch : 198
+Total Error : 0.010132
+Output : 0.899255	0.00348728	0.899491	
+
+Epoch : 199
+Total Error : 0.0100949
+Output : 0.899439	0.00346753	0.899674	
+
+Epoch : 200
+Total Error : 0.0100582
+Output : 0.899623	0.003448	0.899855	
+
+Epoch : 201
+Total Error : 0.0100219
+Output : 0.899804	0.00342868	0.900036	
+
+Epoch : 202
+Total Error : 0.00998581
+Output : 0.899985	0.00340958	0.900215	
+
+Epoch : 203
+Total Error : 0.00995007
+Output : 0.900165	0.00339068	0.900393	
+
+Epoch : 204
+Total Error : 0.00991465
+Output : 0.900343	0.00337198	0.90057	
+
+Epoch : 205
+Total Error : 0.00987953
+Output : 0.90052	0.00335348	0.900745	
+
+Epoch : 206
+Total Error : 0.00984471
+Output : 0.900696	0.00333518	0.90092	
+
+Epoch : 207
+Total Error : 0.00981019
+Output : 0.90087	0.00331708	0.901093	
+
+Epoch : 208
+Total Error : 0.00977596
+Output : 0.901043	0.00329916	0.901265	
+
+Epoch : 209
+Total Error : 0.00974203
+Output : 0.901216	0.00328144	0.901436	
+
+Epoch : 210
+Total Error : 0.00970838
+Output : 0.901387	0.0032639	0.901605	
+
+Epoch : 211
+Total Error : 0.00967502
+Output : 0.901557	0.00324654	0.901774	
+
+Epoch : 212
+Total Error : 0.00964193
+Output : 0.901725	0.00322936	0.901941	
+
+Epoch : 213
+Total Error : 0.00960912
+Output : 0.901893	0.00321236	0.902108	
+
+Epoch : 214
+Total Error : 0.00957658
+Output : 0.902059	0.00319554	0.902273	
+
+Epoch : 215
+Total Error : 0.00954431
+Output : 0.902225	0.00317888	0.902437	
+
+Epoch : 216
+Total Error : 0.0095123
+Output : 0.902389	0.0031624	0.9026	
+
+Epoch : 217
+Total Error : 0.00948056
+Output : 0.902553	0.00314608	0.902762	
+
+Epoch : 218
+Total Error : 0.00944907
+Output : 0.902715	0.00312992	0.902923	
+
+Epoch : 219
+Total Error : 0.00941784
+Output : 0.902876	0.00311393	0.903083	
+
+Epoch : 220
+Total Error : 0.00938686
+Output : 0.903036	0.00309809	0.903242	
+
+Epoch : 221
+Total Error : 0.00935612
+Output : 0.903195	0.00308242	0.9034	
+
+Epoch : 222
+Total Error : 0.00932564
+Output : 0.903353	0.00306689	0.903557	
+
+Epoch : 223
+Total Error : 0.00929539
+Output : 0.90351	0.00305152	0.903713	
+
+Epoch : 224
+Total Error : 0.00926538
+Output : 0.903667	0.0030363	0.903868	
+
+Epoch : 225
+Total Error : 0.00923561
+Output : 0.903822	0.00302123	0.904022	
+
+Epoch : 226
+Total Error : 0.00920607
+Output : 0.903976	0.0030063	0.904175	
+
+Epoch : 227
+Total Error : 0.00917677
+Output : 0.904129	0.00299152	0.904327	
+
+Epoch : 228
+Total Error : 0.00914769
+Output : 0.904281	0.00297688	0.904478	
+
+Epoch : 229
+Total Error : 0.00911883
+Output : 0.904433	0.00296237	0.904628	
+
+Epoch : 230
+Total Error : 0.0090902
+Output : 0.904583	0.00294801	0.904777	
+
+Epoch : 231
+Total Error : 0.00906178
+Output : 0.904733	0.00293378	0.904926	
+
+Epoch : 232
+Total Error : 0.00903358
+Output : 0.904881	0.00291969	0.905073	
+
+Epoch : 233
+Total Error : 0.0090056
+Output : 0.905029	0.00290572	0.90522	
+
+Epoch : 234
+Total Error : 0.00897782
+Output : 0.905176	0.00289189	0.905366	
+
+Epoch : 235
+Total Error : 0.00895026
+Output : 0.905322	0.00287819	0.905511	
+
+Epoch : 236
+Total Error : 0.0089229
+Output : 0.905467	0.00286461	0.905655	
+
+Epoch : 237
+Total Error : 0.00889574
+Output : 0.905611	0.00285116	0.905798	
+
+Epoch : 238
+Total Error : 0.00886879
+Output : 0.905754	0.00283783	0.90594	
+
+Epoch : 239
+Total Error : 0.00884204
+Output : 0.905897	0.00282462	0.906082	
+
+Epoch : 240
+Total Error : 0.00881548
+Output : 0.906038	0.00281153	0.906222	
+
+Epoch : 241
+Total Error : 0.00878911
+Output : 0.906179	0.00279856	0.906362	
+
+Epoch : 242
+Total Error : 0.00876294
+Output : 0.906319	0.00278571	0.906501	
+
+Epoch : 243
+Total Error : 0.00873696
+Output : 0.906458	0.00277297	0.906639	
+
+Epoch : 244
+Total Error : 0.00871117
+Output : 0.906597	0.00276035	0.906777	
+
+Epoch : 245
+Total Error : 0.00868556
+Output : 0.906734	0.00274783	0.906913	
+
+Epoch : 246
+Total Error : 0.00866014
+Output : 0.906871	0.00273543	0.907049	
+
+Epoch : 247
+Total Error : 0.00863489
+Output : 0.907007	0.00272314	0.907184	
+
+Epoch : 248
+Total Error : 0.00860983
+Output : 0.907143	0.00271095	0.907319	
+
+Epoch : 249
+Total Error : 0.00858495
+Output : 0.907277	0.00269888	0.907452	
+
+Epoch : 250
+Total Error : 0.00856024
+Output : 0.907411	0.0026869	0.907585	
+
+Epoch : 251
+Total Error : 0.0085357
+Output : 0.907544	0.00267503	0.907717	
+
+Epoch : 252
+Total Error : 0.00851133
+Output : 0.907676	0.00266327	0.907849	
+
+Epoch : 253
+Total Error : 0.00848714
+Output : 0.907808	0.0026516	0.907979	
+
+Epoch : 254
+Total Error : 0.00846311
+Output : 0.907938	0.00264004	0.908109	
+
+Epoch : 255
+Total Error : 0.00843925
+Output : 0.908068	0.00262857	0.908238	
+
+Epoch : 256
+Total Error : 0.00841555
+Output : 0.908198	0.0026172	0.908367	
+
+Epoch : 257
+Total Error : 0.00839202
+Output : 0.908326	0.00260592	0.908495	
+
+Epoch : 258
+Total Error : 0.00836864
+Output : 0.908454	0.00259474	0.908622	
+
+Epoch : 259
+Total Error : 0.00834542
+Output : 0.908582	0.00258366	0.908748	
+
+Epoch : 260
+Total Error : 0.00832237
+Output : 0.908708	0.00257266	0.908874	
+
+Epoch : 261
+Total Error : 0.00829946
+Output : 0.908834	0.00256176	0.908999	
+
+Epoch : 262
+Total Error : 0.00827671
+Output : 0.908959	0.00255095	0.909124	
+
+Epoch : 263
+Total Error : 0.00825412
+Output : 0.909084	0.00254023	0.909247	
+
+Epoch : 264
+Total Error : 0.00823167
+Output : 0.909208	0.00252959	0.90937	
+
+Epoch : 265
+Total Error : 0.00820937
+Output : 0.909331	0.00251904	0.909493	
+
+Epoch : 266
+Total Error : 0.00818722
+Output : 0.909454	0.00250858	0.909615	
+
+Epoch : 267
+Total Error : 0.00816522
+Output : 0.909576	0.0024982	0.909736	
+
+Epoch : 268
+Total Error : 0.00814336
+Output : 0.909697	0.00248791	0.909856	
+
+Epoch : 269
+Total Error : 0.00812164
+Output : 0.909818	0.0024777	0.909976	
+
+Epoch : 270
+Total Error : 0.00810006
+Output : 0.909938	0.00246757	0.910096	
+
+Epoch : 271
+Total Error : 0.00807863
+Output : 0.910057	0.00245753	0.910214	
+
+Epoch : 272
+Total Error : 0.00805733
+Output : 0.910176	0.00244756	0.910332	
+
+Epoch : 273
+Total Error : 0.00803617
+Output : 0.910294	0.00243767	0.91045	
+
+Epoch : 274
+Total Error : 0.00801515
+Output : 0.910412	0.00242786	0.910567	
+
+Epoch : 275
+Total Error : 0.00799426
+Output : 0.910529	0.00241812	0.910683	
+
+Epoch : 276
+Total Error : 0.0079735
+Output : 0.910645	0.00240847	0.910799	
+
+Epoch : 277
+Total Error : 0.00795287
+Output : 0.910761	0.00239889	0.910914	
+
+Epoch : 278
+Total Error : 0.00793238
+Output : 0.910876	0.00238938	0.911028	
+
+Epoch : 279
+Total Error : 0.00791201
+Output : 0.910991	0.00237995	0.911142	
+
+Epoch : 280
+Total Error : 0.00789177
+Output : 0.911105	0.00237058	0.911255	
+
+Epoch : 281
+Total Error : 0.00787166
+Output : 0.911218	0.0023613	0.911368	
+
+Epoch : 282
+Total Error : 0.00785167
+Output : 0.911331	0.00235208	0.911481	
+
+Epoch : 283
+Total Error : 0.00783181
+Output : 0.911444	0.00234293	0.911592	
+
+Epoch : 284
+Total Error : 0.00781207
+Output : 0.911556	0.00233385	0.911703	
+
+Epoch : 285
+Total Error : 0.00779245
+Output : 0.911667	0.00232484	0.911814	
+
+Epoch : 286
+Total Error : 0.00777295
+Output : 0.911778	0.0023159	0.911924	
+
+Epoch : 287
+Total Error : 0.00775357
+Output : 0.911888	0.00230703	0.912034	
+
+Epoch : 288
+Total Error : 0.00773431
+Output : 0.911998	0.00229822	0.912143	
+
+Epoch : 289
+Total Error : 0.00771517
+Output : 0.912107	0.00228948	0.912251	
+
+Epoch : 290
+Total Error : 0.00769614
+Output : 0.912215	0.0022808	0.912359	
+
+Epoch : 291
+Total Error : 0.00767723
+Output : 0.912323	0.00227219	0.912467	
+
+Epoch : 292
+Total Error : 0.00765843
+Output : 0.912431	0.00226364	0.912574	
+
+Epoch : 293
+Total Error : 0.00763974
+Output : 0.912538	0.00225516	0.91268	
+
+Epoch : 294
+Total Error : 0.00762116
+Output : 0.912645	0.00224673	0.912786	
+
+Epoch : 295
+Total Error : 0.0076027
+Output : 0.912751	0.00223837	0.912891	
+
+Epoch : 296
+Total Error : 0.00758434
+Output : 0.912856	0.00223007	0.912996	
+
+Epoch : 297
+Total Error : 0.00756609
+Output : 0.912961	0.00222183	0.913101	
+
+Epoch : 298
+Total Error : 0.00754795
+Output : 0.913066	0.00221365	0.913205	
+
+Epoch : 299
+Total Error : 0.00752992
+Output : 0.91317	0.00220553	0.913308	
+
+Epoch : 300
+Total Error : 0.00751199
+Output : 0.913273	0.00219746	0.913411	
+
+Epoch : 301
+Total Error : 0.00749416
+Output : 0.913377	0.00218946	0.913514	
+
+Epoch : 302
+Total Error : 0.00747644
+Output : 0.913479	0.00218151	0.913616	
+
+Epoch : 303
+Total Error : 0.00745882
+Output : 0.913581	0.00217361	0.913717	
+
+Epoch : 304
+Total Error : 0.0074413
+Output : 0.913683	0.00216578	0.913818	
+
+Epoch : 305
+Total Error : 0.00742389
+Output : 0.913784	0.002158	0.913919	
+
+Epoch : 306
+Total Error : 0.00740657
+Output : 0.913885	0.00215027	0.914019	
+
+Epoch : 307
+Total Error : 0.00738935
+Output : 0.913985	0.0021426	0.914119	
+
+Epoch : 308
+Total Error : 0.00737223
+Output : 0.914085	0.00213498	0.914218	
+
+Epoch : 309
+Total Error : 0.00735521
+Output : 0.914184	0.00212741	0.914317	
+
+Epoch : 310
+Total Error : 0.00733828
+Output : 0.914283	0.0021199	0.914415	
+
+Epoch : 311
+Total Error : 0.00732145
+Output : 0.914382	0.00211244	0.914513	
+
+Epoch : 312
+Total Error : 0.00730471
+Output : 0.91448	0.00210503	0.914611	
+
+Epoch : 313
+Total Error : 0.00728806
+Output : 0.914578	0.00209767	0.914708	
+
+Epoch : 314
+Total Error : 0.00727151
+Output : 0.914675	0.00209036	0.914805	
+
+Epoch : 315
+Total Error : 0.00725505
+Output : 0.914772	0.0020831	0.914901	
+
+Epoch : 316
+Total Error : 0.00723868
+Output : 0.914868	0.00207589	0.914997	
+
+Epoch : 317
+Total Error : 0.00722241
+Output : 0.914964	0.00206873	0.915092	
+
+Epoch : 318
+Total Error : 0.00720622
+Output : 0.915059	0.00206162	0.915187	
+
+Epoch : 319
+Total Error : 0.00719012
+Output : 0.915154	0.00205455	0.915281	
+
+Epoch : 320
+Total Error : 0.00717411
+Output : 0.915249	0.00204753	0.915376	
+
+Epoch : 321
+Total Error : 0.00715818
+Output : 0.915343	0.00204056	0.915469	
+
+Epoch : 322
+Total Error : 0.00714234
+Output : 0.915437	0.00203364	0.915563	
+
+Epoch : 323
+Total Error : 0.00712659
+Output : 0.915531	0.00202676	0.915656	
+
+Epoch : 324
+Total Error : 0.00711092
+Output : 0.915624	0.00201993	0.915748	
+
+Epoch : 325
+Total Error : 0.00709534
+Output : 0.915716	0.00201314	0.91584	
+
+Epoch : 326
+Total Error : 0.00707984
+Output : 0.915808	0.0020064	0.915932	
+
+Epoch : 327
+Total Error : 0.00706442
+Output : 0.9159	0.0019997	0.916023	
+
+Epoch : 328
+Total Error : 0.00704909
+Output : 0.915992	0.00199305	0.916114	
+
+Epoch : 329
+Total Error : 0.00703384
+Output : 0.916083	0.00198644	0.916205	
+
+Epoch : 330
+Total Error : 0.00701866
+Output : 0.916173	0.00197987	0.916295	
+
+Epoch : 331
+Total Error : 0.00700357
+Output : 0.916264	0.00197334	0.916385	
+
+Epoch : 332
+Total Error : 0.00698856
+Output : 0.916354	0.00196686	0.916474	
+
+Epoch : 333
+Total Error : 0.00697362
+Output : 0.916443	0.00196042	0.916563	
+
+Epoch : 334
+Total Error : 0.00695877
+Output : 0.916532	0.00195402	0.916652	
+
+Epoch : 335
+Total Error : 0.00694399
+Output : 0.916621	0.00194766	0.91674	
+
+Epoch : 336
+Total Error : 0.00692929
+Output : 0.91671	0.00194134	0.916828	
+
+Epoch : 337
+Total Error : 0.00691466
+Output : 0.916798	0.00193506	0.916916	
+
+Epoch : 338
+Total Error : 0.00690011
+Output : 0.916885	0.00192882	0.917003	
+
+Epoch : 339
+Total Error : 0.00688564
+Output : 0.916973	0.00192262	0.91709	
+
+Epoch : 340
+Total Error : 0.00687123
+Output : 0.91706	0.00191646	0.917177	
+
+Epoch : 341
+Total Error : 0.00685691
+Output : 0.917146	0.00191034	0.917263	
+
+Epoch : 342
+Total Error : 0.00684265
+Output : 0.917233	0.00190425	0.917349	
+
+Epoch : 343
+Total Error : 0.00682847
+Output : 0.917319	0.00189821	0.917434	
+
+Epoch : 344
+Total Error : 0.00681436
+Output : 0.917404	0.0018922	0.917519	
+
+Epoch : 345
+Total Error : 0.00680032
+Output : 0.917489	0.00188623	0.917604	
+
+Epoch : 346
+Total Error : 0.00678636
+Output : 0.917574	0.0018803	0.917689	
+
+Epoch : 347
+Total Error : 0.00677246
+Output : 0.917659	0.0018744	0.917773	
+
+Epoch : 348
+Total Error : 0.00675863
+Output : 0.917743	0.00186854	0.917856	
+
+Epoch : 349
+Total Error : 0.00674487
+Output : 0.917827	0.00186271	0.91794	
+
+Epoch : 350
+Total Error : 0.00673118
+Output : 0.91791	0.00185692	0.918023	
+
+Epoch : 351
+Total Error : 0.00671756
+Output : 0.917994	0.00185117	0.918106	
+
+Epoch : 352
+Total Error : 0.00670401
+Output : 0.918077	0.00184545	0.918188	
+
+Epoch : 353
+Total Error : 0.00669052
+Output : 0.918159	0.00183977	0.91827	
+
+Epoch : 354
+Total Error : 0.0066771
+Output : 0.918241	0.00183412	0.918352	
+
+Epoch : 355
+Total Error : 0.00666375
+Output : 0.918323	0.0018285	0.918434	
+
+Epoch : 356
+Total Error : 0.00665046
+Output : 0.918405	0.00182292	0.918515	
+
+Epoch : 357
+Total Error : 0.00663723
+Output : 0.918486	0.00181737	0.918596	
+
+Epoch : 358
+Total Error : 0.00662407
+Output : 0.918567	0.00181185	0.918676	
+
+Epoch : 359
+Total Error : 0.00661097
+Output : 0.918648	0.00180637	0.918757	
+
+Epoch : 360
+Total Error : 0.00659794
+Output : 0.918728	0.00180092	0.918837	
+
+Epoch : 361
+Total Error : 0.00658497
+Output : 0.918808	0.0017955	0.918916	
+
+Epoch : 362
+Total Error : 0.00657206
+Output : 0.918888	0.00179012	0.918996	
+
+Epoch : 363
+Total Error : 0.00655922
+Output : 0.918967	0.00178476	0.919075	
+
+Epoch : 364
+Total Error : 0.00654643
+Output : 0.919046	0.00177944	0.919153	
+
+Epoch : 365
+Total Error : 0.00653371
+Output : 0.919125	0.00177415	0.919232	
+
+Epoch : 366
+Total Error : 0.00652105
+Output : 0.919204	0.00176888	0.91931	
+
+Epoch : 367
+Total Error : 0.00650845
+Output : 0.919282	0.00176365	0.919388	
+
+Epoch : 368
+Total Error : 0.0064959
+Output : 0.91936	0.00175845	0.919465	
+
+Epoch : 369
+Total Error : 0.00648342
+Output : 0.919437	0.00175328	0.919542	
+
+Epoch : 370
+Total Error : 0.006471
+Output : 0.919515	0.00174814	0.919619	
+
+Epoch : 371
+Total Error : 0.00645863
+Output : 0.919592	0.00174303	0.919696	
+
+Epoch : 372
+Total Error : 0.00644632
+Output : 0.919668	0.00173795	0.919772	
+
+Epoch : 373
+Total Error : 0.00643407
+Output : 0.919745	0.0017329	0.919849	
+
+Epoch : 374
+Total Error : 0.00642188
+Output : 0.919821	0.00172787	0.919924	
+
+Epoch : 375
+Total Error : 0.00640974
+Output : 0.919897	0.00172288	0.92	
+
+Epoch : 376
+Total Error : 0.00639766
+Output : 0.919973	0.00171791	0.920075	
+
+Epoch : 377
+Total Error : 0.00638563
+Output : 0.920048	0.00171297	0.92015	
+
+Epoch : 378
+Total Error : 0.00637366
+Output : 0.920123	0.00170806	0.920225	
+
+Epoch : 379
+Total Error : 0.00636175
+Output : 0.920198	0.00170318	0.920299	
+
+Epoch : 380
+Total Error : 0.00634989
+Output : 0.920272	0.00169832	0.920373	
+
+Epoch : 381
+Total Error : 0.00633808
+Output : 0.920347	0.0016935	0.920447	
+
+Epoch : 382
+Total Error : 0.00632633
+Output : 0.920421	0.00168869	0.920521	
+
+Epoch : 383
+Total Error : 0.00631463
+Output : 0.920494	0.00168392	0.920594	
+
+Epoch : 384
+Total Error : 0.00630298
+Output : 0.920568	0.00167917	0.920667	
+
+Epoch : 385
+Total Error : 0.00629139
+Output : 0.920641	0.00167445	0.92074	
+
+Epoch : 386
+Total Error : 0.00627985
+Output : 0.920714	0.00166975	0.920813	
+
+Epoch : 387
+Total Error : 0.00626836
+Output : 0.920786	0.00166508	0.920885	
+
+Epoch : 388
+Total Error : 0.00625692
+Output : 0.920859	0.00166044	0.920957	
+
+Epoch : 389
+Total Error : 0.00624553
+Output : 0.920931	0.00165582	0.921029	
+
+Epoch : 390
+Total Error : 0.0062342
+Output : 0.921003	0.00165122	0.921101	
+
+Epoch : 391
+Total Error : 0.00622291
+Output : 0.921074	0.00164666	0.921172	
+
+Epoch : 392
+Total Error : 0.00621168
+Output : 0.921146	0.00164211	0.921243	
+
+Epoch : 393
+Total Error : 0.00620049
+Output : 0.921217	0.00163759	0.921314	
+
+Epoch : 394
+Total Error : 0.00618936
+Output : 0.921288	0.0016331	0.921384	
+
+Epoch : 395
+Total Error : 0.00617827
+Output : 0.921358	0.00162863	0.921455	
+
+Epoch : 396
+Total Error : 0.00616723
+Output : 0.921429	0.00162418	0.921525	
+
+Epoch : 397
+Total Error : 0.00615624
+Output : 0.921499	0.00161976	0.921594	
+
+Epoch : 398
+Total Error : 0.0061453
+Output : 0.921569	0.00161536	0.921664	
+
+Epoch : 399
+Total Error : 0.0061344
+Output : 0.921638	0.00161098	0.921733	
+
+Epoch : 400
+Total Error : 0.00612356
+Output : 0.921708	0.00160663	0.921802	
+
+Epoch : 401
+Total Error : 0.00611276
+Output : 0.921777	0.0016023	0.921871	
+
+Epoch : 402
+Total Error : 0.006102
+Output : 0.921846	0.00159799	0.92194	
+
+Epoch : 403
+Total Error : 0.0060913
+Output : 0.921915	0.00159371	0.922008	
+
+Epoch : 404
+Total Error : 0.00608064
+Output : 0.921983	0.00158945	0.922076	
+
+Epoch : 405
+Total Error : 0.00607002
+Output : 0.922051	0.00158521	0.922144	
+
+Epoch : 406
+Total Error : 0.00605945
+Output : 0.922119	0.00158099	0.922212	
+
+Epoch : 407
+Total Error : 0.00604893
+Output : 0.922187	0.0015768	0.922279	
+
+Epoch : 408
+Total Error : 0.00603845
+Output : 0.922254	0.00157262	0.922347	
+
+Epoch : 409
+Total Error : 0.00602801
+Output : 0.922322	0.00156847	0.922414	
+
+Epoch : 410
+Total Error : 0.00601762
+Output : 0.922389	0.00156434	0.92248	
+
+Epoch : 411
+Total Error : 0.00600727
+Output : 0.922456	0.00156023	0.922547	
+
+Epoch : 412
+Total Error : 0.00599697
+Output : 0.922522	0.00155615	0.922613	
+
+Epoch : 413
+Total Error : 0.00598671
+Output : 0.922589	0.00155208	0.922679	
+
+Epoch : 414
+Total Error : 0.00597649
+Output : 0.922655	0.00154803	0.922745	
+
+Epoch : 415
+Total Error : 0.00596632
+Output : 0.922721	0.00154401	0.922811	
+
+Epoch : 416
+Total Error : 0.00595619
+Output : 0.922786	0.00154001	0.922876	
+
+Epoch : 417
+Total Error : 0.0059461
+Output : 0.922852	0.00153602	0.922942	
+
+Epoch : 418
+Total Error : 0.00593605
+Output : 0.922917	0.00153206	0.923007	
+
+Epoch : 419
+Total Error : 0.00592604
+Output : 0.922982	0.00152812	0.923071	
+
+Epoch : 420
+Total Error : 0.00591608
+Output : 0.923047	0.00152419	0.923136	
+
+Epoch : 421
+Total Error : 0.00590615
+Output : 0.923112	0.00152029	0.9232	
+
+Epoch : 422
+Total Error : 0.00589627
+Output : 0.923176	0.0015164	0.923264	
+
+Epoch : 423
+Total Error : 0.00588643
+Output : 0.92324	0.00151254	0.923328	
+
+Epoch : 424
+Total Error : 0.00587663
+Output : 0.923304	0.0015087	0.923392	
+
+Epoch : 425
+Total Error : 0.00586686
+Output : 0.923368	0.00150487	0.923456	
+
+Epoch : 426
+Total Error : 0.00585714
+Output : 0.923432	0.00150106	0.923519	
+
+Epoch : 427
+Total Error : 0.00584746
+Output : 0.923495	0.00149727	0.923582	
+
+Epoch : 428
+Total Error : 0.00583782
+Output : 0.923558	0.00149351	0.923645	
+
+Epoch : 429
+Total Error : 0.00582821
+Output : 0.923621	0.00148975	0.923708	
+
+Epoch : 430
+Total Error : 0.00581865
+Output : 0.923684	0.00148602	0.92377	
+
+Epoch : 431
+Total Error : 0.00580912
+Output : 0.923747	0.00148231	0.923833	
+
+Epoch : 432
+Total Error : 0.00579963
+Output : 0.923809	0.00147861	0.923895	
+
+Epoch : 433
+Total Error : 0.00579018
+Output : 0.923871	0.00147494	0.923957	
+
+Epoch : 434
+Total Error : 0.00578077
+Output : 0.923933	0.00147128	0.924018	
+
+Epoch : 435
+Total Error : 0.00577139
+Output : 0.923995	0.00146764	0.92408	
+
+Epoch : 436
+Total Error : 0.00576205
+Output : 0.924057	0.00146401	0.924141	
+
+Epoch : 437
+Total Error : 0.00575275
+Output : 0.924118	0.00146041	0.924202	
+
+Epoch : 438
+Total Error : 0.00574349
+Output : 0.924179	0.00145682	0.924263	
+
+Epoch : 439
+Total Error : 0.00573426
+Output : 0.92424	0.00145325	0.924324	
+
+Epoch : 440
+Total Error : 0.00572507
+Output : 0.924301	0.00144969	0.924385	
+
+Epoch : 441
+Total Error : 0.00571591
+Output : 0.924362	0.00144615	0.924445	
+
+Epoch : 442
+Total Error : 0.00570679
+Output : 0.924422	0.00144263	0.924505	
+
+Epoch : 443
+Total Error : 0.00569771
+Output : 0.924482	0.00143913	0.924565	
+
+Epoch : 444
+Total Error : 0.00568866
+Output : 0.924542	0.00143564	0.924625	
+
+Epoch : 445
+Total Error : 0.00567965
+Output : 0.924602	0.00143217	0.924684	
+
+Epoch : 446
+Total Error : 0.00567067
+Output : 0.924662	0.00142872	0.924744	
+
+Epoch : 447
+Total Error : 0.00566173
+Output : 0.924721	0.00142528	0.924803	
+
+Epoch : 448
+Total Error : 0.00565282
+Output : 0.924781	0.00142186	0.924862	
+
+Epoch : 449
+Total Error : 0.00564395
+Output : 0.92484	0.00141846	0.924921	
+
+Epoch : 450
+Total Error : 0.00563511
+Output : 0.924899	0.00141507	0.92498	
+
+Epoch : 451
+Total Error : 0.0056263
+Output : 0.924958	0.0014117	0.925038	
+
+Epoch : 452
+Total Error : 0.00561753
+Output : 0.925016	0.00140834	0.925097	
+
+Epoch : 453
+Total Error : 0.00560879
+Output : 0.925075	0.001405	0.925155	
+
+Epoch : 454
+Total Error : 0.00560009
+Output : 0.925133	0.00140167	0.925213	
+
+Epoch : 455
+Total Error : 0.00559141
+Output : 0.925191	0.00139836	0.925271	
+
+Epoch : 456
+Total Error : 0.00558277
+Output : 0.925249	0.00139507	0.925328	
+
+Epoch : 457
+Total Error : 0.00557417
+Output : 0.925306	0.00139179	0.925386	
+
+Epoch : 458
+Total Error : 0.0055656
+Output : 0.925364	0.00138852	0.925443	
+
+Epoch : 459
+Total Error : 0.00555705
+Output : 0.925421	0.00138527	0.9255	
+
+Epoch : 460
+Total Error : 0.00554854
+Output : 0.925478	0.00138204	0.925557	
+
+Epoch : 461
+Total Error : 0.00554007
+Output : 0.925535	0.00137882	0.925614	
+
+Epoch : 462
+Total Error : 0.00553162
+Output : 0.925592	0.00137561	0.925671	
+
+Epoch : 463
+Total Error : 0.00552321
+Output : 0.925649	0.00137242	0.925727	
+
+Epoch : 464
+Total Error : 0.00551483
+Output : 0.925706	0.00136925	0.925783	
+
+Epoch : 465
+Total Error : 0.00550648
+Output : 0.925762	0.00136609	0.925839	
+
+Epoch : 466
+Total Error : 0.00549816
+Output : 0.925818	0.00136294	0.925895	
+
+Epoch : 467
+Total Error : 0.00548987
+Output : 0.925874	0.00135981	0.925951	
+
+Epoch : 468
+Total Error : 0.00548161
+Output : 0.92593	0.00135669	0.926007	
+
+Epoch : 469
+Total Error : 0.00547338
+Output : 0.925986	0.00135358	0.926062	
+
+Epoch : 470
+Total Error : 0.00546518
+Output : 0.926041	0.00135049	0.926118	
+
+Epoch : 471
+Total Error : 0.00545701
+Output : 0.926096	0.00134742	0.926173	
+
+Epoch : 472
+Total Error : 0.00544888
+Output : 0.926152	0.00134435	0.926228	
+
+Epoch : 473
+Total Error : 0.00544077
+Output : 0.926207	0.0013413	0.926283	
+
+Epoch : 474
+Total Error : 0.00543269
+Output : 0.926261	0.00133827	0.926337	
+
+Epoch : 475
+Total Error : 0.00542464
+Output : 0.926316	0.00133525	0.926392	
+
+Epoch : 476
+Total Error : 0.00541662
+Output : 0.926371	0.00133224	0.926446	
+
+Epoch : 477
+Total Error : 0.00540863
+Output : 0.926425	0.00132924	0.9265	
+
+Epoch : 478
+Total Error : 0.00540067
+Output : 0.926479	0.00132626	0.926554	
+
+Epoch : 479
+Total Error : 0.00539274
+Output : 0.926533	0.00132329	0.926608	
+
+Epoch : 480
+Total Error : 0.00538484
+Output : 0.926587	0.00132034	0.926662	
+
+Epoch : 481
+Total Error : 0.00537696
+Output : 0.926641	0.00131739	0.926715	
+
+Epoch : 482
+Total Error : 0.00536911
+Output : 0.926695	0.00131446	0.926769	
+
+Epoch : 483
+Total Error : 0.00536129
+Output : 0.926748	0.00131155	0.926822	
+
+Epoch : 484
+Total Error : 0.0053535
+Output : 0.926801	0.00130864	0.926875	
+
+Epoch : 485
+Total Error : 0.00534574
+Output : 0.926855	0.00130575	0.926928	
+
+Epoch : 486
+Total Error : 0.005338
+Output : 0.926908	0.00130287	0.926981	
+
+Epoch : 487
+Total Error : 0.00533029
+Output : 0.92696	0.00130001	0.927033	
+
+Epoch : 488
+Total Error : 0.00532261
+Output : 0.927013	0.00129715	0.927086	
+
+Epoch : 489
+Total Error : 0.00531496
+Output : 0.927066	0.00129431	0.927138	
+
+Epoch : 490
+Total Error : 0.00530733
+Output : 0.927118	0.00129148	0.927191	
+
+Epoch : 491
+Total Error : 0.00529973
+Output : 0.92717	0.00128866	0.927243	
+
+Epoch : 492
+Total Error : 0.00529216
+Output : 0.927222	0.00128586	0.927295	
+
+Epoch : 493
+Total Error : 0.00528461
+Output : 0.927274	0.00128306	0.927346	
+
+Epoch : 494
+Total Error : 0.00527709
+Output : 0.927326	0.00128028	0.927398	
+
+Epoch : 495
+Total Error : 0.0052696
+Output : 0.927378	0.00127751	0.927449	
+
+Epoch : 496
+Total Error : 0.00526213
+Output : 0.927429	0.00127475	0.927501	
+
+Epoch : 497
+Total Error : 0.00525469
+Output : 0.927481	0.00127201	0.927552	
+
+Epoch : 498
+Total Error : 0.00524728
+Output : 0.927532	0.00126927	0.927603	
+
+Epoch : 499
+Total Error : 0.00523989
+Output : 0.927583	0.00126655	0.927654	
+
+Epoch : 500
+Total Error : 0.00523252
+Output : 0.927634	0.00126384	0.927705	
+
+Epoch : 501
+Total Error : 0.00522518
+Output : 0.927685	0.00126114	0.927755	
+
+Epoch : 502
+Total Error : 0.00521787
+Output : 0.927736	0.00125845	0.927806	
+
+Epoch : 503
+Total Error : 0.00521058
+Output : 0.927786	0.00125577	0.927856	
+
+Epoch : 504
+Total Error : 0.00520332
+Output : 0.927836	0.00125311	0.927906	
+
+Epoch : 505
+Total Error : 0.00519608
+Output : 0.927887	0.00125045	0.927956	
+
+Epoch : 506
+Total Error : 0.00518886
+Output : 0.927937	0.00124781	0.928006	
+
+Epoch : 507
+Total Error : 0.00518167
+Output : 0.927987	0.00124518	0.928056	
+
+Epoch : 508
+Total Error : 0.00517451
+Output : 0.928037	0.00124255	0.928106	
+
+Epoch : 509
+Total Error : 0.00516737
+Output : 0.928086	0.00123994	0.928155	
+
+Epoch : 510
+Total Error : 0.00516025
+Output : 0.928136	0.00123734	0.928205	
+
+Epoch : 511
+Total Error : 0.00515316
+Output : 0.928185	0.00123475	0.928254	
+
+Epoch : 512
+Total Error : 0.00514609
+Output : 0.928235	0.00123217	0.928303	
+
+Epoch : 513
+Total Error : 0.00513905
+Output : 0.928284	0.0012296	0.928352	
+
+Epoch : 514
+Total Error : 0.00513203
+Output : 0.928333	0.00122705	0.928401	
+
+Epoch : 515
+Total Error : 0.00512503
+Output : 0.928382	0.0012245	0.92845	
+
+Epoch : 516
+Total Error : 0.00511805
+Output : 0.928431	0.00122196	0.928499	
+
+Epoch : 517
+Total Error : 0.0051111
+Output : 0.928479	0.00121944	0.928547	
+
+Epoch : 518
+Total Error : 0.00510418
+Output : 0.928528	0.00121692	0.928595	
+
+Epoch : 519
+Total Error : 0.00509727
+Output : 0.928576	0.00121441	0.928644	
+
+Epoch : 520
+Total Error : 0.00509039
+Output : 0.928625	0.00121192	0.928692	
+
+Epoch : 521
+Total Error : 0.00508353
+Output : 0.928673	0.00120943	0.92874	
+
+Epoch : 522
+Total Error : 0.0050767
+Output : 0.928721	0.00120696	0.928788	
+
+Epoch : 523
+Total Error : 0.00506988
+Output : 0.928769	0.00120449	0.928835	
+
+Epoch : 524
+Total Error : 0.00506309
+Output : 0.928816	0.00120203	0.928883	
+
+Epoch : 525
+Total Error : 0.00505632
+Output : 0.928864	0.00119959	0.92893	
+
+Epoch : 526
+Total Error : 0.00504958
+Output : 0.928912	0.00119715	0.928978	
+
+Epoch : 527
+Total Error : 0.00504285
+Output : 0.928959	0.00119473	0.929025	
+
+Epoch : 528
+Total Error : 0.00503615
+Output : 0.929006	0.00119231	0.929072	
+
+Epoch : 529
+Total Error : 0.00502947
+Output : 0.929053	0.0011899	0.929119	
+
+Epoch : 530
+Total Error : 0.00502281
+Output : 0.9291	0.0011875	0.929166	
+
+Epoch : 531
+Total Error : 0.00501618
+Output : 0.929147	0.00118512	0.929213	
+
+Epoch : 532
+Total Error : 0.00500956
+Output : 0.929194	0.00118274	0.929259	
+
+Epoch : 533
+Total Error : 0.00500297
+Output : 0.929241	0.00118037	0.929306	
+
+Epoch : 534
+Total Error : 0.00499639
+Output : 0.929287	0.00117801	0.929352	
+
+Epoch : 535
+Total Error : 0.00498984
+Output : 0.929334	0.00117566	0.929398	
+
+Epoch : 536
+Total Error : 0.00498331
+Output : 0.92938	0.00117332	0.929445	
+
+Epoch : 537
+Total Error : 0.0049768
+Output : 0.929426	0.00117098	0.929491	
+
+Epoch : 538
+Total Error : 0.00497032
+Output : 0.929472	0.00116866	0.929536	
+
+Epoch : 539
+Total Error : 0.00496385
+Output : 0.929518	0.00116635	0.929582	
+
+Epoch : 540
+Total Error : 0.0049574
+Output : 0.929564	0.00116404	0.929628	
+
+Epoch : 541
+Total Error : 0.00495098
+Output : 0.92961	0.00116175	0.929673	
+
+Epoch : 542
+Total Error : 0.00494457
+Output : 0.929655	0.00115946	0.929719	
+
+Epoch : 543
+Total Error : 0.00493819
+Output : 0.929701	0.00115718	0.929764	
+
+Epoch : 544
+Total Error : 0.00493182
+Output : 0.929746	0.00115491	0.929809	
+
+Epoch : 545
+Total Error : 0.00492548
+Output : 0.929791	0.00115265	0.929855	
+
+Epoch : 546
+Total Error : 0.00491915
+Output : 0.929837	0.0011504	0.9299	
+
+Epoch : 547
+Total Error : 0.00491285
+Output : 0.929882	0.00114816	0.929944	
+
+Epoch : 548
+Total Error : 0.00490656
+Output : 0.929927	0.00114592	0.929989	
+
+Epoch : 549
+Total Error : 0.0049003
+Output : 0.929971	0.00114369	0.930034	
+
+Epoch : 550
+Total Error : 0.00489405
+Output : 0.930016	0.00114148	0.930078	
+
+Epoch : 551
+Total Error : 0.00488782
+Output : 0.930061	0.00113927	0.930123	
+
+Epoch : 552
+Total Error : 0.00488162
+Output : 0.930105	0.00113707	0.930167	
+
+Epoch : 553
+Total Error : 0.00487543
+Output : 0.930149	0.00113487	0.930211	
+
+Epoch : 554
+Total Error : 0.00486926
+Output : 0.930194	0.00113269	0.930255	
+
+Epoch : 555
+Total Error : 0.00486311
+Output : 0.930238	0.00113051	0.930299	
+
+Epoch : 556
+Total Error : 0.00485698
+Output : 0.930282	0.00112835	0.930343	
+
+Epoch : 557
+Total Error : 0.00485087
+Output : 0.930326	0.00112619	0.930387	
+
+Epoch : 558
+Total Error : 0.00484478
+Output : 0.93037	0.00112404	0.930431	
+
+Epoch : 559
+Total Error : 0.00483871
+Output : 0.930413	0.00112189	0.930474	
+
+Epoch : 560
+Total Error : 0.00483265
+Output : 0.930457	0.00111976	0.930518	
+
+Epoch : 561
+Total Error : 0.00482662
+Output : 0.9305	0.00111763	0.930561	
+
+Epoch : 562
+Total Error : 0.0048206
+Output : 0.930544	0.00111551	0.930604	
+
+Epoch : 563
+Total Error : 0.0048146
+Output : 0.930587	0.0011134	0.930647	
+
+Epoch : 564
+Total Error : 0.00480862
+Output : 0.93063	0.0011113	0.93069	
+
+Epoch : 565
+Total Error : 0.00480266
+Output : 0.930673	0.0011092	0.930733	
+
+Epoch : 566
+Total Error : 0.00479672
+Output : 0.930716	0.00110711	0.930776	
+
+Epoch : 567
+Total Error : 0.00479079
+Output : 0.930759	0.00110503	0.930819	
+
+Epoch : 568
+Total Error : 0.00478488
+Output : 0.930802	0.00110296	0.930861	
+
+Epoch : 569
+Total Error : 0.00477899
+Output : 0.930844	0.0011009	0.930904	
+
+Epoch : 570
+Total Error : 0.00477312
+Output : 0.930887	0.00109884	0.930946	
+
+Epoch : 571
+Total Error : 0.00476727
+Output : 0.930929	0.00109679	0.930989	
+
+Epoch : 572
+Total Error : 0.00476143
+Output : 0.930972	0.00109475	0.931031	
+
+Epoch : 573
+Total Error : 0.00475561
+Output : 0.931014	0.00109272	0.931073	
+
+Epoch : 574
+Total Error : 0.00474981
+Output : 0.931056	0.00109069	0.931115	
+
+Epoch : 575
+Total Error : 0.00474403
+Output : 0.931098	0.00108867	0.931157	
+
+Epoch : 576
+Total Error : 0.00473826
+Output : 0.93114	0.00108666	0.931199	
+
+Epoch : 577
+Total Error : 0.00473251
+Output : 0.931182	0.00108465	0.93124	
+
+Epoch : 578
+Total Error : 0.00472678
+Output : 0.931224	0.00108265	0.931282	
+
+Epoch : 579
+Total Error : 0.00472106
+Output : 0.931265	0.00108066	0.931323	
+
+Epoch : 580
+Total Error : 0.00471536
+Output : 0.931307	0.00107868	0.931365	
+
+Epoch : 581
+Total Error : 0.00470968
+Output : 0.931348	0.0010767	0.931406	
+
+Epoch : 582
+Total Error : 0.00470402
+Output : 0.931389	0.00107474	0.931447	
+
+Epoch : 583
+Total Error : 0.00469837
+Output : 0.931431	0.00107277	0.931488	
+
+Epoch : 584
+Total Error : 0.00469274
+Output : 0.931472	0.00107082	0.931529	
+
+Epoch : 585
+Total Error : 0.00468713
+Output : 0.931513	0.00106887	0.93157	
+
+Epoch : 586
+Total Error : 0.00468153
+Output : 0.931554	0.00106693	0.931611	
+
+Epoch : 587
+Total Error : 0.00467595
+Output : 0.931595	0.001065	0.931652	
+
+Epoch : 588
+Total Error : 0.00467038
+Output : 0.931635	0.00106307	0.931693	
+
+Epoch : 589
+Total Error : 0.00466483
+Output : 0.931676	0.00106115	0.931733	
+
+Epoch : 590
+Total Error : 0.0046593
+Output : 0.931717	0.00105924	0.931773	
+
+Epoch : 591
+Total Error : 0.00465378
+Output : 0.931757	0.00105733	0.931814	
+
+Epoch : 592
+Total Error : 0.00464828
+Output : 0.931797	0.00105543	0.931854	
+
+Epoch : 593
+Total Error : 0.0046428
+Output : 0.931838	0.00105354	0.931894	
+
+Epoch : 594
+Total Error : 0.00463733
+Output : 0.931878	0.00105165	0.931934	
+
+Epoch : 595
+Total Error : 0.00463188
+Output : 0.931918	0.00104977	0.931974	
+
+Epoch : 596
+Total Error : 0.00462644
+Output : 0.931958	0.0010479	0.932014	
+
+Epoch : 597
+Total Error : 0.00462102
+Output : 0.931998	0.00104603	0.932054	
+
+Epoch : 598
+Total Error : 0.00461561
+Output : 0.932038	0.00104417	0.932094	
+
+Epoch : 599
+Total Error : 0.00461022
+Output : 0.932078	0.00104232	0.932133	
+
+Epoch : 600
+Total Error : 0.00460485
+Output : 0.932117	0.00104047	0.932173	
+
+Epoch : 601
+Total Error : 0.00459949
+Output : 0.932157	0.00103863	0.932212	
+
+Epoch : 602
+Total Error : 0.00459414
+Output : 0.932196	0.0010368	0.932252	
+
+Epoch : 603
+Total Error : 0.00458882
+Output : 0.932236	0.00103497	0.932291	
+
+Epoch : 604
+Total Error : 0.0045835
+Output : 0.932275	0.00103315	0.93233	
+
+Epoch : 605
+Total Error : 0.0045782
+Output : 0.932314	0.00103134	0.932369	
+
+Epoch : 606
+Total Error : 0.00457292
+Output : 0.932353	0.00102953	0.932408	
+
+Epoch : 607
+Total Error : 0.00456765
+Output : 0.932392	0.00102773	0.932447	
+
+Epoch : 608
+Total Error : 0.0045624
+Output : 0.932431	0.00102593	0.932486	
+
+Epoch : 609
+Total Error : 0.00455716
+Output : 0.93247	0.00102414	0.932524	
+
+Epoch : 610
+Total Error : 0.00455194
+Output : 0.932509	0.00102236	0.932563	
+
+Epoch : 611
+Total Error : 0.00454673
+Output : 0.932547	0.00102058	0.932602	
+
+Epoch : 612
+Total Error : 0.00454153
+Output : 0.932586	0.00101881	0.93264	
+
+Epoch : 613
+Total Error : 0.00453635
+Output : 0.932624	0.00101704	0.932678	
+
+Epoch : 614
+Total Error : 0.00453119
+Output : 0.932663	0.00101528	0.932717	
+
+Epoch : 615
+Total Error : 0.00452604
+Output : 0.932701	0.00101353	0.932755	
+
+Epoch : 616
+Total Error : 0.0045209
+Output : 0.932739	0.00101178	0.932793	
+
+Epoch : 617
+Total Error : 0.00451578
+Output : 0.932777	0.00101004	0.932831	
+
+Epoch : 618
+Total Error : 0.00451067
+Output : 0.932816	0.0010083	0.932869	
+
+Epoch : 619
+Total Error : 0.00450558
+Output : 0.932853	0.00100657	0.932907	
+
+Epoch : 620
+Total Error : 0.0045005
+Output : 0.932891	0.00100485	0.932945	
+
+Epoch : 621
+Total Error : 0.00449544
+Output : 0.932929	0.00100313	0.932982	
+
+Epoch : 622
+Total Error : 0.00449038
+Output : 0.932967	0.00100142	0.93302	
+
+Epoch : 623
+Total Error : 0.00448535
+Output : 0.933005	0.000999713	0.933057	
+
+Epoch : 624
+Total Error : 0.00448032
+Output : 0.933042	0.000998012	0.933095	
+
+Epoch : 625
+Total Error : 0.00447531
+Output : 0.93308	0.000996317	0.933132	
+
+Epoch : 626
+Total Error : 0.00447032
+Output : 0.933117	0.000994628	0.93317	
+
+Epoch : 627
+Total Error : 0.00446534
+Output : 0.933154	0.000992944	0.933207	
+
+Epoch : 628
+Total Error : 0.00446037
+Output : 0.933192	0.000991266	0.933244	
+
+Epoch : 629
+Total Error : 0.00445541
+Output : 0.933229	0.000989593	0.933281	
+
+Epoch : 630
+Total Error : 0.00445047
+Output : 0.933266	0.000987926	0.933318	
+
+Epoch : 631
+Total Error : 0.00444554
+Output : 0.933303	0.000986265	0.933355	
+
+Epoch : 632
+Total Error : 0.00444063
+Output : 0.93334	0.000984609	0.933392	
+
+Epoch : 633
+Total Error : 0.00443573
+Output : 0.933376	0.000982959	0.933428	
+
+Epoch : 634
+Total Error : 0.00443084
+Output : 0.933413	0.000981314	0.933465	
+
+Epoch : 635
+Total Error : 0.00442597
+Output : 0.93345	0.000979674	0.933501	
+
+Epoch : 636
+Total Error : 0.00442111
+Output : 0.933486	0.00097804	0.933538	
+
+Epoch : 637
+Total Error : 0.00441626
+Output : 0.933523	0.000976411	0.933574	
+
+Epoch : 638
+Total Error : 0.00441142
+Output : 0.933559	0.000974787	0.933611	
+
+Epoch : 639
+Total Error : 0.0044066
+Output : 0.933596	0.000973169	0.933647	
+
+Epoch : 640
+Total Error : 0.00440179
+Output : 0.933632	0.000971556	0.933683	
+
+Epoch : 641
+Total Error : 0.004397
+Output : 0.933668	0.000969949	0.933719	
+
+Epoch : 642
+Total Error : 0.00439221
+Output : 0.933704	0.000968347	0.933755	
+
+Epoch : 643
+Total Error : 0.00438744
+Output : 0.93374	0.000966749	0.933791	
+
+Epoch : 644
+Total Error : 0.00438269
+Output : 0.933776	0.000965158	0.933827	
+
+Epoch : 645
+Total Error : 0.00437794
+Output : 0.933812	0.000963571	0.933863	
+
+Epoch : 646
+Total Error : 0.00437321
+Output : 0.933848	0.000961989	0.933898	
+
+Epoch : 647
+Total Error : 0.00436849
+Output : 0.933884	0.000960413	0.933934	
+
+Epoch : 648
+Total Error : 0.00436378
+Output : 0.933919	0.000958841	0.93397	
+
+Epoch : 649
+Total Error : 0.00435909
+Output : 0.933955	0.000957275	0.934005	
+
+Epoch : 650
+Total Error : 0.00435441
+Output : 0.933991	0.000955714	0.934041	
+
+Epoch : 651
+Total Error : 0.00434974
+Output : 0.934026	0.000954157	0.934076	
+
+Epoch : 652
+Total Error : 0.00434508
+Output : 0.934061	0.000952606	0.934111	
+
+Epoch : 653
+Total Error : 0.00434043
+Output : 0.934097	0.00095106	0.934146	
+
+Epoch : 654
+Total Error : 0.0043358
+Output : 0.934132	0.000949519	0.934181	
+
+Epoch : 655
+Total Error : 0.00433118
+Output : 0.934167	0.000947982	0.934216	
+
+Epoch : 656
+Total Error : 0.00432657
+Output : 0.934202	0.000946451	0.934251	
+
+Epoch : 657
+Total Error : 0.00432197
+Output : 0.934237	0.000944924	0.934286	
+
+Epoch : 658
+Total Error : 0.00431739
+Output : 0.934272	0.000943402	0.934321	
+
+Epoch : 659
+Total Error : 0.00431282
+Output : 0.934307	0.000941885	0.934356	
+
+Epoch : 660
+Total Error : 0.00430826
+Output : 0.934342	0.000940373	0.934391	
+
+Epoch : 661
+Total Error : 0.00430371
+Output : 0.934376	0.000938866	0.934425	
+
+Epoch : 662
+Total Error : 0.00429917
+Output : 0.934411	0.000937363	0.93446	
+
+Epoch : 663
+Total Error : 0.00429465
+Output : 0.934445	0.000935865	0.934494	
+
+Epoch : 664
+Total Error : 0.00429013
+Output : 0.93448	0.000934372	0.934529	
+
+Epoch : 665
+Total Error : 0.00428563
+Output : 0.934514	0.000932884	0.934563	
+
+Epoch : 666
+Total Error : 0.00428114
+Output : 0.934549	0.0009314	0.934597	
+
+Epoch : 667
+Total Error : 0.00427666
+Output : 0.934583	0.000929921	0.934631	
+
+Epoch : 668
+Total Error : 0.00427219
+Output : 0.934617	0.000928446	0.934665	
+
+Epoch : 669
+Total Error : 0.00426774
+Output : 0.934651	0.000926977	0.934699	
+
+Epoch : 670
+Total Error : 0.00426329
+Output : 0.934685	0.000925511	0.934733	
+
+Epoch : 671
+Total Error : 0.00425886
+Output : 0.934719	0.000924051	0.934767	
+
+Epoch : 672
+Total Error : 0.00425444
+Output : 0.934753	0.000922595	0.934801	
+
+Epoch : 673
+Total Error : 0.00425003
+Output : 0.934787	0.000921143	0.934835	
+
+Epoch : 674
+Total Error : 0.00424563
+Output : 0.934821	0.000919696	0.934869	
+
+Epoch : 675
+Total Error : 0.00424124
+Output : 0.934855	0.000918253	0.934902	
+
+Epoch : 676
+Total Error : 0.00423687
+Output : 0.934888	0.000916815	0.934936	
+
+Epoch : 677
+Total Error : 0.0042325
+Output : 0.934922	0.000915381	0.934969	
+
+Epoch : 678
+Total Error : 0.00422815
+Output : 0.934955	0.000913952	0.935003	
+
+Epoch : 679
+Total Error : 0.0042238
+Output : 0.934989	0.000912527	0.935036	
+
+Epoch : 680
+Total Error : 0.00421947
+Output : 0.935022	0.000911107	0.935069	
+
+Epoch : 681
+Total Error : 0.00421515
+Output : 0.935055	0.00090969	0.935103	
+
+Epoch : 682
+Total Error : 0.00421084
+Output : 0.935089	0.000908279	0.935136	
+
+Epoch : 683
+Total Error : 0.00420654
+Output : 0.935122	0.000906871	0.935169	
+
+Epoch : 684
+Total Error : 0.00420225
+Output : 0.935155	0.000905468	0.935202	
+
+Epoch : 685
+Total Error : 0.00419797
+Output : 0.935188	0.000904069	0.935235	
+
+Epoch : 686
+Total Error : 0.00419371
+Output : 0.935221	0.000902674	0.935268	
+
+Epoch : 687
+Total Error : 0.00418945
+Output : 0.935254	0.000901284	0.9353	
+
+Epoch : 688
+Total Error : 0.0041852
+Output : 0.935287	0.000899898	0.935333	
+
+Epoch : 689
+Total Error : 0.00418097
+Output : 0.93532	0.000898516	0.935366	
+
+Epoch : 690
+Total Error : 0.00417674
+Output : 0.935352	0.000897138	0.935399	
+
+Epoch : 691
+Total Error : 0.00417253
+Output : 0.935385	0.000895764	0.935431	
+
+Epoch : 692
+Total Error : 0.00416832
+Output : 0.935417	0.000894395	0.935464	
+
+Epoch : 693
+Total Error : 0.00416413
+Output : 0.93545	0.00089303	0.935496	
+
+Epoch : 694
+Total Error : 0.00415995
+Output : 0.935482	0.000891668	0.935528	
+
+Epoch : 695
+Total Error : 0.00415578
+Output : 0.935515	0.000890311	0.935561	
+
+Epoch : 696
+Total Error : 0.00415161
+Output : 0.935547	0.000888958	0.935593	
+
+Epoch : 697
+Total Error : 0.00414746
+Output : 0.935579	0.000887609	0.935625	
+
+Epoch : 698
+Total Error : 0.00414332
+Output : 0.935612	0.000886264	0.935657	
+
+Epoch : 699
+Total Error : 0.00413919
+Output : 0.935644	0.000884923	0.935689	
+
+Epoch : 700
+Total Error : 0.00413507
+Output : 0.935676	0.000883586	0.935721	
+
+Epoch : 701
+Total Error : 0.00413095
+Output : 0.935708	0.000882253	0.935753	
+
+Epoch : 702
+Total Error : 0.00412685
+Output : 0.93574	0.000880924	0.935785	
+
+Epoch : 703
+Total Error : 0.00412276
+Output : 0.935772	0.000879599	0.935817	
+
+Epoch : 704
+Total Error : 0.00411868
+Output : 0.935804	0.000878278	0.935849	
+
+Epoch : 705
+Total Error : 0.00411461
+Output : 0.935835	0.000876961	0.93588	
+
+Epoch : 706
+Total Error : 0.00411055
+Output : 0.935867	0.000875648	0.935912	
+
+Epoch : 707
+Total Error : 0.0041065
+Output : 0.935899	0.000874338	0.935943	
+
+Epoch : 708
+Total Error : 0.00410245
+Output : 0.93593	0.000873033	0.935975	
+
+Epoch : 709
+Total Error : 0.00409842
+Output : 0.935962	0.000871731	0.936006	
+
+Epoch : 710
+Total Error : 0.0040944
+Output : 0.935993	0.000870433	0.936038	
+
+Epoch : 711
+Total Error : 0.00409039
+Output : 0.936025	0.000869139	0.936069	
+
+Epoch : 712
+Total Error : 0.00408638
+Output : 0.936056	0.000867849	0.9361	
+
+Epoch : 713
+Total Error : 0.00408239
+Output : 0.936087	0.000866563	0.936132	
+
+Epoch : 714
+Total Error : 0.00407841
+Output : 0.936118	0.00086528	0.936163	
+
+Epoch : 715
+Total Error : 0.00407443
+Output : 0.93615	0.000864001	0.936194	
+
+Epoch : 716
+Total Error : 0.00407047
+Output : 0.936181	0.000862726	0.936225	
+
+Epoch : 717
+Total Error : 0.00406651
+Output : 0.936212	0.000861454	0.936256	
+
+Epoch : 718
+Total Error : 0.00406257
+Output : 0.936243	0.000860186	0.936287	
+
+Epoch : 719
+Total Error : 0.00405863
+Output : 0.936274	0.000858922	0.936317	
+
+Epoch : 720
+Total Error : 0.00405471
+Output : 0.936304	0.000857662	0.936348	
+
+Epoch : 721
+Total Error : 0.00405079
+Output : 0.936335	0.000856405	0.936379	
+
+Epoch : 722
+Total Error : 0.00404688
+Output : 0.936366	0.000855152	0.93641	
+
+Epoch : 723
+Total Error : 0.00404298
+Output : 0.936397	0.000853902	0.93644	
+
+Epoch : 724
+Total Error : 0.00403909
+Output : 0.936427	0.000852656	0.936471	
+
+Epoch : 725
+Total Error : 0.00403521
+Output : 0.936458	0.000851414	0.936501	
+
+Epoch : 726
+Total Error : 0.00403134
+Output : 0.936488	0.000850175	0.936532	
+
+Epoch : 727
+Total Error : 0.00402748
+Output : 0.936519	0.00084894	0.936562	
+
+Epoch : 728
+Total Error : 0.00402363
+Output : 0.936549	0.000847708	0.936592	
+
+Epoch : 729
+Total Error : 0.00401978
+Output : 0.93658	0.00084648	0.936623	
+
+Epoch : 730
+Total Error : 0.00401595
+Output : 0.93661	0.000845255	0.936653	
+
+Epoch : 731
+Total Error : 0.00401212
+Output : 0.93664	0.000844034	0.936683	
+
+Epoch : 732
+Total Error : 0.0040083
+Output : 0.93667	0.000842816	0.936713	
+
+Epoch : 733
+Total Error : 0.0040045
+Output : 0.9367	0.000841602	0.936743	
+
+Epoch : 734
+Total Error : 0.0040007
+Output : 0.93673	0.000840391	0.936773	
+
+Epoch : 735
+Total Error : 0.00399691
+Output : 0.93676	0.000839184	0.936803	
+
+Epoch : 736
+Total Error : 0.00399313
+Output : 0.93679	0.00083798	0.936833	
+
+Epoch : 737
+Total Error : 0.00398935
+Output : 0.93682	0.000836779	0.936863	
+
+Epoch : 738
+Total Error : 0.00398559
+Output : 0.93685	0.000835582	0.936892	
+
+Epoch : 739
+Total Error : 0.00398184
+Output : 0.93688	0.000834389	0.936922	
+
+Epoch : 740
+Total Error : 0.00397809
+Output : 0.93691	0.000833198	0.936952	
+
+Epoch : 741
+Total Error : 0.00397435
+Output : 0.936939	0.000832011	0.936981	
+
+Epoch : 742
+Total Error : 0.00397062
+Output : 0.936969	0.000830827	0.937011	
+
+Epoch : 743
+Total Error : 0.0039669
+Output : 0.936998	0.000829647	0.93704	
+
+Epoch : 744
+Total Error : 0.00396319
+Output : 0.937028	0.00082847	0.93707	
+
+Epoch : 745
+Total Error : 0.00395949
+Output : 0.937057	0.000827296	0.937099	
+
+Epoch : 746
+Total Error : 0.00395579
+Output : 0.937087	0.000826126	0.937128	
+
+Epoch : 747
+Total Error : 0.00395211
+Output : 0.937116	0.000824959	0.937158	
+
+Epoch : 748
+Total Error : 0.00394843
+Output : 0.937145	0.000823795	0.937187	
+
+Epoch : 749
+Total Error : 0.00394476
+Output : 0.937175	0.000822634	0.937216	
+
+Epoch : 750
+Total Error : 0.0039411
+Output : 0.937204	0.000821477	0.937245	
+
+Epoch : 751
+Total Error : 0.00393745
+Output : 0.937233	0.000820322	0.937274	
+
+Epoch : 752
+Total Error : 0.0039338
+Output : 0.937262	0.000819171	0.937303	
+
+Epoch : 753
+Total Error : 0.00393017
+Output : 0.937291	0.000818023	0.937332	
+
+Epoch : 754
+Total Error : 0.00392654
+Output : 0.93732	0.000816879	0.937361	
+
+Epoch : 755
+Total Error : 0.00392292
+Output : 0.937349	0.000815737	0.93739	
+
+Epoch : 756
+Total Error : 0.00391931
+Output : 0.937378	0.000814599	0.937419	
+
+Epoch : 757
+Total Error : 0.00391571
+Output : 0.937407	0.000813464	0.937448	
+
+Epoch : 758
+Total Error : 0.00391211
+Output : 0.937435	0.000812331	0.937476	
+
+Epoch : 759
+Total Error : 0.00390853
+Output : 0.937464	0.000811202	0.937505	
+
+Epoch : 760
+Total Error : 0.00390495
+Output : 0.937493	0.000810077	0.937533	
+
+Epoch : 761
+Total Error : 0.00390138
+Output : 0.937521	0.000808954	0.937562	
+
+Epoch : 762
+Total Error : 0.00389782
+Output : 0.93755	0.000807834	0.93759	
+
+Epoch : 763
+Total Error : 0.00389426
+Output : 0.937578	0.000806717	0.937619	
+
+Epoch : 764
+Total Error : 0.00389072
+Output : 0.937607	0.000805604	0.937647	
+
+Epoch : 765
+Total Error : 0.00388718
+Output : 0.937635	0.000804493	0.937676	
+
+Epoch : 766
+Total Error : 0.00388365
+Output : 0.937664	0.000803385	0.937704	
+
+Epoch : 767
+Total Error : 0.00388012
+Output : 0.937692	0.000802281	0.937732	
+
+Epoch : 768
+Total Error : 0.00387661
+Output : 0.93772	0.000801179	0.93776	
+
+Epoch : 769
+Total Error : 0.0038731
+Output : 0.937748	0.000800081	0.937788	
+
+Epoch : 770
+Total Error : 0.0038696
+Output : 0.937776	0.000798985	0.937816	
+
+Epoch : 771
+Total Error : 0.00386611
+Output : 0.937805	0.000797892	0.937844	
+
+Epoch : 772
+Total Error : 0.00386263
+Output : 0.937833	0.000796803	0.937872	
+
+Epoch : 773
+Total Error : 0.00385915
+Output : 0.937861	0.000795716	0.9379	
+
+Epoch : 774
+Total Error : 0.00385569
+Output : 0.937888	0.000794632	0.937928	
+
+Epoch : 775
+Total Error : 0.00385223
+Output : 0.937916	0.000793551	0.937956	
+
+Epoch : 776
+Total Error : 0.00384877
+Output : 0.937944	0.000792473	0.937984	
+
+Epoch : 777
+Total Error : 0.00384533
+Output : 0.937972	0.000791398	0.938012	
+
+Epoch : 778
+Total Error : 0.00384189
+Output : 0.938	0.000790326	0.938039	
+
+Epoch : 779
+Total Error : 0.00383846
+Output : 0.938027	0.000789256	0.938067	
+
+Epoch : 780
+Total Error : 0.00383504
+Output : 0.938055	0.00078819	0.938095	
+
+Epoch : 781
+Total Error : 0.00383162
+Output : 0.938083	0.000787126	0.938122	
+
+Epoch : 782
+Total Error : 0.00382822
+Output : 0.93811	0.000786065	0.93815	
+
+Epoch : 783
+Total Error : 0.00382482
+Output : 0.938138	0.000785007	0.938177	
+
+Epoch : 784
+Total Error : 0.00382142
+Output : 0.938165	0.000783952	0.938204	
+
+Epoch : 785
+Total Error : 0.00381804
+Output : 0.938193	0.0007829	0.938232	
+
+Epoch : 786
+Total Error : 0.00381466
+Output : 0.93822	0.00078185	0.938259	
+
+Epoch : 787
+Total Error : 0.00381129
+Output : 0.938247	0.000780803	0.938286	
+
+Epoch : 788
+Total Error : 0.00380793
+Output : 0.938275	0.000779759	0.938313	
+
+Epoch : 789
+Total Error : 0.00380457
+Output : 0.938302	0.000778718	0.938341	
+
+Epoch : 790
+Total Error : 0.00380122
+Output : 0.938329	0.000777679	0.938368	
+
+Epoch : 791
+Total Error : 0.00379788
+Output : 0.938356	0.000776643	0.938395	
+
+Epoch : 792
+Total Error : 0.00379455
+Output : 0.938383	0.00077561	0.938422	
+
+Epoch : 793
+Total Error : 0.00379122
+Output : 0.93841	0.00077458	0.938449	
+
+Epoch : 794
+Total Error : 0.0037879
+Output : 0.938437	0.000773552	0.938476	
+
+Epoch : 795
+Total Error : 0.00378459
+Output : 0.938464	0.000772527	0.938503	
+
+Epoch : 796
+Total Error : 0.00378129
+Output : 0.938491	0.000771505	0.938529	
+
+Epoch : 797
+Total Error : 0.00377799
+Output : 0.938518	0.000770485	0.938556	
+
+Epoch : 798
+Total Error : 0.0037747
+Output : 0.938545	0.000769468	0.938583	
+
+Epoch : 799
+Total Error : 0.00377141
+Output : 0.938571	0.000768454	0.93861	
+
+Epoch : 800
+Total Error : 0.00376814
+Output : 0.938598	0.000767442	0.938636	
+
+Epoch : 801
+Total Error : 0.00376487
+Output : 0.938625	0.000766433	0.938663	
+
+Epoch : 802
+Total Error : 0.0037616
+Output : 0.938651	0.000765427	0.938689	
+
+Epoch : 803
+Total Error : 0.00375835
+Output : 0.938678	0.000764423	0.938716	
+
+Epoch : 804
+Total Error : 0.0037551
+Output : 0.938705	0.000763421	0.938742	
+
+Epoch : 805
+Total Error : 0.00375186
+Output : 0.938731	0.000762423	0.938769	
+
+Epoch : 806
+Total Error : 0.00374862
+Output : 0.938758	0.000761427	0.938795	
+
+Epoch : 807
+Total Error : 0.00374539
+Output : 0.938784	0.000760433	0.938822	
+
+Epoch : 808
+Total Error : 0.00374217
+Output : 0.93881	0.000759442	0.938848	
+
+Epoch : 809
+Total Error : 0.00373896
+Output : 0.938837	0.000758454	0.938874	
+
+Epoch : 810
+Total Error : 0.00373575
+Output : 0.938863	0.000757468	0.9389	
+
+Epoch : 811
+Total Error : 0.00373255
+Output : 0.938889	0.000756485	0.938926	
+
+Epoch : 812
+Total Error : 0.00372936
+Output : 0.938915	0.000755504	0.938953	
+
+Epoch : 813
+Total Error : 0.00372617
+Output : 0.938941	0.000754526	0.938979	
+
+Epoch : 814
+Total Error : 0.00372299
+Output : 0.938967	0.00075355	0.939005	
+
+Epoch : 815
+Total Error : 0.00371981
+Output : 0.938993	0.000752577	0.939031	
+
+Epoch : 816
+Total Error : 0.00371665
+Output : 0.939019	0.000751606	0.939057	
+
+Epoch : 817
+Total Error : 0.00371349
+Output : 0.939045	0.000750637	0.939082	
+
+Epoch : 818
+Total Error : 0.00371033
+Output : 0.939071	0.000749672	0.939108	
+
+Epoch : 819
+Total Error : 0.00370718
+Output : 0.939097	0.000748708	0.939134	
+
+Epoch : 820
+Total Error : 0.00370404
+Output : 0.939123	0.000747747	0.93916	
+
+Epoch : 821
+Total Error : 0.00370091
+Output : 0.939149	0.000746789	0.939186	
+
+Epoch : 822
+Total Error : 0.00369778
+Output : 0.939175	0.000745832	0.939211	
+
+Epoch : 823
+Total Error : 0.00369466
+Output : 0.9392	0.000744879	0.939237	
+
+Epoch : 824
+Total Error : 0.00369155
+Output : 0.939226	0.000743928	0.939263	
+
+Epoch : 825
+Total Error : 0.00368844
+Output : 0.939251	0.000742979	0.939288	
+
+Epoch : 826
+Total Error : 0.00368534
+Output : 0.939277	0.000742032	0.939314	
+
+Epoch : 827
+Total Error : 0.00368224
+Output : 0.939303	0.000741088	0.939339	
+
+Epoch : 828
+Total Error : 0.00367915
+Output : 0.939328	0.000740146	0.939364	
+
+Epoch : 829
+Total Error : 0.00367607
+Output : 0.939354	0.000739207	0.93939	
+
+Epoch : 830
+Total Error : 0.00367299
+Output : 0.939379	0.00073827	0.939415	
+
+Epoch : 831
+Total Error : 0.00366992
+Output : 0.939404	0.000737335	0.93944	
+
+Epoch : 832
+Total Error : 0.00366686
+Output : 0.93943	0.000736403	0.939466	
+
+Epoch : 833
+Total Error : 0.0036638
+Output : 0.939455	0.000735473	0.939491	
+
+Epoch : 834
+Total Error : 0.00366075
+Output : 0.93948	0.000734545	0.939516	
+
+Epoch : 835
+Total Error : 0.00365771
+Output : 0.939505	0.00073362	0.939541	
+
+Epoch : 836
+Total Error : 0.00365467
+Output : 0.93953	0.000732697	0.939566	
+
+Epoch : 837
+Total Error : 0.00365163
+Output : 0.939556	0.000731776	0.939591	
+
+Epoch : 838
+Total Error : 0.00364861
+Output : 0.939581	0.000730857	0.939616	
+
+Epoch : 839
+Total Error : 0.00364559
+Output : 0.939606	0.000729941	0.939641	
+
+Epoch : 840
+Total Error : 0.00364258
+Output : 0.939631	0.000729027	0.939666	
+
+Epoch : 841
+Total Error : 0.00363957
+Output : 0.939656	0.000728116	0.939691	
+
+Epoch : 842
+Total Error : 0.00363657
+Output : 0.93968	0.000727206	0.939716	
+
+Epoch : 843
+Total Error : 0.00363357
+Output : 0.939705	0.000726299	0.939741	
+
+Epoch : 844
+Total Error : 0.00363058
+Output : 0.93973	0.000725394	0.939766	
+
+Epoch : 845
+Total Error : 0.0036276
+Output : 0.939755	0.000724491	0.93979	
+
+Epoch : 846
+Total Error : 0.00362462
+Output : 0.93978	0.000723591	0.939815	
+
+Epoch : 847
+Total Error : 0.00362165
+Output : 0.939804	0.000722693	0.93984	
+
+Epoch : 848
+Total Error : 0.00361869
+Output : 0.939829	0.000721796	0.939864	
+
+Epoch : 849
+Total Error : 0.00361573
+Output : 0.939854	0.000720903	0.939889	
+
+Epoch : 850
+Total Error : 0.00361277
+Output : 0.939878	0.000720011	0.939913	
+
+Epoch : 851
+Total Error : 0.00360983
+Output : 0.939903	0.000719121	0.939938	
+
+Epoch : 852
+Total Error : 0.00360688
+Output : 0.939927	0.000718234	0.939962	
+
+Epoch : 853
+Total Error : 0.00360395
+Output : 0.939952	0.000717349	0.939987	
+
+Epoch : 854
+Total Error : 0.00360102
+Output : 0.939976	0.000716466	0.940011	
+
+Epoch : 855
+Total Error : 0.0035981
+Output : 0.940001	0.000715585	0.940035	
+
+Epoch : 856
+Total Error : 0.00359518
+Output : 0.940025	0.000714706	0.94006	
+
+Epoch : 857
+Total Error : 0.00359227
+Output : 0.940049	0.000713829	0.940084	
+
+Epoch : 858
+Total Error : 0.00358936
+Output : 0.940073	0.000712955	0.940108	
+
+Epoch : 859
+Total Error : 0.00358646
+Output : 0.940098	0.000712083	0.940132	
+
+Epoch : 860
+Total Error : 0.00358356
+Output : 0.940122	0.000711212	0.940157	
+
+Epoch : 861
+Total Error : 0.00358068
+Output : 0.940146	0.000710344	0.940181	
+
+Epoch : 862
+Total Error : 0.00357779
+Output : 0.94017	0.000709478	0.940205	
+
+Epoch : 863
+Total Error : 0.00357492
+Output : 0.940194	0.000708614	0.940229	
+
+Epoch : 864
+Total Error : 0.00357204
+Output : 0.940218	0.000707752	0.940253	
+
+Epoch : 865
+Total Error : 0.00356918
+Output : 0.940242	0.000706892	0.940277	
+
+Epoch : 866
+Total Error : 0.00356632
+Output : 0.940266	0.000706035	0.940301	
+
+Epoch : 867
+Total Error : 0.00356346
+Output : 0.94029	0.000705179	0.940324	
+
+Epoch : 868
+Total Error : 0.00356061
+Output : 0.940314	0.000704325	0.940348	
+
+Epoch : 869
+Total Error : 0.00355777
+Output : 0.940338	0.000703474	0.940372	
+
+Epoch : 870
+Total Error : 0.00355493
+Output : 0.940362	0.000702624	0.940396	
+
+Epoch : 871
+Total Error : 0.0035521
+Output : 0.940386	0.000701776	0.94042	
+
+Epoch : 872
+Total Error : 0.00354927
+Output : 0.940409	0.000700931	0.940443	
+
+Epoch : 873
+Total Error : 0.00354645
+Output : 0.940433	0.000700087	0.940467	
+
+Epoch : 874
+Total Error : 0.00354364
+Output : 0.940457	0.000699246	0.940491	
+
+Epoch : 875
+Total Error : 0.00354083
+Output : 0.94048	0.000698406	0.940514	
+
+Epoch : 876
+Total Error : 0.00353802
+Output : 0.940504	0.000697569	0.940538	
+
+Epoch : 877
+Total Error : 0.00353522
+Output : 0.940527	0.000696733	0.940561	
+
+Epoch : 878
+Total Error : 0.00353243
+Output : 0.940551	0.0006959	0.940585	
+
+Epoch : 879
+Total Error : 0.00352964
+Output : 0.940574	0.000695068	0.940608	
+
+Epoch : 880
+Total Error : 0.00352686
+Output : 0.940598	0.000694238	0.940631	
+
+Epoch : 881
+Total Error : 0.00352408
+Output : 0.940621	0.000693411	0.940655	
+
+Epoch : 882
+Total Error : 0.00352131
+Output : 0.940645	0.000692585	0.940678	
+
+Epoch : 883
+Total Error : 0.00351854
+Output : 0.940668	0.000691761	0.940701	
+
+Epoch : 884
+Total Error : 0.00351578
+Output : 0.940691	0.000690939	0.940725	
+
+Epoch : 885
+Total Error : 0.00351303
+Output : 0.940715	0.000690119	0.940748	
+
+Epoch : 886
+Total Error : 0.00351028
+Output : 0.940738	0.000689301	0.940771	
+
+Epoch : 887
+Total Error : 0.00350753
+Output : 0.940761	0.000688485	0.940794	
+
+Epoch : 888
+Total Error : 0.00350479
+Output : 0.940784	0.000687671	0.940817	
+
+Epoch : 889
+Total Error : 0.00350206
+Output : 0.940807	0.000686859	0.94084	
+
+Epoch : 890
+Total Error : 0.00349933
+Output : 0.94083	0.000686048	0.940863	
+
+Epoch : 891
+Total Error : 0.0034966
+Output : 0.940853	0.00068524	0.940886	
+
+Epoch : 892
+Total Error : 0.00349388
+Output : 0.940876	0.000684433	0.940909	
+
+Epoch : 893
+Total Error : 0.00349117
+Output : 0.940899	0.000683629	0.940932	
+
+Epoch : 894
+Total Error : 0.00348846
+Output : 0.940922	0.000682826	0.940955	
+
+Epoch : 895
+Total Error : 0.00348576
+Output : 0.940945	0.000682025	0.940978	
+
+Epoch : 896
+Total Error : 0.00348306
+Output : 0.940968	0.000681226	0.941001	
+
+Epoch : 897
+Total Error : 0.00348037
+Output : 0.940991	0.000680428	0.941024	
+
+Epoch : 898
+Total Error : 0.00347768
+Output : 0.941014	0.000679633	0.941046	
+
+Epoch : 899
+Total Error : 0.003475
+Output : 0.941037	0.000678839	0.941069	
+
+Epoch : 900
+Total Error : 0.00347232
+Output : 0.941059	0.000678047	0.941092	
+
+Epoch : 901
+Total Error : 0.00346965
+Output : 0.941082	0.000677257	0.941115	
+
+Epoch : 902
+Total Error : 0.00346698
+Output : 0.941105	0.000676469	0.941137	
+
+Epoch : 903
+Total Error : 0.00346432
+Output : 0.941127	0.000675683	0.94116	
+
+Epoch : 904
+Total Error : 0.00346166
+Output : 0.94115	0.000674899	0.941182	
+
+Epoch : 905
+Total Error : 0.00345901
+Output : 0.941172	0.000674116	0.941205	
+
+Epoch : 906
+Total Error : 0.00345636
+Output : 0.941195	0.000673335	0.941227	
+
+Epoch : 907
+Total Error : 0.00345372
+Output : 0.941217	0.000672556	0.94125	
+
+Epoch : 908
+Total Error : 0.00345108
+Output : 0.94124	0.000671778	0.941272	
+
+Epoch : 909
+Total Error : 0.00344845
+Output : 0.941262	0.000671003	0.941295	
+
+Epoch : 910
+Total Error : 0.00344582
+Output : 0.941285	0.000670229	0.941317	
+
+Epoch : 911
+Total Error : 0.0034432
+Output : 0.941307	0.000669457	0.941339	
+
+Epoch : 912
+Total Error : 0.00344058
+Output : 0.941329	0.000668687	0.941361	
+
+Epoch : 913
+Total Error : 0.00343797
+Output : 0.941352	0.000667918	0.941384	
+
+Epoch : 914
+Total Error : 0.00343536
+Output : 0.941374	0.000667151	0.941406	
+
+Epoch : 915
+Total Error : 0.00343276
+Output : 0.941396	0.000666386	0.941428	
+
+Epoch : 916
+Total Error : 0.00343016
+Output : 0.941418	0.000665623	0.94145	
+
+Epoch : 917
+Total Error : 0.00342756
+Output : 0.941441	0.000664861	0.941472	
+
+Epoch : 918
+Total Error : 0.00342498
+Output : 0.941463	0.000664102	0.941494	
+
+Epoch : 919
+Total Error : 0.00342239
+Output : 0.941485	0.000663343	0.941517	
+
+Epoch : 920
+Total Error : 0.00341981
+Output : 0.941507	0.000662587	0.941539	
+
+Epoch : 921
+Total Error : 0.00341724
+Output : 0.941529	0.000661832	0.941561	
+
+Epoch : 922
+Total Error : 0.00341467
+Output : 0.941551	0.000661079	0.941582	
+
+Epoch : 923
+Total Error : 0.00341211
+Output : 0.941573	0.000660328	0.941604	
+
+Epoch : 924
+Total Error : 0.00340955
+Output : 0.941595	0.000659578	0.941626	
+
+Epoch : 925
+Total Error : 0.00340699
+Output : 0.941617	0.00065883	0.941648	
+
+Epoch : 926
+Total Error : 0.00340444
+Output : 0.941639	0.000658084	0.94167	
+
+Epoch : 927
+Total Error : 0.0034019
+Output : 0.94166	0.000657339	0.941692	
+
+Epoch : 928
+Total Error : 0.00339936
+Output : 0.941682	0.000656596	0.941714	
+
+Epoch : 929
+Total Error : 0.00339682
+Output : 0.941704	0.000655855	0.941735	
+
+Epoch : 930
+Total Error : 0.00339429
+Output : 0.941726	0.000655116	0.941757	
+
+Epoch : 931
+Total Error : 0.00339176
+Output : 0.941747	0.000654378	0.941779	
+
+Epoch : 932
+Total Error : 0.00338924
+Output : 0.941769	0.000653641	0.9418	
+
+Epoch : 933
+Total Error : 0.00338672
+Output : 0.941791	0.000652906	0.941822	
+
+Epoch : 934
+Total Error : 0.00338421
+Output : 0.941812	0.000652173	0.941843	
+
+Epoch : 935
+Total Error : 0.0033817
+Output : 0.941834	0.000651442	0.941865	
+
+Epoch : 936
+Total Error : 0.0033792
+Output : 0.941855	0.000650712	0.941886	
+
+Epoch : 937
+Total Error : 0.0033767
+Output : 0.941877	0.000649984	0.941908	
+
+Epoch : 938
+Total Error : 0.0033742
+Output : 0.941898	0.000649257	0.941929	
+
+Epoch : 939
+Total Error : 0.00337171
+Output : 0.94192	0.000648532	0.941951	
+
+Epoch : 940
+Total Error : 0.00336923
+Output : 0.941941	0.000647809	0.941972	
+
+Epoch : 941
+Total Error : 0.00336675
+Output : 0.941963	0.000647087	0.941994	
+
+Epoch : 942
+Total Error : 0.00336427
+Output : 0.941984	0.000646367	0.942015	
+
+Epoch : 943
+Total Error : 0.0033618
+Output : 0.942005	0.000645648	0.942036	
+
+Epoch : 944
+Total Error : 0.00335933
+Output : 0.942027	0.000644931	0.942057	
+
+Epoch : 945
+Total Error : 0.00335687
+Output : 0.942048	0.000644216	0.942079	
+
+Epoch : 946
+Total Error : 0.00335441
+Output : 0.942069	0.000643502	0.9421	
+
+Epoch : 947
+Total Error : 0.00335195
+Output : 0.94209	0.00064279	0.942121	
+
+Epoch : 948
+Total Error : 0.0033495
+Output : 0.942112	0.000642079	0.942142	
+
+Epoch : 949
+Total Error : 0.00334706
+Output : 0.942133	0.00064137	0.942163	
+
+Epoch : 950
+Total Error : 0.00334462
+Output : 0.942154	0.000640662	0.942184	
+
+Epoch : 951
+Total Error : 0.00334218
+Output : 0.942175	0.000639956	0.942205	
+
+Epoch : 952
+Total Error : 0.00333975
+Output : 0.942196	0.000639251	0.942226	
+
+Epoch : 953
+Total Error : 0.00333732
+Output : 0.942217	0.000638548	0.942247	
+
+Epoch : 954
+Total Error : 0.0033349
+Output : 0.942238	0.000637847	0.942268	
+
+Epoch : 955
+Total Error : 0.00333248
+Output : 0.942259	0.000637147	0.942289	
+
+Epoch : 956
+Total Error : 0.00333007
+Output : 0.94228	0.000636448	0.94231	
+
+Epoch : 957
+Total Error : 0.00332765
+Output : 0.942301	0.000635751	0.942331	
+
+Epoch : 958
+Total Error : 0.00332525
+Output : 0.942322	0.000635056	0.942352	
+
+Epoch : 959
+Total Error : 0.00332285
+Output : 0.942343	0.000634362	0.942373	
+
+Epoch : 960
+Total Error : 0.00332045
+Output : 0.942363	0.000633669	0.942393	
+
+Epoch : 961
+Total Error : 0.00331806
+Output : 0.942384	0.000632978	0.942414	
+
+Epoch : 962
+Total Error : 0.00331567
+Output : 0.942405	0.000632289	0.942435	
+
+Epoch : 963
+Total Error : 0.00331328
+Output : 0.942426	0.000631601	0.942456	
+
+Epoch : 964
+Total Error : 0.0033109
+Output : 0.942446	0.000630914	0.942476	
+
+Epoch : 965
+Total Error : 0.00330853
+Output : 0.942467	0.000630229	0.942497	
+
+Epoch : 966
+Total Error : 0.00330615
+Output : 0.942488	0.000629546	0.942517	
+
+Epoch : 967
+Total Error : 0.00330379
+Output : 0.942508	0.000628864	0.942538	
+
+Epoch : 968
+Total Error : 0.00330142
+Output : 0.942529	0.000628183	0.942559	
+
+Epoch : 969
+Total Error : 0.00329906
+Output : 0.942549	0.000627504	0.942579	
+
+Epoch : 970
+Total Error : 0.00329671
+Output : 0.94257	0.000626826	0.9426	
+
+Epoch : 971
+Total Error : 0.00329436
+Output : 0.94259	0.00062615	0.94262	
+
+Epoch : 972
+Total Error : 0.00329201
+Output : 0.942611	0.000625475	0.94264	
+
+Epoch : 973
+Total Error : 0.00328967
+Output : 0.942631	0.000624801	0.942661	
+
+Epoch : 974
+Total Error : 0.00328733
+Output : 0.942652	0.000624129	0.942681	
+
+Epoch : 975
+Total Error : 0.00328499
+Output : 0.942672	0.000623459	0.942702	
+
+Epoch : 976
+Total Error : 0.00328266
+Output : 0.942693	0.00062279	0.942722	
+
+Epoch : 977
+Total Error : 0.00328033
+Output : 0.942713	0.000622122	0.942742	
+
+Epoch : 978
+Total Error : 0.00327801
+Output : 0.942733	0.000621456	0.942762	
+
+Epoch : 979
+Total Error : 0.00327569
+Output : 0.942753	0.000620791	0.942783	
+
+Epoch : 980
+Total Error : 0.00327338
+Output : 0.942774	0.000620128	0.942803	
+
+Epoch : 981
+Total Error : 0.00327107
+Output : 0.942794	0.000619465	0.942823	
+
+Epoch : 982
+Total Error : 0.00326876
+Output : 0.942814	0.000618805	0.942843	
+
+Epoch : 983
+Total Error : 0.00326646
+Output : 0.942834	0.000618146	0.942863	
+
+Epoch : 984
+Total Error : 0.00326416
+Output : 0.942854	0.000617488	0.942883	
+
+Epoch : 985
+Total Error : 0.00326187
+Output : 0.942874	0.000616831	0.942903	
+
+Epoch : 986
+Total Error : 0.00325958
+Output : 0.942895	0.000616176	0.942923	
+
+Epoch : 987
+Total Error : 0.00325729
+Output : 0.942915	0.000615522	0.942943	
+
+Epoch : 988
+Total Error : 0.00325501
+Output : 0.942935	0.00061487	0.942963	
+
+Epoch : 989
+Total Error : 0.00325273
+Output : 0.942955	0.000614219	0.942983	
+
+Epoch : 990
+Total Error : 0.00325045
+Output : 0.942975	0.000613569	0.943003	
+
+Epoch : 991
+Total Error : 0.00324818
+Output : 0.942994	0.000612921	0.943023	
+
+Epoch : 992
+Total Error : 0.00324592
+Output : 0.943014	0.000612274	0.943043	
+
+Epoch : 993
+Total Error : 0.00324365
+Output : 0.943034	0.000611628	0.943063	
+
+Epoch : 994
+Total Error : 0.0032414
+Output : 0.943054	0.000610984	0.943083	
+
+Epoch : 995
+Total Error : 0.00323914
+Output : 0.943074	0.000610341	0.943102	
+
+Epoch : 996
+Total Error : 0.00323689
+Output : 0.943094	0.0006097	0.943122	
+
+Epoch : 997
+Total Error : 0.00323464
+Output : 0.943113	0.00060906	0.943142	
+
+Epoch : 998
+Total Error : 0.0032324
+Output : 0.943133	0.000608421	0.943162	
+
+Epoch : 999
+Total Error : 0.00323016
+Output : 0.943153	0.000607783	0.943181	
+

@@ -4,7 +4,7 @@
 #include "../include/Matrix.h"
 #include "../include/NeuralNetwork.h"
 #define PerfMode 0
-using namespace std; 
+using namespace std;
 using namespace chrono;
 
 
@@ -19,14 +19,16 @@ int main(int Argc,char **Argv){
     nn.setCurrentInput(input);
     nn.setCurrentTarget(input); 
     // Training process 
-    for(int i =0;i<10000;i++){
-        cout<<"Epoch : "<<i<<"\n";
+    int epochs = 1000;
+    for(int i =0;i<epochs;i++){
+        cout<<i<<" ";
         nn.feedForwad();
         nn.setErrors();
-        cout<<"Total error : "<<nn.getTotalError()<<"\n";
+        double totalErr = nn.getTotalError();
+        cout<<totalErr<<"\n";
         nn.backpropagation();
-        cout<<"Output : "<<"\n";
-        nn.printTargetToConsole();
+        //cout<<"Output : ";
+        //nn.printTargetToConsole();
     }
     #if PerfMode
         auto stop = high_resolution_clock::now();

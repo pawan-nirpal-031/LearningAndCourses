@@ -32,21 +32,15 @@ vector
 math.h
 -
 
-/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/infrastructure/utils/MatrixArithmatic.h
-iostream
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/src/main.cpp
+chrono
 -
-vector
+iomanip
 -
-assert.h
--
-../../include/Matrix.h
+../include/Neuron.h
+/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/Neuron.h
+../include/Matrix.h
 /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/Matrix.h
-
-/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/src/NeuralNetwork.cpp
 ../include/NeuralNetwork.h
 /home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/include/NeuralNetwork.h
-../infrastructure/utils/MatrixArithmatic.h
-/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/infrastructure/utils/MatrixArithmatic.h
-assert.h
--
 

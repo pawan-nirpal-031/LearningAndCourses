@@ -38,26 +38,26 @@ double Layer::getNeuronDerivedValue(int Indx){
     return neuronsList[Indx]->getDerivedValue();
 }
 
-Matrix Layer::matrixifyValues(){
-    Matrix Mat(1,this->getNumberOfNeurons(),0);
+Matrix* Layer::matrixifyValues(){
+    Matrix *Mat = new Matrix(1,this->getNumberOfNeurons(),0);
     for(int i =0;i<size;i++){
-        Mat.setValue(0,i,this->getNeuronValue(i));
+        Mat->setValue(0,i,this->getNeuronValue(i));
     }
     return Mat;
 }
 
-Matrix Layer::matrixifyActivatedValues(){
-    Matrix Mat(1,this->getNumberOfNeurons(),0);
+Matrix* Layer::matrixifyActivatedValues(){
+    Matrix *Mat = new Matrix(1,this->getNumberOfNeurons(),0);
     for(int i =0;i<size;i++){
-        Mat.setValue(0,i,this->getNeuronActivatedValue(i));
+        Mat->setValue(0,i,this->getNeuronActivatedValue(i));
     }
     return Mat;
 }
 
-Matrix Layer::matrixifyDerivedValues(){
-    Matrix Mat(1,this->getNumberOfNeurons(),0);
+Matrix* Layer::matrixifyDerivedValues(){
+    Matrix *Mat = new Matrix(1,this->getNumberOfNeurons(),0);
     for(int i =0;i<size;i++){
-        Mat.setValue(0,i,this->getNeuronDerivedValue(i));
+        Mat->setValue(0,i,this->getNeuronDerivedValue(i));
     }
     return Mat;
 }

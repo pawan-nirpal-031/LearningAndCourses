@@ -17,12 +17,15 @@ int main(int Argc,char **Argv){
     vector<int>topology = {3,2,3};
     NeuralNetwork nn(topology);
     nn.setCurrentInput(input);
-    // such a nn that tries to learn its input is called autoencoder nn
     nn.setCurrentTarget(input); 
-    nn.feedForwad();
-    nn.setErrors();
-    nn.printToConsole();
-    nn.backpropagation();
+    // Training process 
+    for(int i =0;i<200000;i++){
+        cout<<"Epoch : "<<i<<" ";
+        nn.feedForwad();
+        nn.setErrors();
+        cout<<"Total error : "<<nn.getTotalError()<<"\n";
+        nn.backpropagation();
+    }
     #if PerfMode
         auto stop = high_resolution_clock::now();
         double time_taken =duration_cast<nanoseconds>(stop - start).count();

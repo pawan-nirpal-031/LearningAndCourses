@@ -17,9 +17,9 @@ public:
     double getNeuronActivatedValue(int i);
     double getNeuronDerivedValue(int i);
     // represnts the layer Values in a Matrix form
-    Matrix matrixifyValues();
-    Matrix matrixifyActivatedValues();
-    Matrix matrixifyDerivedValues();
+    Matrix* matrixifyValues();
+    Matrix* matrixifyActivatedValues();
+    Matrix* matrixifyDerivedValues();
     vector<Neuron*>& getNeuronList();
     void setNeuronList(vector<Neuron*> &inputList);
     int getNumberOfNeurons(){

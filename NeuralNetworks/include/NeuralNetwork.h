@@ -28,10 +28,10 @@ public:
     void printToConsole();
     void feedForwad();
     void backpropagation();
-    Matrix getNeuronMatrix(int Indx);
-    Matrix getActivatedNeuronMatrix(int Indx);
-    Matrix getDerivedNeuronMatrix(int Indx);
-    Matrix getWeightMatrix(int Indx);
+    Matrix *getNeuronMatrix(int Indx);
+    Matrix *getActivatedNeuronMatrix(int Indx);
+    Matrix *getDerivedNeuronMatrix(int Indx);
+    Matrix *getWeightMatrix(int Indx);
     void setNeuronValue(int layerIndx,int neuronIndx,double Val);
     double getTotalError(){ return this->Error;}
     vector<double> &getErrorVector(){ return this->Errors;}

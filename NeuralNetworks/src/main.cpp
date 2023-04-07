@@ -19,20 +19,16 @@ int main(int Argc,char **Argv){
     nn.setCurrentInput(input);
     nn.setCurrentTarget(input); 
     // Training process 
-    int epochs = 100000;
-    vector<int> NumEpochs(epochs);
-    vector<double> ErrorPlot(epochs);
+    int epochs = 1000;
     for(int i =0;i<epochs;i++){
         cout<<i<<" ";
         nn.feedForwad();
         nn.setErrors();
-        NumEpochs[i] = i;
         double totalErr = nn.getTotalError();
-        ErrorPlot.push_back(totalErr);
         cout<<totalErr<<"\n";
         nn.backpropagation();
-        //cout<<"Output : "<<"\n";
-       // nn.printTargetToConsole();
+        //cout<<"Output : ";
+        //nn.printTargetToConsole();
     }
     #if PerfMode
         auto stop = high_resolution_clock::now();

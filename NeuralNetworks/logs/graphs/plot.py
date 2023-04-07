@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt 
 
-file = open('logs/training/plotLogs')
+file = open('logs/training/log3.log')
 
 x = []
 y = []
@@ -14,4 +14,4 @@ for line in file:
     y.append(float(tup[1]))
 
 plt.plot(x,y)
-plt.savefig('/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/logs/graphs/training.png')
+plt.savefig('/home/pnirpal/Workspace/Learning/Courses/NeuralNetworks/logs/graphs/training3.png')

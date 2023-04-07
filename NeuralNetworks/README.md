@@ -1,8 +1,3 @@
-coding style : 
-    functionName 
-    ClassName 
-    VarName 
-
 Issues to be addressed : 
     Memory leaks
     avoid using pointers

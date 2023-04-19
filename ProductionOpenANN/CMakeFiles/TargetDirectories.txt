@@ -1,0 +1,3 @@
+/home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/CMakeFiles/rebuild_cache.dir
+/home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/CMakeFiles/edit_cache.dir
+/home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/CMakeFiles/CoreANN.dir

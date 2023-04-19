@@ -1,0 +1,198 @@
+==16177== Memcheck, a memory error detector
+==16177== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==16177== Using Valgrind-3.20.0 and LibVEX; rerun with -h for copyright info
+==16177== Command: ./bin/CoreANN
+==16177== 
+==16177== Conditional jump or move depends on uninitialised value(s)
+==16177==    at 0x11DDE8: Neuron::activate() (Neuron.cpp:13)
+==16177==    by 0x11DD87: Neuron::setVal(double) (Neuron.cpp:6)
+==16177==    by 0x11DF4E: Neuron::Neuron(double) (Neuron.cpp:31)
+==16177==    by 0x120A9B: Layer::Layer(int) (Layer.cpp:51)
+==16177==    by 0x123996: NeuralNetwork::NeuralNetwork(std::vector<int, std::allocator<int> >&, double, double, double) (NeuralNetwork.cpp:15)
+==16177==    by 0x11B71F: main (driver.cpp:18)
+==16177== 
+==16177== Conditional jump or move depends on uninitialised value(s)
+==16177==    at 0x11DDF2: Neuron::activate() (Neuron.cpp:13)
+==16177==    by 0x11DD87: Neuron::setVal(double) (Neuron.cpp:6)
+==16177==    by 0x11DF4E: Neuron::Neuron(double) (Neuron.cpp:31)
+==16177==    by 0x120A9B: Layer::Layer(int) (Layer.cpp:51)
+==16177==    by 0x123996: NeuralNetwork::NeuralNetwork(std::vector<int, std::allocator<int> >&, double, double, double) (NeuralNetwork.cpp:15)
+==16177==    by 0x11B71F: main (driver.cpp:18)
+==16177== 
+==16177== Conditional jump or move depends on uninitialised value(s)
+==16177==    at 0x11DDE8: Neuron::activate() (Neuron.cpp:13)
+==16177==    by 0x11DD87: Neuron::setVal(double) (Neuron.cpp:6)
+==16177==    by 0x11DF89: Neuron::Neuron(double, int) (Neuron.cpp:35)
+==16177==    by 0x120B83: Layer::Layer(int, int) (Layer.cpp:59)
+==16177==    by 0x1239FD: NeuralNetwork::NeuralNetwork(std::vector<int, std::allocator<int> >&, double, double, double) (NeuralNetwork.cpp:18)
+==16177==    by 0x11B71F: main (driver.cpp:18)
+==16177== 
+==16177== Conditional jump or move depends on uninitialised value(s)
+==16177==    at 0x11DDF2: Neuron::activate() (Neuron.cpp:13)
+==16177==    by 0x11DD87: Neuron::setVal(double) (Neuron.cpp:6)
+==16177==    by 0x11DF89: Neuron::Neuron(double, int) (Neuron.cpp:35)
+==16177==    by 0x120B83: Layer::Layer(int, int) (Layer.cpp:59)
+==16177==    by 0x1239FD: NeuralNetwork::NeuralNetwork(std::vector<int, std::allocator<int> >&, double, double, double) (NeuralNetwork.cpp:18)
+==16177==    by 0x11B71F: main (driver.cpp:18)
+==16177== 
+==16177== 
+==16177== HEAP SUMMARY:
+==16177==     in use at exit: 720,712 bytes in 30,023 blocks
+==16177==   total heap usage: 1,130,052 allocs, 1,100,029 frees, 29,674,032 bytes allocated
+==16177== 
+==16177== 16 bytes in 1 blocks are indirectly lost in loss record 1 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x122C47: __gnu_cxx::new_allocator<Neuron*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==16177==    by 0x122872: std::allocator_traits<std::allocator<Neuron*> >::allocate(std::allocator<Neuron*>&, unsigned long) (alloc_traits.h:443)
+==16177==    by 0x1221A3: std::_Vector_base<Neuron*, std::allocator<Neuron*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==16177==    by 0x121AC2: void std::vector<Neuron*, std::allocator<Neuron*> >::_M_realloc_insert<Neuron* const&>(__gnu_cxx::__normal_iterator<Neuron**, std::vector<Neuron*, std::allocator<Neuron*> > >, Neuron* const&) (vector.tcc:440)
+==16177==    by 0x121459: std::vector<Neuron*, std::allocator<Neuron*> >::push_back(Neuron* const&) (stl_vector.h:1195)
+==16177==    by 0x120B9E: Layer::Layer(int, int) (Layer.cpp:60)
+==16177==    by 0x1239FD: NeuralNetwork::NeuralNetwork(std::vector<int, std::allocator<int> >&, double, double, double) (NeuralNetwork.cpp:18)
+==16177==    by 0x11B71F: main (driver.cpp:18)
+==16177== 
+==16177== 32 bytes in 1 blocks are indirectly lost in loss record 2 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x122C47: __gnu_cxx::new_allocator<Neuron*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==16177==    by 0x122872: std::allocator_traits<std::allocator<Neuron*> >::allocate(std::allocator<Neuron*>&, unsigned long) (alloc_traits.h:443)
+==16177==    by 0x1221A3: std::_Vector_base<Neuron*, std::allocator<Neuron*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==16177==    by 0x121AC2: void std::vector<Neuron*, std::allocator<Neuron*> >::_M_realloc_insert<Neuron* const&>(__gnu_cxx::__normal_iterator<Neuron**, std::vector<Neuron*, std::allocator<Neuron*> > >, Neuron* const&) (vector.tcc:440)
+==16177==    by 0x121459: std::vector<Neuron*, std::allocator<Neuron*> >::push_back(Neuron* const&) (stl_vector.h:1195)
+==16177==    by 0x120AB6: Layer::Layer(int) (Layer.cpp:52)
+==16177==    by 0x123996: NeuralNetwork::NeuralNetwork(std::vector<int, std::allocator<int> >&, double, double, double) (NeuralNetwork.cpp:15)
+==16177==    by 0x11B71F: main (driver.cpp:18)
+==16177== 
+==16177== 32 bytes in 1 blocks are indirectly lost in loss record 3 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x122C47: __gnu_cxx::new_allocator<Neuron*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==16177==    by 0x122872: std::allocator_traits<std::allocator<Neuron*> >::allocate(std::allocator<Neuron*>&, unsigned long) (alloc_traits.h:443)
+==16177==    by 0x1221A3: std::_Vector_base<Neuron*, std::allocator<Neuron*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==16177==    by 0x121AC2: void std::vector<Neuron*, std::allocator<Neuron*> >::_M_realloc_insert<Neuron* const&>(__gnu_cxx::__normal_iterator<Neuron**, std::vector<Neuron*, std::allocator<Neuron*> > >, Neuron* const&) (vector.tcc:440)
+==16177==    by 0x121459: std::vector<Neuron*, std::allocator<Neuron*> >::push_back(Neuron* const&) (stl_vector.h:1195)
+==16177==    by 0x120B9E: Layer::Layer(int, int) (Layer.cpp:60)
+==16177==    by 0x123A53: NeuralNetwork::NeuralNetwork(std::vector<int, std::allocator<int> >&, double, double, double) (NeuralNetwork.cpp:21)
+==16177==    by 0x11B71F: main (driver.cpp:18)
+==16177== 
+==16177== 48 bytes in 1 blocks are indirectly lost in loss record 4 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x11FDA0: __gnu_cxx::new_allocator<std::vector<double, std::allocator<double> > >::allocate(unsigned long, void const*) (new_allocator.h:114)
+==16177==    by 0x11FAB1: std::allocator_traits<std::allocator<std::vector<double, std::allocator<double> > > >::allocate(std::allocator<std::vector<double, std::allocator<double> > >&, unsigned long) (alloc_traits.h:443)
+==16177==    by 0x11F5D1: std::_Vector_base<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_M_allocate(unsigned long) (stl_vector.h:343)
+==16177==    by 0x128630: std::_Vector_base<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_M_create_storage(unsigned long) (stl_vector.h:358)
+==16177==    by 0x1282CE: std::_Vector_base<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_Vector_base(unsigned long, std::allocator<std::vector<double, std::allocator<double> > > const&) (stl_vector.h:302)
+==16177==    by 0x1280D2: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::vector(std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > const&) (stl_vector.h:552)
+==16177==    by 0x128064: Matrix::Matrix(Matrix const&) (Matrix.h:12)
+==16177==    by 0x12774D: NeuralNetwork::backpropagation() (Backpropagation.cpp:39)
+==16177==    by 0x11B7DF: main (driver.cpp:31)
+==16177== 
+==16177== 64 bytes in 2 blocks are indirectly lost in loss record 5 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x120B6F: Layer::Layer(int, int) (Layer.cpp:59)
+==16177==    by 0x1239FD: NeuralNetwork::NeuralNetwork(std::vector<int, std::allocator<int> >&, double, double, double) (NeuralNetwork.cpp:18)
+==16177==    by 0x11B71F: main (driver.cpp:18)
+==16177== 
+==16177== 72 bytes in 1 blocks are indirectly lost in loss record 6 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x11FDA0: __gnu_cxx::new_allocator<std::vector<double, std::allocator<double> > >::allocate(unsigned long, void const*) (new_allocator.h:114)
+==16177==    by 0x11FAB1: std::allocator_traits<std::allocator<std::vector<double, std::allocator<double> > > >::allocate(std::allocator<std::vector<double, std::allocator<double> > >&, unsigned long) (alloc_traits.h:443)
+==16177==    by 0x11F5D1: std::_Vector_base<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_M_allocate(unsigned long) (stl_vector.h:343)
+==16177==    by 0x128630: std::_Vector_base<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_M_create_storage(unsigned long) (stl_vector.h:358)
+==16177==    by 0x1282CE: std::_Vector_base<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_Vector_base(unsigned long, std::allocator<std::vector<double, std::allocator<double> > > const&) (stl_vector.h:302)
+==16177==    by 0x1280D2: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::vector(std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > const&) (stl_vector.h:552)
+==16177==    by 0x128064: Matrix::Matrix(Matrix const&) (Matrix.h:12)
+==16177==    by 0x127C19: NeuralNetwork::backpropagation() (Backpropagation.cpp:80)
+==16177==    by 0x11B7DF: main (driver.cpp:31)
+==16177== 
+==16177== 96 bytes in 3 blocks are indirectly lost in loss record 7 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x120A8C: Layer::Layer(int) (Layer.cpp:51)
+==16177==    by 0x123996: NeuralNetwork::NeuralNetwork(std::vector<int, std::allocator<int> >&, double, double, double) (NeuralNetwork.cpp:15)
+==16177==    by 0x11B71F: main (driver.cpp:18)
+==16177== 
+==16177== 96 bytes in 3 blocks are indirectly lost in loss record 8 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x120B6F: Layer::Layer(int, int) (Layer.cpp:59)
+==16177==    by 0x123A53: NeuralNetwork::NeuralNetwork(std::vector<int, std::allocator<int> >&, double, double, double) (NeuralNetwork.cpp:21)
+==16177==    by 0x11B71F: main (driver.cpp:18)
+==16177== 
+==16177== 96 bytes in 5 blocks are indirectly lost in loss record 9 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x11D725: __gnu_cxx::new_allocator<double>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==16177==    by 0x11D1FE: std::allocator_traits<std::allocator<double> >::allocate(std::allocator<double>&, unsigned long) (alloc_traits.h:443)
+==16177==    by 0x11CB4F: std::_Vector_base<double, std::allocator<double> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==16177==    by 0x11F2FE: std::_Vector_base<double, std::allocator<double> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+==16177==    by 0x11ED5A: std::_Vector_base<double, std::allocator<double> >::_Vector_base(unsigned long, std::allocator<double> const&) (stl_vector.h:302)
+==16177==    by 0x11F972: std::vector<double, std::allocator<double> >::vector(std::vector<double, std::allocator<double> > const&) (stl_vector.h:552)
+==16177==    by 0x128D75: void std::_Construct<std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > const&>(std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> > const&) (stl_construct.h:75)
+==16177==    by 0x128B88: std::vector<double, std::allocator<double> >* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<std::vector<double, std::allocator<double> > const*, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > >, std::vector<double, std::allocator<double> >*>(__gnu_cxx::__normal_iterator<std::vector<double, std::allocator<double> > const*, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > >, __gnu_cxx::__normal_iterator<std::vector<double, std::allocator<double> > const*, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > >, std::vector<double, std::allocator<double> >*) (stl_uninitialized.h:83)
+==16177==    by 0x1286C1: std::vector<double, std::allocator<double> >* std::uninitialized_copy<__gnu_cxx::__normal_iterator<std::vector<double, std::allocator<double> > const*, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > >, std::vector<double, std::allocator<double> >*>(__gnu_cxx::__normal_iterator<std::vector<double, std::allocator<double> > const*, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > >, __gnu_cxx::__normal_iterator<std::vector<double, std::allocator<double> > const*, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > >, std::vector<double, std::allocator<double> >*) (stl_uninitialized.h:140)
+==16177==    by 0x1283D8: std::vector<double, std::allocator<double> >* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<std::vector<double, std::allocator<double> > const*, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > >, std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> > >(__gnu_cxx::__normal_iterator<std::vector<double, std::allocator<double> > const*, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > >, __gnu_cxx::__normal_iterator<std::vector<double, std::allocator<double> > const*, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > >, std::vector<double, std::allocator<double> >*, std::allocator<std::vector<double, std::allocator<double> > >&) (stl_uninitialized.h:307)
+==16177==    by 0x128120: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::vector(std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > const&) (stl_vector.h:555)
+==16177== 
+==16177== 112 (32 direct, 80 indirect) bytes in 1 blocks are definitely lost in loss record 10 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x1239E6: NeuralNetwork::NeuralNetwork(std::vector<int, std::allocator<int> >&, double, double, double) (NeuralNetwork.cpp:18)
+==16177==    by 0x11B71F: main (driver.cpp:18)
+==16177== 
+==16177== 128 (32 direct, 96 indirect) bytes in 1 blocks are definitely lost in loss record 11 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x127738: NeuralNetwork::backpropagation() (Backpropagation.cpp:39)
+==16177==    by 0x11B7DF: main (driver.cpp:31)
+==16177== 
+==16177== 152 (32 direct, 120 indirect) bytes in 1 blocks are definitely lost in loss record 12 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x127C07: NeuralNetwork::backpropagation() (Backpropagation.cpp:80)
+==16177==    by 0x11B7DF: main (driver.cpp:31)
+==16177== 
+==16177== 160 (32 direct, 128 indirect) bytes in 1 blocks are definitely lost in loss record 13 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x123988: NeuralNetwork::NeuralNetwork(std::vector<int, std::allocator<int> >&, double, double, double) (NeuralNetwork.cpp:15)
+==16177==    by 0x11B71F: main (driver.cpp:18)
+==16177== 
+==16177== 160 (32 direct, 128 indirect) bytes in 1 blocks are definitely lost in loss record 14 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x123A3C: NeuralNetwork::NeuralNetwork(std::vector<int, std::allocator<int> >&, double, double, double) (NeuralNetwork.cpp:21)
+==16177==    by 0x11B71F: main (driver.cpp:18)
+==16177== 
+==16177== 160,000 bytes in 10,000 blocks are indirectly lost in loss record 15 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x11D725: __gnu_cxx::new_allocator<double>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==16177==    by 0x11D1FE: std::allocator_traits<std::allocator<double> >::allocate(std::allocator<double>&, unsigned long) (alloc_traits.h:443)
+==16177==    by 0x11CB4F: std::_Vector_base<double, std::allocator<double> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==16177==    by 0x11F2FE: std::_Vector_base<double, std::allocator<double> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+==16177==    by 0x11ED5A: std::_Vector_base<double, std::allocator<double> >::_Vector_base(unsigned long, std::allocator<double> const&) (stl_vector.h:302)
+==16177==    by 0x11F972: std::vector<double, std::allocator<double> >::vector(std::vector<double, std::allocator<double> > const&) (stl_vector.h:552)
+==16177==    by 0x11F3C4: void __gnu_cxx::new_allocator<std::vector<double, std::allocator<double> > >::construct<std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > const&>(std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> > const&) (new_allocator.h:146)
+==16177==    by 0x11EE04: void std::allocator_traits<std::allocator<std::vector<double, std::allocator<double> > > >::construct<std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > const&>(std::allocator<std::vector<double, std::allocator<double> > >&, std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> > const&) (alloc_traits.h:483)
+==16177==    by 0x11EF7B: void std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_M_realloc_insert<std::vector<double, std::allocator<double> > const&>(__gnu_cxx::__normal_iterator<std::vector<double, std::allocator<double> >*, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > >, std::vector<double, std::allocator<double> > const&) (vector.tcc:449)
+==16177==    by 0x11EAB3: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::push_back(std::vector<double, std::allocator<double> > const&) (stl_vector.h:1195)
+==16177==    by 0x11E4A5: Matrix::Matrix(int, int, bool) (Matrix.cpp:48)
+==16177== 
+==16177== 240,000 bytes in 10,000 blocks are indirectly lost in loss record 16 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x11FDA0: __gnu_cxx::new_allocator<std::vector<double, std::allocator<double> > >::allocate(unsigned long, void const*) (new_allocator.h:114)
+==16177==    by 0x11FAB1: std::allocator_traits<std::allocator<std::vector<double, std::allocator<double> > > >::allocate(std::allocator<std::vector<double, std::allocator<double> > >&, unsigned long) (alloc_traits.h:443)
+==16177==    by 0x11F5D1: std::_Vector_base<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_M_allocate(unsigned long) (stl_vector.h:343)
+==16177==    by 0x11EF32: void std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_M_realloc_insert<std::vector<double, std::allocator<double> > const&>(__gnu_cxx::__normal_iterator<std::vector<double, std::allocator<double> >*, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > >, std::vector<double, std::allocator<double> > const&) (vector.tcc:440)
+==16177==    by 0x11EAB3: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::push_back(std::vector<double, std::allocator<double> > const&) (stl_vector.h:1195)
+==16177==    by 0x11E4A5: Matrix::Matrix(int, int, bool) (Matrix.cpp:48)
+==16177==    by 0x1208C5: Layer::matrixifyActivatedValues() (Layer.cpp:33)
+==16177==    by 0x12751D: NeuralNetwork::backpropagation() (Backpropagation.cpp:23)
+==16177==    by 0x11B7DF: main (driver.cpp:31)
+==16177== 
+==16177== 720,000 (320,000 direct, 400,000 indirect) bytes in 10,000 blocks are definitely lost in loss record 17 of 17
+==16177==    at 0x483CFE3: operator new(unsigned long) (vg_replace_malloc.c:434)
+==16177==    by 0x1208AD: Layer::matrixifyActivatedValues() (Layer.cpp:33)
+==16177==    by 0x12751D: NeuralNetwork::backpropagation() (Backpropagation.cpp:23)
+==16177==    by 0x11B7DF: main (driver.cpp:31)
+==16177== 
+==16177== LEAK SUMMARY:
+==16177==    definitely lost: 320,160 bytes in 10,005 blocks
+==16177==    indirectly lost: 400,552 bytes in 20,018 blocks
+==16177==      possibly lost: 0 bytes in 0 blocks
+==16177==    still reachable: 0 bytes in 0 blocks
+==16177==         suppressed: 0 bytes in 0 blocks
+==16177== 
+==16177== Use --track-origins=yes to see where uninitialised values come from
+==16177== For lists of detected and suppressed errors, rerun with: -s
+==16177== ERROR SUMMARY: 22 errors from 10 contexts (suppressed: 0 from 0)

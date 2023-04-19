@@ -56,6 +56,10 @@ iostream
 math.h
 -
 
+/home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/src/TrainNetwork.cpp
+../include/NeuralNetwork.h
+/home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/include/NeuralNetwork.h
+
 /home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/src/driver.cpp
 iostream
 -

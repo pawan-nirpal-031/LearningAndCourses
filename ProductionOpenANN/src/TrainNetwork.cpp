@@ -11,6 +11,5 @@ void NeuralNetwork::train(vector<double> &input,vector<double>&target,double bai
         feedforward();
         setErrors();
         backpropagation();
-        printOutputLayer();
     }
 }

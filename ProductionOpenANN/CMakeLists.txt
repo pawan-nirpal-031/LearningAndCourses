@@ -2,8 +2,7 @@ cmake_minimum_required(VERSION 3.0)
 project( CoreANN )
 
 set(CMAKE_BUILD_TYPE Debug)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp -pthread -std=c++14")
-
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp -O3 -pthread -std=c++14")
 
 
 add_executable(

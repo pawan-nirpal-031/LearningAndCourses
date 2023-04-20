@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/CoreANN.dir/all
+all: CMakeFiles/CoreANNTrain.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/CoreANN.dir/clean
+clean: CMakeFiles/CoreANNTrain.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/CoreANN.dir
+# Target rules for target CMakeFiles/CoreANNTrain.dir
 
 # All Build rule for target.
-CMakeFiles/CoreANN.dir/all:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/depend
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target CoreANN"
-.PHONY : CMakeFiles/CoreANN.dir/all
+CMakeFiles/CoreANNTrain.dir/all:
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/depend
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target CoreANNTrain"
+.PHONY : CMakeFiles/CoreANNTrain.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/CoreANN.dir/rule: cmake_check_build_system
+CMakeFiles/CoreANNTrain.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/CMakeFiles 11
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CoreANN.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CoreANNTrain.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/CMakeFiles 0
-.PHONY : CMakeFiles/CoreANN.dir/rule
+.PHONY : CMakeFiles/CoreANNTrain.dir/rule
 
 # Convenience name for target.
-CoreANN: CMakeFiles/CoreANN.dir/rule
+CoreANNTrain: CMakeFiles/CoreANNTrain.dir/rule
 
-.PHONY : CoreANN
+.PHONY : CoreANNTrain
 
 # clean rule for target.
-CMakeFiles/CoreANN.dir/clean:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/clean
-.PHONY : CMakeFiles/CoreANN.dir/clean
+CMakeFiles/CoreANNTrain.dir/clean:
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/clean
+.PHONY : CMakeFiles/CoreANNTrain.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

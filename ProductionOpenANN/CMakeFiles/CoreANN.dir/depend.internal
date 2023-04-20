@@ -49,7 +49,11 @@ CMakeFiles/CoreANN.dir/src/driver.cpp.o
  /home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/include/Matrix.h
  /home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/include/NeuralNetwork.h
  /home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/include/Neuron.h
+ /home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/include/utils/json.hpp
  /home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/src/driver.cpp
+CMakeFiles/CoreANN.dir/src/utils/DataManager.cpp.o
+ /home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/include/utils/DataManager.h
+ /home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/src/utils/DataManager.cpp
 CMakeFiles/CoreANN.dir/src/utils/Math.cpp.o
  /home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/include/Matrix.h
  /home/pnirpal/Workspace/Learning/Courses/ProductionOpenANN/include/utils/Math.h

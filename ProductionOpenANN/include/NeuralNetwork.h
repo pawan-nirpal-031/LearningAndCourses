@@ -52,7 +52,8 @@ public:
     // return the pointer to orignal matrix on heap not a copy
     Matrix* getWeightMatrix(int indx){ return weightMatrices[indx];}
     void setNeuronValue(int layerIndx,int neuronIndx,double val){ Layers[layerIndx]->setValue(neuronIndx,val);}
-    void train(vector<double> &input,vector<double>&target,double bais,double learningRate,double momentum,int epochs=100);
+    void trainEpochs(vector<double> &input,vector<double>&target,double bais,double learningRate,double momentum,int epochs=100);
+    void train(vector<double> &input,vector<double>&target,double bais,double learningRate,double momentum);
     void stateValidator();
     void printTotalError();
     void printOutputLayer();

@@ -1,0 +1,9 @@
+{
+    "topology":[3,2,2],
+    "learningRate":0.05,
+    "momentum":1.0,
+    "bias":1.0,
+    "epochs":10000,
+    "trainingData":"data/training/sample_data.csv",
+    "labelData":"data/training/sample_labels.csv"
+}

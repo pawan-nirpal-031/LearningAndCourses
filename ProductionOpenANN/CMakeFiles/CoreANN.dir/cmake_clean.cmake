@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CoreANN.dir/src/SetErrorsForNetwork.cpp.o"
   "CMakeFiles/CoreANN.dir/src/TrainNetwork.cpp.o"
   "CMakeFiles/CoreANN.dir/src/driver.cpp.o"
+  "CMakeFiles/CoreANN.dir/src/utils/DataManager.cpp.o"
   "CMakeFiles/CoreANN.dir/src/utils/Math.cpp.o"
   "CoreANN"
   "CoreANN.pdb"

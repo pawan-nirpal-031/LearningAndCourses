@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CoreANN
+# Target rules for targets named CoreANNTrain
 
 # Build rule for target.
-CoreANN: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CoreANN
-.PHONY : CoreANN
+CoreANNTrain: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CoreANNTrain
+.PHONY : CoreANNTrain
 
 # fast build rule for target.
-CoreANN/fast:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/build
-.PHONY : CoreANN/fast
+CoreANNTrain/fast:
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/build
+.PHONY : CoreANNTrain/fast
 
 src/Backpropagation.o: src/Backpropagation.cpp.o
 
@@ -129,7 +129,7 @@ src/Backpropagation.o: src/Backpropagation.cpp.o
 
 # target to build an object file
 src/Backpropagation.cpp.o:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/Backpropagation.cpp.o
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/Backpropagation.cpp.o
 .PHONY : src/Backpropagation.cpp.o
 
 src/Backpropagation.i: src/Backpropagation.cpp.i
@@ -138,7 +138,7 @@ src/Backpropagation.i: src/Backpropagation.cpp.i
 
 # target to preprocess a source file
 src/Backpropagation.cpp.i:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/Backpropagation.cpp.i
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/Backpropagation.cpp.i
 .PHONY : src/Backpropagation.cpp.i
 
 src/Backpropagation.s: src/Backpropagation.cpp.s
@@ -147,7 +147,7 @@ src/Backpropagation.s: src/Backpropagation.cpp.s
 
 # target to generate assembly for a file
 src/Backpropagation.cpp.s:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/Backpropagation.cpp.s
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/Backpropagation.cpp.s
 .PHONY : src/Backpropagation.cpp.s
 
 src/FeedForward.o: src/FeedForward.cpp.o
@@ -156,7 +156,7 @@ src/FeedForward.o: src/FeedForward.cpp.o
 
 # target to build an object file
 src/FeedForward.cpp.o:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/FeedForward.cpp.o
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/FeedForward.cpp.o
 .PHONY : src/FeedForward.cpp.o
 
 src/FeedForward.i: src/FeedForward.cpp.i
@@ -165,7 +165,7 @@ src/FeedForward.i: src/FeedForward.cpp.i
 
 # target to preprocess a source file
 src/FeedForward.cpp.i:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/FeedForward.cpp.i
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/FeedForward.cpp.i
 .PHONY : src/FeedForward.cpp.i
 
 src/FeedForward.s: src/FeedForward.cpp.s
@@ -174,7 +174,7 @@ src/FeedForward.s: src/FeedForward.cpp.s
 
 # target to generate assembly for a file
 src/FeedForward.cpp.s:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/FeedForward.cpp.s
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/FeedForward.cpp.s
 .PHONY : src/FeedForward.cpp.s
 
 src/Layer.o: src/Layer.cpp.o
@@ -183,7 +183,7 @@ src/Layer.o: src/Layer.cpp.o
 
 # target to build an object file
 src/Layer.cpp.o:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/Layer.cpp.o
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/Layer.cpp.o
 .PHONY : src/Layer.cpp.o
 
 src/Layer.i: src/Layer.cpp.i
@@ -192,7 +192,7 @@ src/Layer.i: src/Layer.cpp.i
 
 # target to preprocess a source file
 src/Layer.cpp.i:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/Layer.cpp.i
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/Layer.cpp.i
 .PHONY : src/Layer.cpp.i
 
 src/Layer.s: src/Layer.cpp.s
@@ -201,7 +201,7 @@ src/Layer.s: src/Layer.cpp.s
 
 # target to generate assembly for a file
 src/Layer.cpp.s:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/Layer.cpp.s
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/Layer.cpp.s
 .PHONY : src/Layer.cpp.s
 
 src/Matrix.o: src/Matrix.cpp.o
@@ -210,7 +210,7 @@ src/Matrix.o: src/Matrix.cpp.o
 
 # target to build an object file
 src/Matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/Matrix.cpp.o
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/Matrix.cpp.o
 .PHONY : src/Matrix.cpp.o
 
 src/Matrix.i: src/Matrix.cpp.i
@@ -219,7 +219,7 @@ src/Matrix.i: src/Matrix.cpp.i
 
 # target to preprocess a source file
 src/Matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/Matrix.cpp.i
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/Matrix.cpp.i
 .PHONY : src/Matrix.cpp.i
 
 src/Matrix.s: src/Matrix.cpp.s
@@ -228,7 +228,7 @@ src/Matrix.s: src/Matrix.cpp.s
 
 # target to generate assembly for a file
 src/Matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/Matrix.cpp.s
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/Matrix.cpp.s
 .PHONY : src/Matrix.cpp.s
 
 src/NeuralNetwork.o: src/NeuralNetwork.cpp.o
@@ -237,7 +237,7 @@ src/NeuralNetwork.o: src/NeuralNetwork.cpp.o
 
 # target to build an object file
 src/NeuralNetwork.cpp.o:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/NeuralNetwork.cpp.o
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/NeuralNetwork.cpp.o
 .PHONY : src/NeuralNetwork.cpp.o
 
 src/NeuralNetwork.i: src/NeuralNetwork.cpp.i
@@ -246,7 +246,7 @@ src/NeuralNetwork.i: src/NeuralNetwork.cpp.i
 
 # target to preprocess a source file
 src/NeuralNetwork.cpp.i:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/NeuralNetwork.cpp.i
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/NeuralNetwork.cpp.i
 .PHONY : src/NeuralNetwork.cpp.i
 
 src/NeuralNetwork.s: src/NeuralNetwork.cpp.s
@@ -255,7 +255,7 @@ src/NeuralNetwork.s: src/NeuralNetwork.cpp.s
 
 # target to generate assembly for a file
 src/NeuralNetwork.cpp.s:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/NeuralNetwork.cpp.s
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/NeuralNetwork.cpp.s
 .PHONY : src/NeuralNetwork.cpp.s
 
 src/Neuron.o: src/Neuron.cpp.o
@@ -264,7 +264,7 @@ src/Neuron.o: src/Neuron.cpp.o
 
 # target to build an object file
 src/Neuron.cpp.o:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/Neuron.cpp.o
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/Neuron.cpp.o
 .PHONY : src/Neuron.cpp.o
 
 src/Neuron.i: src/Neuron.cpp.i
@@ -273,7 +273,7 @@ src/Neuron.i: src/Neuron.cpp.i
 
 # target to preprocess a source file
 src/Neuron.cpp.i:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/Neuron.cpp.i
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/Neuron.cpp.i
 .PHONY : src/Neuron.cpp.i
 
 src/Neuron.s: src/Neuron.cpp.s
@@ -282,7 +282,7 @@ src/Neuron.s: src/Neuron.cpp.s
 
 # target to generate assembly for a file
 src/Neuron.cpp.s:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/Neuron.cpp.s
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/Neuron.cpp.s
 .PHONY : src/Neuron.cpp.s
 
 src/SetErrorsForNetwork.o: src/SetErrorsForNetwork.cpp.o
@@ -291,7 +291,7 @@ src/SetErrorsForNetwork.o: src/SetErrorsForNetwork.cpp.o
 
 # target to build an object file
 src/SetErrorsForNetwork.cpp.o:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/SetErrorsForNetwork.cpp.o
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/SetErrorsForNetwork.cpp.o
 .PHONY : src/SetErrorsForNetwork.cpp.o
 
 src/SetErrorsForNetwork.i: src/SetErrorsForNetwork.cpp.i
@@ -300,7 +300,7 @@ src/SetErrorsForNetwork.i: src/SetErrorsForNetwork.cpp.i
 
 # target to preprocess a source file
 src/SetErrorsForNetwork.cpp.i:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/SetErrorsForNetwork.cpp.i
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/SetErrorsForNetwork.cpp.i
 .PHONY : src/SetErrorsForNetwork.cpp.i
 
 src/SetErrorsForNetwork.s: src/SetErrorsForNetwork.cpp.s
@@ -309,7 +309,7 @@ src/SetErrorsForNetwork.s: src/SetErrorsForNetwork.cpp.s
 
 # target to generate assembly for a file
 src/SetErrorsForNetwork.cpp.s:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/SetErrorsForNetwork.cpp.s
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/SetErrorsForNetwork.cpp.s
 .PHONY : src/SetErrorsForNetwork.cpp.s
 
 src/TrainNetwork.o: src/TrainNetwork.cpp.o
@@ -318,7 +318,7 @@ src/TrainNetwork.o: src/TrainNetwork.cpp.o
 
 # target to build an object file
 src/TrainNetwork.cpp.o:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/TrainNetwork.cpp.o
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/TrainNetwork.cpp.o
 .PHONY : src/TrainNetwork.cpp.o
 
 src/TrainNetwork.i: src/TrainNetwork.cpp.i
@@ -327,7 +327,7 @@ src/TrainNetwork.i: src/TrainNetwork.cpp.i
 
 # target to preprocess a source file
 src/TrainNetwork.cpp.i:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/TrainNetwork.cpp.i
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/TrainNetwork.cpp.i
 .PHONY : src/TrainNetwork.cpp.i
 
 src/TrainNetwork.s: src/TrainNetwork.cpp.s
@@ -336,35 +336,35 @@ src/TrainNetwork.s: src/TrainNetwork.cpp.s
 
 # target to generate assembly for a file
 src/TrainNetwork.cpp.s:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/TrainNetwork.cpp.s
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/TrainNetwork.cpp.s
 .PHONY : src/TrainNetwork.cpp.s
 
-src/driver.o: src/driver.cpp.o
+src/utils/DataManager.o: src/utils/DataManager.cpp.o
 
-.PHONY : src/driver.o
+.PHONY : src/utils/DataManager.o
 
 # target to build an object file
-src/driver.cpp.o:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/driver.cpp.o
-.PHONY : src/driver.cpp.o
+src/utils/DataManager.cpp.o:
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/utils/DataManager.cpp.o
+.PHONY : src/utils/DataManager.cpp.o
 
-src/driver.i: src/driver.cpp.i
+src/utils/DataManager.i: src/utils/DataManager.cpp.i
 
-.PHONY : src/driver.i
+.PHONY : src/utils/DataManager.i
 
 # target to preprocess a source file
-src/driver.cpp.i:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/driver.cpp.i
-.PHONY : src/driver.cpp.i
+src/utils/DataManager.cpp.i:
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/utils/DataManager.cpp.i
+.PHONY : src/utils/DataManager.cpp.i
 
-src/driver.s: src/driver.cpp.s
+src/utils/DataManager.s: src/utils/DataManager.cpp.s
 
-.PHONY : src/driver.s
+.PHONY : src/utils/DataManager.s
 
 # target to generate assembly for a file
-src/driver.cpp.s:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/driver.cpp.s
-.PHONY : src/driver.cpp.s
+src/utils/DataManager.cpp.s:
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/utils/DataManager.cpp.s
+.PHONY : src/utils/DataManager.cpp.s
 
 src/utils/Math.o: src/utils/Math.cpp.o
 
@@ -372,7 +372,7 @@ src/utils/Math.o: src/utils/Math.cpp.o
 
 # target to build an object file
 src/utils/Math.cpp.o:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/utils/Math.cpp.o
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/utils/Math.cpp.o
 .PHONY : src/utils/Math.cpp.o
 
 src/utils/Math.i: src/utils/Math.cpp.i
@@ -381,7 +381,7 @@ src/utils/Math.i: src/utils/Math.cpp.i
 
 # target to preprocess a source file
 src/utils/Math.cpp.i:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/utils/Math.cpp.i
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/utils/Math.cpp.i
 .PHONY : src/utils/Math.cpp.i
 
 src/utils/Math.s: src/utils/Math.cpp.s
@@ -390,7 +390,7 @@ src/utils/Math.s: src/utils/Math.cpp.s
 
 # target to generate assembly for a file
 src/utils/Math.cpp.s:
-	$(MAKE) -f CMakeFiles/CoreANN.dir/build.make CMakeFiles/CoreANN.dir/src/utils/Math.cpp.s
+	$(MAKE) -f CMakeFiles/CoreANNTrain.dir/build.make CMakeFiles/CoreANNTrain.dir/src/utils/Math.cpp.s
 .PHONY : src/utils/Math.cpp.s
 
 # Help Target
@@ -401,7 +401,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... CoreANN"
+	@echo "... CoreANNTrain"
 	@echo "... src/Backpropagation.o"
 	@echo "... src/Backpropagation.i"
 	@echo "... src/Backpropagation.s"
@@ -426,9 +426,9 @@ help:
 	@echo "... src/TrainNetwork.o"
 	@echo "... src/TrainNetwork.i"
 	@echo "... src/TrainNetwork.s"
-	@echo "... src/driver.o"
-	@echo "... src/driver.i"
-	@echo "... src/driver.s"
+	@echo "... src/utils/DataManager.o"
+	@echo "... src/utils/DataManager.i"
+	@echo "... src/utils/DataManager.s"
 	@echo "... src/utils/Math.o"
 	@echo "... src/utils/Math.i"
 	@echo "... src/utils/Math.s"

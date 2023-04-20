@@ -1,4 +1,5 @@
 #include "../include/NeuralNetwork.h"
+#define debug 1
 
 NeuralNetwork::NeuralNetwork(vector<int> &topology,double bais,double learningRate,double momentum){
     this->topology = topology;
@@ -119,4 +120,48 @@ void NeuralNetwork::printNetworkArchitecture(){
     for(int i =0;i<weightMatrices.size();i++){
         weightMatrices[i]->printToConsole();
     }
+}
+
+void NeuralNetwork::trainEpochs(vector<double> &input,vector<double>&target,double bais,double learningRate,double momentum,int epochs){
+    this->learningRate = learningRate;
+    this->bais = bais;
+    this->momentum = momentum;
+    setCurrentInput(input);
+    setCurrentTarget(target);
+    for(int e =0; e< epochs;e++){
+        printTotalError();
+        feedforward();
+        setErrors();
+        backpropagation();
+    }
+}
+
+void NeuralNetwork::train(vector<double> &input,vector<double>&target,double bais,double learningRate,double momentum){
+    this->learningRate = learningRate;
+    this->bais = bais;
+    this->momentum = momentum;
+    #if debug
+        cout<<"setting inputs\n"; 
+    #endif
+    setCurrentInput(input);
+    #if debug
+        cout<<"setting target\n"; 
+    #endif
+    setCurrentTarget(target);
+    #if debug
+        cout<<"printing error\n"; 
+    #endif
+    printTotalError();
+    #if debug
+        cout<<"running feedforward\n"; 
+    #endif
+    feedforward();
+    #if debug
+        cout<<"running set errors\n"; 
+    #endif
+    setErrors();
+    #if debug
+        cout<<"running backprop\n"; 
+    #endif
+    backpropagation();
 }

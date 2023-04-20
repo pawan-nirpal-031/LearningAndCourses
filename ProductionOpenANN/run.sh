@@ -1,5 +1,5 @@
 cmake -DCMAKE_C_COMPILER=gcc .
 make
-mv CoreANN bin
+mv CoreANNTrain bin
 echo $"Running program..."
-./bin/CoreANN
+./bin/CoreANNTrain config/training.json

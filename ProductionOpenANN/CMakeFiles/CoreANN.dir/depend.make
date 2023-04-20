@@ -48,7 +48,11 @@ CMakeFiles/CoreANN.dir/src/driver.cpp.o: include/Layer.h
 CMakeFiles/CoreANN.dir/src/driver.cpp.o: include/Matrix.h
 CMakeFiles/CoreANN.dir/src/driver.cpp.o: include/NeuralNetwork.h
 CMakeFiles/CoreANN.dir/src/driver.cpp.o: include/Neuron.h
+CMakeFiles/CoreANN.dir/src/driver.cpp.o: include/utils/json.hpp
 CMakeFiles/CoreANN.dir/src/driver.cpp.o: src/driver.cpp
+
+CMakeFiles/CoreANN.dir/src/utils/DataManager.cpp.o: include/utils/DataManager.h
+CMakeFiles/CoreANN.dir/src/utils/DataManager.cpp.o: src/utils/DataManager.cpp
 
 CMakeFiles/CoreANN.dir/src/utils/Math.cpp.o: include/Matrix.h
 CMakeFiles/CoreANN.dir/src/utils/Math.cpp.o: include/utils/Math.h

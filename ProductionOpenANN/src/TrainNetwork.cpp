@@ -29,18 +29,11 @@ int trainingDriver(int argc,char **argv){
     string labelDataFile = config["labelData"];
     int epochs = config["epochs"];
     epochs*=10;
-    cout<<"config parsed\n";
     vector<vector<double>> trainData = utils::DataReader().fetchData(trainDataFile);
-    cout<<"data parsed\n";
     vector<vector<double>> labels = utils::DataReader().fetchData(labelDataFile);
-    cout<<"labels parsed\n";
     NeuralNetwork n(topology,2,3,1,bias,learRate,momentum); 
     for(int tIndx =0;tIndx<trainData.size();tIndx++){
-        cout<<"traning on data : "<<tIndx<<"\n";
         n.trainEpochs(trainData[tIndx],labels[tIndx],bias,learRate,momentum,epochs);
-        cout<<"printing output for dataset : "<<tIndx<<"\n";
-        n.printOutputLayer();
-        cout<<"\n\n";
     }
     return 0;
 }

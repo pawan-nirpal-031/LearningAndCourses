@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =  -fopenmp -O3 -flto -pthread -std=c++14 -g  
 
-CXX_DEFINES = 
+CXX_DEFINES = -DOATPP_DISABLE_LOGD
 
 CXX_INCLUDES = 
 

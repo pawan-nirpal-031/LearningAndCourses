@@ -1,0 +1,3 @@
+/home/panirpal/workspace/Learning/Courses/computer-vision/cpp/CMakeFiles/machineVision.dir
+/home/panirpal/workspace/Learning/Courses/computer-vision/cpp/CMakeFiles/edit_cache.dir
+/home/panirpal/workspace/Learning/Courses/computer-vision/cpp/CMakeFiles/rebuild_cache.dir

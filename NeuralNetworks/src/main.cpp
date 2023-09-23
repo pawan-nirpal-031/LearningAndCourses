@@ -13,13 +13,13 @@ int main(int Argc,char **Argv){
         auto start = high_resolution_clock::now();
     #endif
     
-    vector<double>input = {1,0,1};
+    vector<double>input = {0.4,0.9,0.589};
     vector<int>topology = {3,2,3};
     NeuralNetwork nn(topology);
     nn.setCurrentInput(input);
     nn.setCurrentTarget(input); 
     // Training process 
-    int epochs = 1000;
+    int epochs = 1000000;
     for(int i =0;i<epochs;i++){
         cout<<i<<" ";
         nn.feedForwad();

@@ -8,6 +8,8 @@
 using namespace std;
 using namespace cv;
 
+
+
 void displayImage(Mat &img,unsigned int time=0){
     imshow("frame",img);
     waitKey(time);
@@ -26,7 +28,7 @@ void Transform1(Mat &image){
     displayImage(image);
 }
 
-void Transform2(Mat &img){ // inversion 
+void inverionAlongYAxisTransform(Mat &img){ // inversion 
     displayImage(img);
     for(int j =0;j<img.cols/2;j++){
         for(int i = 0;i<img.rows;i++){
@@ -39,7 +41,7 @@ void Transform2(Mat &img){ // inversion
 
 
 
-void Transform3(Mat &image){
+void pixelInverseTransform(Mat &image){
     displayImage(image);
     for (int y = 0; y < image.rows; ++y) {
         for (int x = 0; x < image.cols; ++x) {
@@ -53,7 +55,7 @@ void Transform3(Mat &image){
 }
 
 
-void Transform4(Mat &img){
+void linearContrastStreachingTransform(Mat &img){ // linear contrast streching
     displayImage(img);
     u_char maxVal = 0;
     u_char minVal = 255;
@@ -71,11 +73,48 @@ void Transform4(Mat &img){
     displayImage(img);
 }
 
+void movingAverageTransform(Mat &img){
+    displayImage(img);
+    unsigned int winSize = 3;
+    int trows = img.rows-winSize+1;
+    int tcols = img.cols-winSize+1;
+    Mat transformed(trows,tcols, IMREAD_GRAYSCALE); 
+
+    // accumlate first coloumn prefix sums
+    for(int i =1;i<img.rows;i++)
+        (img.at<u_char>(i,0)) += static_cast<int>(img.at<u_char>(i-1,0));
+    
+    // accumlate first row prefix sums
+    for(int j = 1;j<img.cols;j++)
+       (img.at<u_char>(0,j)) += static_cast<int> (img.at<u_char>(0,j-1));
+
+    // compute the rectangular submatrix prefix sums.
+    for(int i =1;i<img.rows;i++)
+        for(int j = 1;j<img.cols;j++)
+            (img.at<u_char>(i,j)) += (static_cast<int> (img.at<u_char>(i-1,j)) + static_cast<int> (img.at<u_char>(i,j-1)) - static_cast<int> (img.at<u_char>(i-1,j-1)));
+
+    // now use the formula for computing the moving average of a sub matrix of size winSize X winSize by sliding it across the image 
+    for(int i = 0;i<trows;i++){
+        for(int j = 0;j<tcols;j++){
+            unsigned char pointVal = static_cast<int>(img.at<u_char>(i+winSize -1,j+winSize-1));
+            if(i>=1)
+                pointVal -= static_cast<int>( img.at<u_char>(i-1,j+winSize-1));
+            if(j>=1)
+                pointVal -= static_cast<int>(img.at<u_char>(i+winSize -1,j-1));
+            if(i>=1 and j>=1)
+                pointVal += static_cast<int> (img.at<u_char>(i-1,j-1));
+            cout<<(int)pointVal<<'\n';
+            transformed.at<u_char>(i,j) = (pointVal/(winSize*winSize));
+        }
+    }
+    displayImage(transformed);
+}
+
 int main(){
     string imPath = "/home/panirpal/workspace/Learning/Courses/computer-vision/cpp/data/frm.png";
     Mat img = imread(imPath,IMREAD_GRAYSCALE);
-    if(!img.empty()){
-        Transform4(img);
-    }    
+    if(!img.empty())
+        movingAverageTransform(img);
+    
     return 0;
 }

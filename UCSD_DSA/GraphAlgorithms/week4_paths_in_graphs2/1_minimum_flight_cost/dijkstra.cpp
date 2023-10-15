@@ -51,7 +51,7 @@ void OptimizedAlgorithm(int source,int dest,vector<bool> &visited,vector<ll> &di
   priority_queue<pair<ll,int>,vector<pair<ll,int>>,greater<pair<ll,int>>>processing; 
   processing.push({distance[source],source});
   while(processing.size()){
-    auto tuple = processing.top(); 
+    auto tuple = processing.top();
     processing.pop();
     int currNode = tuple.second;
     if(visited[currNode]) continue;

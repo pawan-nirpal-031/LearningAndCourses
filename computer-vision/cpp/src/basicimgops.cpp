@@ -73,42 +73,44 @@ void linearContrastStreachingTransform(Mat &img){ // linear contrast streching
     displayImage(img);
 }
 
-void movingAverageTransform(Mat &img){
+// Blur effect transformation 
+void movingAverageTransform(Mat &img,int winSize=3){
     displayImage(img);
-    unsigned int winSize = 3;
     int trows = img.rows-winSize+1;
     int tcols = img.cols-winSize+1;
-    Mat transformed(trows,tcols, IMREAD_GRAYSCALE); 
-
-    // accumlate first coloumn prefix sums
-    for(int i =1;i<img.rows;i++)
-        (img.at<u_char>(i,0)) += static_cast<int>(img.at<u_char>(i-1,0));
+    Mat integralImg(img.rows,img.cols,CV_32S);
     
-    // accumlate first row prefix sums
-    for(int j = 1;j<img.cols;j++)
-       (img.at<u_char>(0,j)) += static_cast<int> (img.at<u_char>(0,j-1));
-
-    // compute the rectangular submatrix prefix sums.
-    for(int i =1;i<img.rows;i++)
-        for(int j = 1;j<img.cols;j++)
-            (img.at<u_char>(i,j)) += (static_cast<int> (img.at<u_char>(i-1,j)) + static_cast<int> (img.at<u_char>(i,j-1)) - static_cast<int> (img.at<u_char>(i-1,j-1)));
-
-    // now use the formula for computing the moving average of a sub matrix of size winSize X winSize by sliding it across the image 
-    for(int i = 0;i<trows;i++){
-        for(int j = 0;j<tcols;j++){
-            unsigned char pointVal = static_cast<int>(img.at<u_char>(i+winSize -1,j+winSize-1));
-            if(i>=1)
-                pointVal -= static_cast<int>( img.at<u_char>(i-1,j+winSize-1));
-            if(j>=1)
-                pointVal -= static_cast<int>(img.at<u_char>(i+winSize -1,j-1));
-            if(i>=1 and j>=1)
-                pointVal += static_cast<int> (img.at<u_char>(i-1,j-1));
-            cout<<(int)pointVal<<'\n';
-            transformed.at<u_char>(i,j) = (pointVal/(winSize*winSize));
+    integralImg.at<int>(0,0) = static_cast<int>(img.at<u_char>(0,0));
+    for(int i = 1;i<img.cols;i++)
+        integralImg.at<int>(0,i) = static_cast<int>(img.at<u_char>(0,i)) + integralImg.at<int>(0,i-1);
+    
+    for(int i = 1;i<img.rows;i++)
+        integralImg.at<int>(i,0) = static_cast<int>(img.at<u_char>(i,0)) + integralImg.at<int>(i-1,0);
+    
+    for(int i = 1;i<img.rows;i++){
+        for(int j = 1;j<img.cols;j++){
+            integralImg.at<int>(i,j) = static_cast<int>(img.at<u_char>(i,j)) + integralImg.at<int>(i-1,j) + integralImg.at<int>(i,j-1) - integralImg.at<int>(i-1,j-1);
         }
     }
+
+    Mat transformed(trows,tcols, IMREAD_GRAYSCALE);
+    for(int i = 0;i<trows;i++){
+        for(int j = 0;j<tcols;j++){
+            int BrSubMat = integralImg.at<int>(i+winSize-1,j+winSize-1);
+            if(i>=1)
+                BrSubMat -=integralImg.at<int>(i-1,j+winSize-1);
+            if(j>=1)
+                BrSubMat -=integralImg.at<int>(i+winSize-1,j-1);
+            if(i>=1 and j>=1)
+                BrSubMat += integralImg.at<int>(i-1,j-1);
+            transformed.at<u_char>(i,j) = (BrSubMat/(winSize*winSize));
+        }
+    }
+
     displayImage(transformed);
 }
+
+
 
 int main(){
     string imPath = "/home/panirpal/workspace/Learning/Courses/computer-vision/cpp/data/frm.png";

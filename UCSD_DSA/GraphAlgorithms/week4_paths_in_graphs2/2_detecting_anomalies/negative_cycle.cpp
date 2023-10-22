@@ -22,6 +22,7 @@ struct edge{
 
 bool doesNegetiveCycleExist(vector<edge>&graph,vector<ll> &distance,int nodes){
   distance[1] = 0;
+  vector<bool> negetiveCycleNodes(nodes+1,false);
   for(int i = 1;i<=nodes;i++){
     bool relaxed = false;
     for(edge &e : graph){

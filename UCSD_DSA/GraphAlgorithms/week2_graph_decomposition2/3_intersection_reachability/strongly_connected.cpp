@@ -47,7 +47,7 @@ int main(){
     graph[from].push_back(to);
     revGraph[to].push_back(from);
   }
-  stack<int>processScc; 
+  stack<int>processScc;
   for(int i =1;i<=nodes;i++){
     if(not visited[i]){ 
       DFSPass1(graph,visited,processScc,i);

@@ -110,13 +110,43 @@ void movingAverageTransform(Mat &img,int winSize=3){
     displayImage(transformed);
 }
 
+void histogramEqualization(Mat &img){
+    displayImage(img);
+    // map of intensity i : count of i, ie histogram of image
+    vector<int> histogram(256,0);
+    for(int i =0;i<img.rows;i++){
+        for(int j =0;j<img.cols;j++)
+            histogram[static_cast<int>(img.at<u_char>(i,j))]+=1;
+    }
+    // compute cumulative distribution function this is just prefix sums of histogram
+    vector<int> cumulativeDistFunc(256,0);
+    cumulativeDistFunc[0] = histogram[0];
+    int minCdf = cumulativeDistFunc[0];
+    int numPixels = img.rows*img.cols;
+    for(int i =1;i<256;i++)
+        cumulativeDistFunc[i] = cumulativeDistFunc[i-1] + histogram[i];
+    for(int i =1;i<256;i++)
+        cumulativeDistFunc[i] = (int)(((float)(cumulativeDistFunc[i]-minCdf)/(numPixels-1))*255);
+    
+    int trows = img.rows;
+    int tcols = img.cols;
+    Mat transformed(trows,tcols, IMREAD_GRAYSCALE);
+    for(int i =0;i<trows;i++){
+        for(int j =0;j<tcols;j++){
+            int pixelVal = static_cast<int>(img.at<u_char>(i,j));
+            int tpixelVal = cumulativeDistFunc[pixelVal];
+            transformed.at<u_char>(i,j) = static_cast<u_char>(tpixelVal);
+        }
+    }
+    displayImage(transformed);
+}
 
 
 int main(){
     string imPath = "/home/panirpal/workspace/Learning/Courses/computer-vision/cpp/data/frm.png";
     Mat img = imread(imPath,IMREAD_GRAYSCALE);
     if(!img.empty())
-        movingAverageTransform(img);
+        histogramEqualization(img);
     
     return 0;
 }
